@@ -1,0 +1,66 @@
+.container {
+    width: 1100px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+// Margin & padding classes
+$spaceamounts: (1,2,3,4,5);
+
+@each $space in $spaceamounts {
+    .m-#{$space} {
+        margin: #{$space}rem;
+    }
+
+    .mt-#{$space} {
+        margin: #{$space}rem 0 0 0;
+    }
+
+    .mr-#{$space} {
+        margin: 0 #{$space}rem 0 0;
+    }
+
+    .mb-#{$space} {
+        margin: 0 0 #{$space}rem 0;
+    }
+
+    .ml-#{$space} {
+        margin: 0 0 0 #{$space}rem;
+    }
+
+    .my-#{$space} {
+        margin: #{$space}rem 0;
+    }
+
+    .mx-#{$space} {
+        margin: 0 #{$space}rem;
+    }
+
+    .p-#{$space} {
+        padding: #{$space}rem;
+    }
+
+    .pt-#{$space} {
+        margin: #{$space}rem 0 0 0;
+    }
+
+    .pr-#{$space} {
+        margin: 0 #{$space}rem 0 0;
+    }
+
+    .pb-#{$space} {
+        margin: 0 0 #{$space}rem 0;
+    }
+
+    .pl-#{$space} {
+        margin: 0 0 0 #{$space}rem;
+    }
+
+    .py-#{$space} {
+        padding: #{$space}rem 0;
+    }
+
+    .px-#{$space} {
+        padding: 0 #{$space}rem;
+    }
+}

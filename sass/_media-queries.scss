@@ -1,0 +1,69 @@
+// 1200px Breakpoint (Large devices)
+@media(max-width: 1200px) {
+
+}
+
+// 992px Breakpoint (Medium devices)
+@media(max-width: 992px) {
+
+}
+
+// 768px Breakpoint (Small devices)
+@media(max-width: 768px) {
+    .nav-links {
+        position: fixed;
+        right: 0;
+        top: 18vh;
+        height: 80vh;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+        background: #fff;
+
+        li {
+            opacity: 0;
+        }
+    }
+      
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+}
+    
+    .nav-active {
+      transform: translateX(0%);
+    }
+    
+    @keyframes navLinkFade {
+      from {
+        opacity: 0;
+        transform: translate(50px);
+      }
+      to {
+        opacity: 1;
+        transform: translate(0px);
+      }
+    }
+    
+    .toggle {
+        .line1{
+            transform: rotate(-45deg) translate(-5px,6px);
+        }
+    
+        .line2 {
+            opacity: 0; 
+        }
+    
+        .line3 {
+            transform: rotate(45deg) translate(-5px,-6px);
+        }
+    }
+
+// 576px Breakpoint
+@media(max-width: 576px) {
+
+}

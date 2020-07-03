@@ -1,0 +1,101 @@
+// .navbar {
+//     min-height: 50px;
+//     background: #fff;
+//     margin-bottom: 30px;
+//     padding: 20px 0;
+//     box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.1);
+    
+//     .nav {
+//         width: 1100px;
+//         max-width: 95%;
+//         margin: 0 auto;
+//         font-weight: $bold;
+//         display: flex;
+//         justify-content: space-between;
+//         align-items: center;
+
+//         .nav-links {
+//             width: 100%;
+//             list-style: none;
+//             display: inline-flex;
+//             justify-content: space-between;
+//             align-items: center;
+//             margin-left: 150px;
+//         }
+
+//         a {
+//             font-size: 18px;
+//             color: $cyan;
+//             transition: .2s ease all;
+//             letter-spacing: 2px;
+
+//             &:hover {
+//                 color: darken($cyan, 5%);
+//             }
+//         }
+        
+//         .logo {
+//             width: 200px;
+//             max-width: 100%;
+//         }
+//     }   
+    
+//     .toggle {
+//         display: none;
+//     }
+// }
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    padding: 20px 0;
+}
+
+nav {
+    width: 1100px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        width: 200px;
+        max-width: 100%;
+    }
+
+    .nav-links  {
+        display: flex;
+        width: 70%;
+        justify-content: space-around;
+
+        a {
+            color: $cyan; 
+            font-size: 20px;
+            letter-spacing: 2px;
+            font-weight: $bold;
+            transition: .2s ease all;
+
+            &:hover {
+                color: darken($cyan, 5%);
+            }
+        }
+
+        li {
+            list-style-type: none;
+        }
+    }
+}
+
+.burger {
+    display: none;
+
+    div {
+        width: 28px;
+        height: 3px;
+        background-color: $cyan;
+        margin: 5px;
+        transition: all 0.3s ease;
+    }
+}

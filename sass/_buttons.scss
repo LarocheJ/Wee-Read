@@ -1,0 +1,38 @@
+.primary-btn {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 20px 30px;
+    font-weight: $bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: $magenta;
+    color: #fff;
+    margin: 20px 0;
+    font-size: 20px;
+    transition: .2s ease all;
+
+    &:hover {
+        background: darken($magenta, 5%);
+    }
+}
+
+.secondary-btn {
+    display: inline-flex;
+    align-items: center;
+    border: 2px solid $cyan;
+    color: $cyan;
+    border-radius: 20px;
+    font-weight: $bold;
+    padding: 8px 20px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    transition: .2s ease all;
+
+    &:hover {
+        background-color: $cyan;
+        color: #fff;
+    }
+
+
+}
