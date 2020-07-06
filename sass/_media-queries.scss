@@ -65,5 +65,8 @@
 
 // 576px Breakpoint
 @media(max-width: 576px) {
-
+    footer .container {
+        flex-direction: column;
+        text-align: center;
+    }
 }

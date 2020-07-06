@@ -64,3 +64,27 @@ $spaceamounts: (1,2,3,4,5);
         padding: 0 #{$space}rem;
     }
 }
+
+.float-right {
+    float: right;
+}
+
+
+.float-left {
+    float: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.rainbow-border {
+    display: block;
+    width: 400px;
+    max-width: 90%;
+    margin: 20px auto 40px auto;
+}
+
+img {
+    width: 100%;
+}

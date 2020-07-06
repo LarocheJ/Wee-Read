@@ -2,24 +2,11 @@
 @import 'reset';
 @import 'variables';
 @import 'utilities';
+@import 'typography';
+@import 'layout';
 @import 'buttons';
 @import 'navbar';
-
-html, body {
-    font-family: $body-font;
-    overflow-x: hidden;
-}
-
-a {
-    text-decoration: none;
-}
-
-p {
-    margin: 20px 0;
-}
-
-img {
-    width: 100%;
-}
+@import 'colours';
+@import 'footer';
 
 @import 'media-queries';

@@ -1,0 +1,37 @@
+footer {
+    padding-bottom: 30px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        list-style: none;
+        font-weight: $bold;
+        letter-spacing: 2px;
+        line-height: 1.8;
+
+        a {
+            color: $cyan;
+            font-size: 18px;
+            transition: .2s ease all;
+
+            &:hover {
+                color: darken($cyan, 5%);
+            }
+        }
+    }
+
+    .copyright {
+        color: $orange;
+        font-weight: $bold;
+        font-size: 18px;
+    }
+}
+
+.footer-border {
+    width: 105%;
+    margin: 30px 0;
+}
+
