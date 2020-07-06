@@ -32,6 +32,18 @@
         display: block;
         cursor: pointer;
     }
+
+    .d-flex {
+        flex-direction: column;
+
+        div {
+            margin: 0;
+        }
+    }
+
+    .cropped {
+        max-width: 100%;
+    }
 }
     
     .nav-active {

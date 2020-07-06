@@ -88,3 +88,39 @@ $spaceamounts: (1,2,3,4,5);
 img {
     width: 100%;
 }
+
+.img {
+    max-width: 100%;
+
+    &-small {
+        @extend .img;
+        width: 200px;
+    }
+
+    &-medium {
+        @extend .img;
+        width: 500px;
+    }
+
+    &-large {
+        width: 500px;
+    }
+}
+
+.rounded {
+    border-radius: 70px;
+}
+
+.cropped {
+    object-fit: cover;
+    width: 430px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+ul {
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: $bold;
+}

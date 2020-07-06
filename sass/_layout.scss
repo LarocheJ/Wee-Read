@@ -1,0 +1,30 @@
+// DISPLAY FLEX
+.d-flex {
+    display: flex;
+
+    div {
+        width: 100%;
+        margin: 10px;
+    }
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-top {
+    align-items: flex-start;
+}
+
+.align-bottom {
+    align-items: flex-end;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+// END DISPLAY FLEX
