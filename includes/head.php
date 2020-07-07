@@ -1,10 +1,10 @@
 <?php 
-    // Localhost
-    // $home = "//" . $_SERVER['HTTP_HOST']. "/sites/wee-read";
-
-    // Server
-    $home = "//" . $_SERVER['HTTP_HOST'].'/~alex/';
-?>
+    if(file_exists('../dev.txt')) {
+        $home = "//" . $_SERVER['HTTP_HOST']. "/sites/wee-read";
+    } else {
+        $home = "//" . $_SERVER['HTTP_HOST'].'/~alex/';
+    }
+?> 
 
 <!DOCTYPE html>
 <html lang="en">
