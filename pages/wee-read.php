@@ -2,10 +2,10 @@
 
 <div class="container">
     <h1 class="cyan center">Welcome!</h1>
-    <img class="rainbow-border" src="<?php print $home ?>images/borders/multi-coloured-border.svg" alt="">
+    <img class="rainbow-border" src="images/borders/multi-coloured-border.svg" alt="">
     <div class="d-flex justify-between align-top">
         <div>
-            <img class="rounded cropped" src="<?php print $home ?>images/stock/reading_place.jpg" alt="Woman reading a book to a young girl">
+            <img class="rounded cropped" src="images/stock/reading_place.jpg" alt="Woman reading a book to a young girl">
         </div>
         <div>
             <p>Thank you for making the choice to learn more about helping a child to become a confident and joyful reader. Your commitment to this will have long-lasting, positive impacts.</p>
@@ -26,7 +26,7 @@
         <p>Remember, during these read aloud times, you are not teaching the child how to read. You are showing the child what there is to love about reading.</p>
         <p>Remember, during these read aloud times, you are not teaching the child how to read. You are showing the child what there is to love about reading.</p>
     </div>
-    <a href="/pages/page2.php" class="primary-btn float-right">Save and Continue ></a>
+    <a href="#" class="primary-btn float-right">Save and Continue ></a>
 </div>
 
 <?php include('../includes/footer.php'); ?>
