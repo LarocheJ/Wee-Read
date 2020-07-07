@@ -1,8 +1,8 @@
-<img class="footer-border" src="../images/borders/border-footer.svg" alt="">
+<img class="footer-border" src="<?php print $home ?>images/borders/border-footer.svg" alt="">
 <footer>
     <div class="container">
     <div>
-        <img src="../images/logos/wee-read-logo.svg" alt="Wee Read logo">
+        <img src="<?php print $home ?>images/logos/wee-read-logo.svg" alt="Wee Read logo">
         <p class="bold copyright">Copyright &copy; Wee Read <?php print date('Y'); ?></p>
     </div>
     <div>
@@ -18,7 +18,7 @@
 </div>
 </footer>
 
-<script src="../js/scripts.js"></script>
+<script src="<?php print $home ?>js/scripts.js"></script>
 <script>
     goBack.addEventListener("click", () => {
         window.history.back();
