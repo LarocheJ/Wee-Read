@@ -1,5 +1,7 @@
 footer {
     padding-bottom: 30px;
+    position: sticky;
+    bottom: 0;
 
     .container {
         display: flex;

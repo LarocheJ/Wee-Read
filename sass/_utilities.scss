@@ -4,7 +4,7 @@
     margin: 0 auto;
 }
 
-// Margin & padding classes
+// Dynamic margin & padding classes
 $spaceamounts: (1,2,3,4,5);
 
 @each $space in $spaceamounts {

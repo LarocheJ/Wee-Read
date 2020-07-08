@@ -374,6 +374,14 @@ p, ul, a {
   font-size: 20px;
 }
 
+.large-heading {
+  font-size: 120px;
+}
+
+.wrapper {
+  min-height: 80vh;
+}
+
 .d-flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -554,6 +562,9 @@ p, ul, a {
 
 footer {
   padding-bottom: 30px;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
 }
 
 footer .container {

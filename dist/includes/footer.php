@@ -1,5 +1,6 @@
-<img class="footer-border" src="images/borders/border-footer.svg" alt="">
+</div>
 <footer>
+<img class="footer-border" src="images/borders/border-footer.svg" alt="">
     <div class="container">
     <div>
         <img src="images/logos/wee-read-logo.svg" alt="Wee Read logo">

@@ -1,6 +1,6 @@
 <?php 
-    if(file_exists('../dev.txt')) {
-        $home = "//" . $_SERVER['HTTP_HOST']. "/sites/wee-read";
+    if($_SERVER['HTTP_HOST'] == "localhost") {
+        $home = "//" . $_SERVER['HTTP_HOST']. "/sites/wee-read/dist/";
     } else {
         $home = "//" . $_SERVER['HTTP_HOST'].'/~alex/';
     }
@@ -34,3 +34,4 @@
         </div>
     </nav>
 </div>
+<div class="wrapper">
