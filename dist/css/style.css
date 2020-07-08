@@ -379,7 +379,7 @@ p, ul, a {
 }
 
 .wrapper {
-  min-height: 80vh;
+  min-height: 70vh;
 }
 
 .d-flex {
@@ -560,11 +560,27 @@ p, ul, a {
   color: #FCBA2F;
 }
 
+.wrapper ul {
+  list-style: none;
+}
+
+.wrapper ul li::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #00AEEF;
+  margin: 1px 10px;
+}
+
 footer {
+  margin-top: 100px;
   padding-bottom: 30px;
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
+  z-index: 0;
 }
 
 footer .container {

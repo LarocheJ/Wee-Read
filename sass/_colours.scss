@@ -17,3 +17,19 @@
 .warm-yellow {
     color: $warm-yellow;
 }
+
+// List bullet colour
+.wrapper ul {
+    list-style: none;
+
+    li::before {
+        content: "";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: $cyan;
+        margin: 1px 10px;
+    }
+}
+

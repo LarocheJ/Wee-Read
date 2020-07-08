@@ -24,9 +24,9 @@
         <p>We want all children to be able to read with confidence and joy and you are helping to make that happen! You will help them to build their self-confidence, understand how magical and enjoyable books can be, and learn more about why it is fun and important to read.</p>
         <p>We want all children to be able to read with confidence and joy and you are helping to make that happen! You will help them to build their self-confidence, understand how magical and enjoyable books can be, and learn more about why it is fun and important to read.</p>
         <p>Remember, during these read aloud times, you are not teaching the child how to read. You are showing the child what there is to love about reading.</p>
-        <p>Remember, during these read aloud times, you are not teaching the child how to read. You are showing the child what there is to love about reading.</p>
+        <p>You will be creating a warm and inviting environment by reading aloud, making conversation, playing games, having fun, and sharing your own love of reading. Children need to be exposed to verbal and written language through reading, talking, singing, rhyming, and playing every day. Adding a warm relationship to these activities makes learning more accessible and effective.</p>
+        <a href="#" class="primary-btn float-right">Save and Continue ></a>
     </div>
-    <a href="#" class="primary-btn float-right">Save and Continue ></a>
 </div>
 
 <?php include('../includes/footer.php'); ?>
