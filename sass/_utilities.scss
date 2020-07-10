@@ -119,8 +119,26 @@ img {
     margin: 0 auto;
 }
 
-ul {
+// List custom bullet
+.wrapper ul {
+    list-style: none;
     margin-left: 20px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: $bold;
+    line-height: 1.8;
+
+    li::before {
+        content: "";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: $cyan;
+        margin: 2.5px 10px;
+    }
+}
+
+::selection {
+    background: rgb(3, 209, 72);
+    color: #fff;
 }

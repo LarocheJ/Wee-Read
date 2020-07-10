@@ -3,7 +3,7 @@
 <img class="footer-border" src="images/borders/border-footer.svg" alt="">
     <div class="container">
     <div>
-        <img src="images/logos/wee-read-logo.svg" alt="Wee Read logo">
+        <a href="<?php print $home ?>"><img src="images/logos/wee-read-logo.svg" alt="Wee Read logo"></a>
         <p class="bold copyright">Copyright &copy; Wee Read <?php print date('Y'); ?></p>
     </div>
     <div>

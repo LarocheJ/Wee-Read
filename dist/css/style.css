@@ -348,10 +348,32 @@ img {
   margin: 0 auto;
 }
 
-ul {
+.wrapper ul {
+  list-style: none;
   margin-left: 20px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
+  line-height: 1.8;
+}
+
+.wrapper ul li::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #00AEEF;
+  margin: 2.5px 10px;
+}
+
+::-moz-selection {
+  background: #03d148;
+  color: #fff;
+}
+
+::selection {
+  background: #03d148;
+  color: #fff;
 }
 
 h1 {
@@ -558,20 +580,6 @@ p, ul, a {
 
 .warm-yellow {
   color: #FCBA2F;
-}
-
-.wrapper ul {
-  list-style: none;
-}
-
-.wrapper ul li::before {
-  content: "";
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: #00AEEF;
-  margin: 1px 10px;
 }
 
 footer {
