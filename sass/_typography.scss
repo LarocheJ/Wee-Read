@@ -19,5 +19,10 @@ p, ul, a {
 }
 
 .large-heading {
-    font-size: 120px;
+    font-size: 90px;
+    line-height: 1;
+}
+
+.bold {
+    font-weight: $bold;
 }

@@ -17,6 +17,10 @@
     justify-content: space-between;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
 .align-center {
     align-items: center;
 }
@@ -33,3 +37,11 @@
     flex-wrap: wrap;
 }
 // END DISPLAY FLEX
+
+.margin-auto {
+    margin: 0 auto;
+}
+
+.d-block {
+    display: block;
+}

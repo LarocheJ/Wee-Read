@@ -1,7 +1,9 @@
-<?php include('../includes/head.php'); ?>
+<?php 
+    include('../includes/head.php');
+?>
 
 <div class="container">
-    <h1>Pee Wee Read</h1>
+    <h1>Contact</h1>
 </div>
 
 <?php include('../includes/footer.php'); ?>

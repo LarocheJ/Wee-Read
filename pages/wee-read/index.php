@@ -1,11 +1,14 @@
-<?php include('../includes/head.php'); ?>
+<?php 
+    include('../../includes/head.php');
+?> 
+
 
 <div class="container">
     <h1 class="cyan center">Welcome!</h1>
-    <img class="rainbow-border" src="images/borders/multi-coloured-border.svg" alt="">
+    <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
     <div class="d-flex justify-between align-top">
         <div>
-            <img class="rounded cropped" src="images/stock/reading_place.jpg" alt="Woman reading a book to a young girl">
+            <img class="rounded cropped" src="<?php print $home ?>/images/stock/reading-place.jpg" alt="Woman reading a book to a young girl">
         </div>
         <div>
             <p>Thank you for making the choice to learn more about helping a child to become a confident and joyful reader. Your commitment to this will have long-lasting, positive impacts.</p>
@@ -15,7 +18,7 @@
     </div>
     <div>
         <h1 class="cyan center mt-5">Why wee read is important</h1>
-        <img class="rainbow-border" src="<?php print $home ?>images/borders/multi-coloured-border.svg" alt="">
+        <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
         <p>Do you remember learning to read? Most of us cannot really recall this process. Reading a complex activity. Perhaps, without you even knowing, two of the most important things that helped you to become a reader were: </p>
         <ul>
             <li>having joyful experiences with books, and,</li>
@@ -28,7 +31,7 @@
 
     </div>
     <h1 class="cyan center mt-5">You will:</h1>
-    <img class="rainbow-border" src="<?php print $home ?>images/borders/multi-coloured-border.svg" alt="">
+    <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
     <div class="d-flex justify-between align-top">
         <div>
             <ul>
@@ -38,10 +41,10 @@
             </ul>
         </div>
         <div>
-            <img class="rounded cropped" src="images/stock/2017-06-09-Calgary-Reads Inglewood-Book-House-2-12.jpg" alt="Woman reading a book to young children">
+            <img class="rounded cropped" src="<?php print $home ?>/images/stock/2017-06-09-Calgary-Reads-Inglewood-Book-House-2-12.jpg" alt="Woman reading a book to young children">
         </div>
     </div>
-    <a href="#" class="primary-btn float-right">Save and Continue ></a>
+    <a href="early-literacy.php" class="primary-btn float-right">Save and Continue ></a>
 </div>
 
-<?php include('../includes/footer.php'); ?>
+<?php include('../../includes/footer.php'); ?>
