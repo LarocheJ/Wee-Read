@@ -103,7 +103,8 @@ img {
     }
 
     &-large {
-        width: 500px;
+        @extend .img;
+        width: 800px;
     }
 }
 
@@ -125,7 +126,6 @@ img {
     list-style: none;
     margin-left: 20px;
     font-size: 20px;
-    font-weight: $bold;
     line-height: 1.8;
 
     li {
@@ -259,6 +259,22 @@ blockquote {
     span {
         display: block;
         margin-top: 10px;
+    }
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+// LINKS COLOUR
+.wrapper p a  {
+    color: $magenta;
+    transition: .2s ease all;
+
+    &:hover {
+        color: lighten($magenta, 15%)
     }
 }
 

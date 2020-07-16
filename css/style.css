@@ -10,6 +10,16 @@ html, body {
   overflow-x: hidden;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   width: 1100px;
   max-width: 95%;
@@ -319,7 +329,7 @@ img {
   width: 100%;
 }
 
-.img, .img-small, .img-medium {
+.img, .img-small, .img-medium, .img-large {
   max-width: 100%;
 }
 
@@ -332,7 +342,7 @@ img {
 }
 
 .img-large {
-  width: 500px;
+  width: 800px;
 }
 
 .rounded {
@@ -352,7 +362,6 @@ img {
   list-style: none;
   margin-left: 20px;
   font-size: 20px;
-  font-weight: 700;
   line-height: 1.8;
 }
 
@@ -498,6 +507,23 @@ blockquote span {
   margin-top: 10px;
 }
 
+hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.wrapper p a {
+  color: #EC0092;
+  -webkit-transition: .2s ease all;
+  transition: .2s ease all;
+}
+
+.wrapper p a:hover {
+  color: #ff3ab4;
+}
+
 ::-moz-selection {
   background: #03d148;
   color: #fff;
@@ -509,7 +535,7 @@ blockquote span {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 60px;
 }
 
 h2 {
@@ -521,7 +547,7 @@ a {
 }
 
 p {
-  margin: 20px 0;
+  margin: 0 0 20px 0;
 }
 
 p, ul, a {
@@ -535,6 +561,10 @@ p, ul, a {
 
 .bold {
   font-weight: 700;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .wrapper {
@@ -739,6 +769,29 @@ p, ul, a {
   margin-left: 20px;
 }
 
+.bubble {
+  position: relative;
+  width: 400px;
+  background: #e7e7e7;
+  border-radius: 40px;
+  padding: 24px;
+  text-align: center;
+  color: #000;
+}
+
+.bubble-arrow::before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 24px solid #e7e7e7;
+  border-right: 12px solid transparent;
+  border-top: 12px solid #e7e7e7;
+  border-bottom: 20px solid transparent;
+  left: 32px;
+  bottom: -24px;
+}
+
 .cyan {
   color: #00AEEF;
 }
@@ -757,6 +810,10 @@ p, ul, a {
 
 .warm-yellow {
   color: #FCBA2F;
+}
+
+.grey-bg {
+  background-color: #e7e7e7;
 }
 
 footer {

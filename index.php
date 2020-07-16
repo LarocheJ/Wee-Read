@@ -1,9 +1,4 @@
-<?php 
-    // include_once('http://' . $_SERVER["HTTP_HOST"] .'/~alex/config/config.php');
-    // include($env.'/includes/head.php'); 
-      
-    include('includes/head.php');
-?>
+<?php include('includes/head.php'); ?>
 
 <div class="container">
     <div class="welcome">

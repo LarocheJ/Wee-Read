@@ -1,5 +1,5 @@
 h1 {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 h2 {
@@ -11,7 +11,7 @@ a {
 }
 
 p {
-    margin: 20px 0;
+    margin: 0 0 20px 0;
 }
 
 p, ul, a {
@@ -25,4 +25,8 @@ p, ul, a {
 
 .bold {
     font-weight: $bold;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
