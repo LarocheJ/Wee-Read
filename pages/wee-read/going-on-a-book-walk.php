@@ -1,4 +1,8 @@
-<?php include('../../includes/head.php'); ?>
+<?php 
+
+    include('../../includes/head.php'); 
+
+?>
 
 <div class="container">
     <h1 class="cyan center">Going on a "Book Walk"</h1>

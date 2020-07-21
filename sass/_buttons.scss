@@ -11,6 +11,8 @@
     margin: 20px 0;
     font-size: 20px;
     transition: .2s ease all;
+    border: none;
+    cursor: pointer;
 
     &:hover {
         background: darken($magenta, 5%);

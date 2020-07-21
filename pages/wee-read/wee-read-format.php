@@ -1,4 +1,14 @@
-<?php include('../../includes/head.php'); ?>
+<?php 
+
+    include('../../includes/head.php'); 
+
+    $module = 'early-literacy';
+
+    if(isset($_SESSION['module'])) {
+        array_push($_SESSION['module'], $module);
+    }
+
+?>
 
 <div class="container">
     <h1 class="cyan center">Wee Read Format</h1>

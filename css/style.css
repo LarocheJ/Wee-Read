@@ -524,6 +524,112 @@ hr {
   color: #ff3ab4;
 }
 
+form {
+  width: 600px;
+  max-width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+form small {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+}
+
+form small a {
+  font-size: 16px;
+  text-decoration: underline;
+  color: #EC0092;
+  font-weight: 700;
+}
+
+form button {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.input-field {
+  margin: 20px 0;
+}
+
+.input-field label {
+  font-weight: 700;
+  color: #00AEEF;
+  display: block;
+  font-size: 18px;
+  margin: 5px;
+}
+
+.input-field input {
+  width: 100%;
+  padding: 15px 20px;
+  border: 1px solid #00AEEF;
+  border-radius: 30px;
+  font-size: 18px;
+  -webkit-transition: .2s ease all;
+  transition: .2s ease all;
+}
+
+.input-field input:focus {
+  outline: none;
+  -webkit-box-shadow: 0px 0px 5px 0px #00AEEF;
+          box-shadow: 0px 0px 5px 0px #00AEEF;
+}
+
+.error-msg {
+  text-align: center;
+  color: #fff;
+  background: #ff2e2e;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.error-msg-small {
+  text-align: left;
+  font-weight: 700;
+  font-size: 16px;
+  color: red;
+  margin: 5px 15px;
+}
+
+.error-border {
+  border: 2px solid red !important;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  -webkit-transition: .2s ease all;
+  transition: .2s ease all;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  width: 250px;
+  -webkit-box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 20px 10px;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background: #00AEEF;
+  color: #fff !important;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 ::-moz-selection {
   background: #03d148;
   color: #fff;
@@ -643,6 +749,8 @@ p, ul, a {
   font-size: 20px;
   -webkit-transition: .2s ease all;
   transition: .2s ease all;
+  border: none;
+  cursor: pointer;
 }
 
 .primary-btn:hover {

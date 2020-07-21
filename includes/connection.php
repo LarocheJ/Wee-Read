@@ -1,11 +1,11 @@
 <?php
-// $server = "localhost";
-// $username = "root";
-// $password = "";
-// $db = "wee_read";
+$server = "localhost";
+$username = "root";
+$password = "";
+$db = "wee_read";
 
-// $connection = mysqli_connect($server,$username,$password,$db);
+$connection = mysqli_connect($server,$username,$password,$db);
 
-// if(!$connection){
-//     die(mysqli_connect_error());
-// }
+if(!$connection){
+    die(mysqli_connect_error());
+}

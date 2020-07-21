@@ -1,4 +1,8 @@
-<?php include('../../includes/head.php'); ?> 
+<?php 
+
+    include('../../includes/head.php'); 
+    
+?> 
 
 
 <div class="container">
@@ -42,7 +46,7 @@
             <img class="rounded cropped" src="<?php print $home ?>/images/stock/2017-06-09-Calgary-Reads-Inglewood-Book-House-2-12.jpg" alt="Woman reading a book to young children">
         </div>
     </div>
-    <a href="early-literacy.php" class="primary-btn float-right">Save and Continue ></a>
+    <a href="../register.php" class="primary-btn float-right">Save and Continue ></a>
 </div>
 
 <?php include('../../includes/footer.php'); ?>

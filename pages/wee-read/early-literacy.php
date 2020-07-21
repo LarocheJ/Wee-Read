@@ -1,4 +1,16 @@
-<?php include('../../includes/head.php'); ?>
+<?php 
+
+    include('../../includes/head.php'); 
+
+    $_SESSION['module'] = [];
+
+    $module = 'wee-read';
+
+    if(isset($_SESSION['module'])) {
+        array_push($_SESSION['module'], $module);
+    }
+    
+?>
 
 <div class="container">
     <h1 class="cyan center">Early Literacy</h1>

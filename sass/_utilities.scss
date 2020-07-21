@@ -278,6 +278,113 @@ hr {
     }
 }
 
+// FORMS
+// Label and input container
+form {
+    width: 600px;
+    max-width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+
+    small {
+        display: block;
+        text-align: center;
+        font-size: 16px;
+
+        a {
+            font-size: 16px;
+            text-decoration: underline;
+            color: $magenta;
+            font-weight: $bold;
+        }
+    }
+
+    button {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+.input-field {
+    margin: 20px 0;
+
+    label {
+        font-weight: $bold;
+        color: $cyan;
+        display: block;
+        font-size: 18px;
+        margin: 5px;
+    }
+
+    input {
+        width: 100%;
+        padding: 15px 20px;
+        border: 1px solid $cyan;
+        border-radius: 30px;
+        font-size: 18px;
+        transition: .2s ease all;
+
+        &:focus {
+            outline: none;
+            box-shadow: 0px 0px 5px 0px $cyan;
+        }
+    }
+}
+
+// MESSAGES
+// Error Messages
+.error-msg {
+    text-align: center;
+    color: #fff;
+    background: #ff2e2e;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.error-msg-small {
+    text-align: left;
+    font-weight: $bold;
+    font-size: 16px;
+    color: red;
+    margin: 5px 15px;
+}
+
+.error-border {
+    border: 2px solid red !important;
+}
+
+// DROPDOWN
+// Code from https://www.w3schools.com/css/css_dropdowns.asp
+.dropdown {
+    position: relative;
+    display: inline-block;
+    transition: .2s ease all;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    width: 250px;
+    box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+    a {
+        padding: 20px 10px;
+        display: block;
+
+        &:hover {
+            background: $cyan;
+            color: #fff !important;
+        }
+    }
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+//   END DROPDOWN
+
 ::selection {
     background: rgb(3, 209, 72);
     color: #fff;

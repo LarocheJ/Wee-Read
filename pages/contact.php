@@ -3,7 +3,8 @@
 ?>
 
 <div class="container">
-    <h1>Contact</h1>
+    <h1 class="cyan center">Contact</h1>
+    <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
 </div>
 
 <?php include('../includes/footer.php'); ?>

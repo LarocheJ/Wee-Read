@@ -5,7 +5,9 @@
         $home = "//" . $_SERVER['HTTP_HOST']. "/sites/wee-read";
     } else {
         $home = "//" . $_SERVER['HTTP_HOST'].'/~alex';
-}
+    }
+
+    session_start();
 ?> 
 
 <!DOCTYPE html>
@@ -27,7 +29,16 @@
             <li><a href="<?php print $home ?>/pages/wee-read">wee read</a></li>
             <li><a href="<?php print $home ?>/pages/pee-wee-read">pee wee read</a></li>
             <li><a href="<?php print $home ?>/pages/contact.php">contact</a></li>
-            <li><a class="secondary-btn" href="#">Profile</a></li>
+            <?php if(isset($_SESSION['email'])) { ?>
+                <div class="dropdown">
+                    <a class="secondary-btn" href="<?php print $home ?>/pages/profile.php">Profile</a>
+                    <div class="dropdown-content">
+                        <a href="<?php print $home ?>/pages/logout.php">Logout</a>
+                    </div>
+                </div>
+            <?php } else { ?>
+                <li><a class="secondary-btn" href="<?php print $home ?>/pages/login.php">Log In</a></li>
+            <?php } ?>
         </ul>
         <div class="burger">
             <div class="line1"></div>
