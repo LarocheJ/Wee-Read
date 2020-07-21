@@ -1,31 +1,5 @@
 <?php 
-    include('../includes/head.php');
-?>
-
-<div class="container">
-    <h1 class="cyan center">Hello!</h1>
-    <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
-    <p class="center">In order to start the wee read course, we need to know who you are so we can save your progress.</p>
-    <form action="" method="post">
-        <div class="input-field">
-            <label for="full_name">Full Name</label>
-            <input type="text" name="full_name" id="full_name" value="<?php if(isset($_SESSION['form_full_name'])) { print $_SESSION['form_full_name']; } ?>">
-        </div>
-        <div class="input-field">
-            <label for="email">Email</label>
-            <input type="text" name="email" id="email" class="<?php if(isset($_GET['error'])) {
-                print 'error-border';
-            }?>">
-            <?php if(isset($_GET['error'])) { ?>
-                <small class="error-msg-small">This email address is taken. Please enter a different one or log in below.</small>
-            <?php }?>
-        </div>
-        <button type="submit" class="primary-btn">Sign Up</button>
-        <small>Already have an account? <a href="login.php">Log In</a></small>
-    </form>
-</div>
-
-<?php 
+    require('../includes/connection.php');
 
     if($_SERVER['REQUEST_METHOD'] == 'POST'){
         $full_name = mysqli_real_escape_string($connection, ucwords($_POST['full_name']));
@@ -79,5 +53,32 @@
         }
     }
 
+    include('../includes/head.php');
+?>
+
+<div class="container">
+    <h1 class="cyan center">Hello!</h1>
+    <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
+    <p class="center">In order to start the wee read course, we need to know who you are so we can save your progress.</p>
+    <form action="" method="post">
+        <div class="input-field">
+            <label for="full_name">Full Name</label>
+            <input type="text" name="full_name" id="full_name" value="<?php if(isset($_SESSION['form_full_name'])) { print $_SESSION['form_full_name']; } ?>">
+        </div>
+        <div class="input-field">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" class="<?php if(isset($_GET['error'])) {
+                print 'error-border';
+            }?>">
+            <?php if(isset($_GET['error'])) { ?>
+                <small class="error-msg-small">This email address is taken. Please enter a different one or log in below.</small>
+            <?php }?>
+        </div>
+        <button type="submit" class="primary-btn">Sign Up</button>
+        <small>Already have an account? <a href="login.php">Log In</a></small>
+    </form>
+</div>
+
+<?php 
     include('../includes/footer.php'); 
 ?>

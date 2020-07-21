@@ -1,13 +1,9 @@
 <?php 
-    require('connection.php');
-
     if($_SERVER['HTTP_HOST'] == "localhost") {
         $home = "//" . $_SERVER['HTTP_HOST']. "/sites/wee-read";
     } else {
         $home = "//" . $_SERVER['HTTP_HOST'].'/~alex';
     }
-
-    session_start();
 ?> 
 
 <!DOCTYPE html>

@@ -1,36 +1,6 @@
 <?php 
-    include('../includes/head.php');
-?>
-
-<div class="container">
-    <h1 class="cyan center">Log In</h1>
-    <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
-    <p class="center">Welcome back! Enter your email below to pick up where you left off.</p>
-
-    <form action="" method="post">
-        <?php if(isset($_GET['error'])) { 
-            if($_GET['error'] == 'sql_error') {
-        ?>
-            <p class="error-msg"><?php print $_SESSION['message']; ?></p>
-        <?php }} ?>
-        <div class="input-field">
-            <label for="email">Email</label>
-            <input type="text" name="email" id="email" class="<?php if(isset($_GET['error'])) {
-                if(isset($_SESSION['message'])) {
-                    print 'error-border';
-                }
-            }?>">
-            <?php if(isset($_GET['error'])) { ?>
-                <small class="error-msg-small"><?php if(isset($_SESSION['message'])) { print $_SESSION['message']; } ?></small>
-            <?php }?>
-        </div>
-        <button type="submit" class="primary-btn">Log In</button>
-        <small>Don't have an account? <a href="register.php">Sign up here</a></small>
-    </form>
-</div>
-
-<?php 
-
+    require('../includes/connection.php');
+    
     if($_SERVER['REQUEST_METHOD'] == 'POST'){
         
         $email = mysqli_real_escape_string($connection, $_POST['email']);
@@ -69,6 +39,39 @@
             }
         }
     }
+
+    include('../includes/head.php');
+    
+?>
+
+<div class="container">
+    <h1 class="cyan center">Log In</h1>
+    <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
+    <p class="center">Welcome back! Enter your email below to pick up where you left off.</p>
+
+    <form action="" method="post">
+        <?php if(isset($_GET['error'])) { 
+            if($_GET['error'] == 'sql_error') {
+        ?>
+            <p class="error-msg"><?php print $_SESSION['message']; ?></p>
+        <?php }} ?>
+        <div class="input-field">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" class="<?php if(isset($_GET['error'])) {
+                if(isset($_SESSION['message'])) {
+                    print 'error-border';
+                }
+            }?>">
+            <?php if(isset($_GET['error'])) { ?>
+                <small class="error-msg-small"><?php if(isset($_SESSION['message'])) { print $_SESSION['message']; } ?></small>
+            <?php }?>
+        </div>
+        <button type="submit" class="primary-btn">Log In</button>
+        <small>Don't have an account? <a href="register.php">Sign up here</a></small>
+    </form>
+</div>
+
+<?php 
 
     include('../includes/footer.php'); 
     

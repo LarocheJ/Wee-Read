@@ -1,5 +1,5 @@
 <?php 
-    include('../includes/head.php'); 
+    require('../includes/connection.php');
 
     $sql = "SELECT * FROM users WHERE email=?";
     $stmt = mysqli_stmt_init($connection);
@@ -11,7 +11,10 @@
     $result = mysqli_stmt_get_result($stmt);
     $row = mysqli_fetch_assoc($result);
 
+    include('../includes/head.php'); 
+
     if(isset($_SESSION['email'])) {
+    
 ?> 
 
 <div class="container">

@@ -1,11 +1,25 @@
 <?php
-$server = "localhost";
-$username = "root";
-$password = "";
-$db = "wee_read";
+// CHANGE THIS WHEN ALTERNATING BETWEEN LOCAL DEVELOPMENT AND UPLOADING TO THE LIVE WEBSITE
+// ============================
+// LOCAL
 
-$connection = mysqli_connect($server,$username,$password,$db);
+// $server = "localhost";
+// $username = "root";
+// $password = "";
+// $db = "alex_wee_read";
+
+// LIVE
+
+$server = "localhost";
+$username = "alex_jimmy";
+$password = "jimthewebguy";
+$db = "alex_wee_read";
+// ============================
+
+$connection = mysqli_connect($server, $username, $password, $db);
 
 if(!$connection){
     die(mysqli_connect_error());
 }
+
+session_start();
