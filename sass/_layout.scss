@@ -3,7 +3,7 @@
     min-height: 70vh;
 }
 
-// DISPLAY FLEX
+// DISPLAY TYPES
 .d-flex {
     display: flex;
 
@@ -11,6 +11,24 @@
         width: 100%;
         margin: 10px;
     }
+}
+
+.d-block {
+    display: block;
+}
+
+.d-grid {
+    display: grid;
+    justify-items: center;
+    margin: 20px 0;
+}
+// END DISPLAY TYPES
+.col-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.col-4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .justify-between {
@@ -36,12 +54,8 @@
 .wrap {
     flex-wrap: wrap;
 }
-// END DISPLAY FLEX
 
 .margin-auto {
     margin: 0 auto;
 }
 
-.d-block {
-    display: block;
-}

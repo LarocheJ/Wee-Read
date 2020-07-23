@@ -1,15 +1,27 @@
 <?php 
-
+    require('../../includes/connection.php');
     include('../../includes/head.php'); 
 
-    $_SESSION['module'] = [];
+    $sql = "SELECT wee_read_status FROM users WHERE email=?";
+    $stmt = mysqli_stmt_init($connection);
+    $user = mysqli_real_escape_string($connection, $_SESSION['email']);
 
-    $module = 'wee-read';
-
-    if(isset($_SESSION['module'])) {
-        array_push($_SESSION['module'], $module);
-    }
+    mysqli_stmt_prepare($stmt, $sql);
+    mysqli_stmt_bind_param($stmt, "s", $user);
+    mysqli_stmt_execute($stmt);
+    $result = mysqli_stmt_get_result($stmt);
     
+    $row = mysqli_fetch_array($result);
+
+    if($row['wee_read_status'] == 1) {
+        $wee_read_status = 2;
+        $sql = "UPDATE users SET wee_read_status=? WHERE email=?";
+        $stmt = mysqli_stmt_init($connection);        
+
+        mysqli_stmt_prepare($stmt, $sql);
+        mysqli_stmt_bind_param($stmt, "is", $wee_read_status, $_SESSION['email']);
+        mysqli_stmt_execute($stmt);
+    }
 ?>
 
 <div class="container">

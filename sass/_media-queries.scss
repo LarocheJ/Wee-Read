@@ -5,7 +5,13 @@
 
 // 992px Breakpoint (Medium devices)
 @media(max-width: 992px) {
+    .col-3 {
+        grid-template-columns: 1fr 1fr;
+    }
 
+    .col-4 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
 // 768px Breakpoint (Small devices)
@@ -80,5 +86,13 @@
     footer .container {
         flex-direction: column;
         text-align: center;
+    }
+
+    .col-3 {
+        grid-template-columns: 1fr;
+    }
+
+    .col-4 {
+        grid-template-columns: 1fr 1fr;
     }
 }

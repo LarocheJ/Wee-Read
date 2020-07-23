@@ -1,6 +1,10 @@
 <?php 
     require('../includes/connection.php');
 
+    if(isset($_SESSION['email'])) {
+        header('Location: wee-read/early-literacy.php');
+    }
+
     if($_SERVER['REQUEST_METHOD'] == 'POST'){
         $full_name = mysqli_real_escape_string($connection, ucwords($_POST['full_name']));
         $email = mysqli_real_escape_string($connection, $_POST['email']);

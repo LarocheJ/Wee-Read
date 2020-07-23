@@ -41,3 +41,37 @@
     left: 32px;
     bottom: -24px;
   }
+
+  .modules {
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
+
+    a {
+
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            max-width: 100%;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid $magenta;
+            margin: 20px 0;
+            text-align: center;
+            padding: 10px;
+            transition: .2s ease all;
+        }
+    }
+
+    .disabled {
+        cursor: not-allowed;
+        background: #fff;
+    }
+
+    .enabled {
+        background: $magenta;
+        color: #fff;
+    }
+}

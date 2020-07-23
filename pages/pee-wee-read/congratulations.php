@@ -1,4 +1,29 @@
-<?php include('../../includes/head.php'); ?>
+<?php 
+
+    include('../../includes/head.php'); 
+
+    $sql = "SELECT pee_wee_read_status FROM users WHERE email=?";
+    $stmt = mysqli_stmt_init($connection);
+    $user = mysqli_real_escape_string($connection, $_SESSION['email']);
+
+    mysqli_stmt_prepare($stmt, $sql);
+    mysqli_stmt_bind_param($stmt, "s", $user);
+    mysqli_stmt_execute($stmt);
+    $result = mysqli_stmt_get_result($stmt);
+    
+    $row = mysqli_fetch_array($result);
+
+    if($row['pee_wee_read_status'] == 10) {
+        $wee_read_status = 11;
+        $sql = "UPDATE users SET pee_wee_read_status=? WHERE email=?";
+        $stmt = mysqli_stmt_init($connection);        
+
+        mysqli_stmt_prepare($stmt, $sql);
+        mysqli_stmt_bind_param($stmt, "is", $wee_read_status, $_SESSION['email']);
+        mysqli_stmt_execute($stmt);
+    }
+
+?>
 
 <div class="container">
     <h1 class="large-heading cyan center">Congratulations</h1>
@@ -18,7 +43,7 @@
     </div>
 
     <a href="#" class="primary-btn float-left" id="goBack">< Back</a>
-    <a href="../pee-wee-read" class="primary-btn float-right">Go back to pee wee read home page</a>
+    <a href="../profile.php" class="primary-btn float-right">Go back to profile</a>
 </div>
 
 <?php include('../../includes/footer.php'); ?>
