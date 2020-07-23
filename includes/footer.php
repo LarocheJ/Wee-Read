@@ -9,10 +9,14 @@
     <div>
         <nav>
             <ul>
-                <li><a href="">wee read</a></li>
-                <li><a href="">pee wee read</a></li>
-                <li><a href="">contact</a></li>
-                <li><a href="">profile</a></li>
+                <li><a href="<?php print $home ?>/pages/wee-read">wee read</a></li>
+                <li><a href="<?php print $home ?>/pages/pee-wee-read">pee wee read</a></li>
+                <li><a href="<?php print $home ?>/pages/contact.php">contact</a></li>
+                <?php if(isset($_SESSION['email'])) { ?>
+                    <li><a href="<?php print $home ?>/pages/profile.php">Profile</a></li>
+                <?php } else { ?>
+                    <li><a href="<?php print $home ?>/pages/login.php">Log In</a></li>
+                <?php } ?>
             </ul>
         </nav>
     </div>
