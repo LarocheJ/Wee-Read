@@ -12,6 +12,14 @@
     .col-4 {
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    .programs {
+        flex-direction: column;
+
+        div {
+            margin: 50px 0;
+        }
+    }
 }
 
 // 768px Breakpoint (Small devices)
@@ -50,6 +58,8 @@
     .cropped {
         max-width: 100%;
     }
+    
+    
 }
     
     .nav-active {
@@ -86,6 +96,10 @@
     footer .container {
         flex-direction: column;
         text-align: center;
+    }
+
+    footer div {
+        margin: 20px 0;
     }
 
     .col-3 {

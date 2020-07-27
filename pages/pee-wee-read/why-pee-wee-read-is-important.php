@@ -37,8 +37,13 @@
         <li><strong>Don’t force it!</strong> Children need to develop a positive relationship with books and reading, so we don’t want feel forced to read.</li>
     </ul>
 
-    <a href="#" class="primary-btn float-left" id="goBack">< Back</a>
-    <a href="did-you-know.php" class="primary-btn float-right">Save and Continue ></a>
+    <div class="d-flex align-center justify-between">
+        <a href="index.php" class="primary-btn float-left">< Back</a>
+        <?php if($row['pee_wee_read_status'] == 10){ ?>
+            <a href="resources.php" class="primary-btn float-right">Resources</a>
+        <?php } ?>
+        <a href="did-you-know.php" class="primary-btn float-right">Save and Continue ></a>
+    </div>
 </div>
 
 <?php include('../../includes/footer.php'); ?>

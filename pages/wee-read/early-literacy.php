@@ -37,11 +37,16 @@
     <p><strong>Phonological Awareness</strong> is understanding that words are made up of sounds and that those sounds have symbols that represent them. The children that you’re working with should be able to use the knowledge they have about sounds to “sound out” easy words when reading them.</p>
     <p><strong>Print Motivation</strong> is the spark that children need to have to even be interested in learning how to read in the first place. Children should love the idea of reading so much that they are motivated to work to learn how to do it.</p>
     <p><strong>Narrative Skills</strong> are storytelling skills. Knowing that stories have beginnings, middle parts, and endings, and are full of characters and information. This is true of stories that we find in books and the ones that children tell in real life. Providing opportunities for children to hear and tell personal stories is an important part of learning to read printed stories.
-</p>
+    </p>
 
-<a href="#" class="primary-btn float-left" id="goBack">< Back</a>
-<a href="wee-read-format.php" class="primary-btn float-right">Save and Continue ></a>
-    
+    <div class="d-flex align-center justify-between">
+        <a href="index.php" class="primary-btn float-left">< Back</a>
+        <?php if($row['wee_read_status'] == 7){ ?>
+            <a href="resources.php" class="primary-btn float-right">Resources</a>
+        <?php } ?>
+        <a href="wee-read-format.php" class="primary-btn float-right">Save and Continue ></a>
+    </div>    
+
 </div>
 
 <?php include('../../includes/footer.php'); ?>

@@ -81,9 +81,13 @@
         <li>Find ways to communicate your excitement and joy for reading.</li>
     </ul>    
 
-    <a href="#" class="primary-btn float-left" id="goBack">< Back</a>
-    <a href="going-on-a-book-walk.php" class="primary-btn float-right">Save and Continue ></a>
-    
+    <div class="d-flex align-center justify-between">
+        <a href="early-literacy.php" class="primary-btn float-left">< Back</a>
+        <?php if($row['wee_read_status'] == 7){ ?>
+            <a href="resources.php" class="primary-btn float-right">Resources</a>
+        <?php } ?>
+        <a href="going-on-a-book-walk.php" class="primary-btn float-right">Save and Continue ></a>
+    </div>
 </div>
 
 <?php include('../../includes/footer.php'); ?>

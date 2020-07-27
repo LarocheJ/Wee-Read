@@ -3,6 +3,25 @@
     min-height: 70vh;
 }
 
+// Content container
+.container {
+    width: 1100px;
+    max-width: 95%;
+    margin: 30px auto;
+}
+
+// HERO
+.hero {
+    width: 100%;
+    min-height: 400px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: -1;
+}
+
 // DISPLAY TYPES
 .d-flex {
     display: flex;
@@ -53,6 +72,10 @@
 
 .wrap {
     flex-wrap: wrap;
+}
+
+.vertical {
+    flex-direction: column;
 }
 
 .margin-auto {

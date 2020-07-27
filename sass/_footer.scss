@@ -1,6 +1,5 @@
 footer {
     margin-top: 100px;
-    padding-bottom: 30px;
     position: sticky;
     bottom: 0;
     z-index: 0;
@@ -8,6 +7,7 @@ footer {
     .container {
         display: flex;
         justify-content: space-between;
+        padding: 60px 0;
     }
 
     nav ul {
@@ -18,8 +18,11 @@ footer {
 
         a {
             color: $cyan;
-            font-size: 18px;
+            font-size: 22px;
             transition: .2s ease all;
+            display: block;
+            margin-bottom: 20px;
+            letter-spacing: 3px;
 
             &:hover {
                 color: darken($cyan, 5%);
@@ -30,8 +33,18 @@ footer {
     .copyright {
         color: $orange;
         font-weight: $bold;
+        font-size: 22px;
+    }
+
+    .trademark {
+        width: 300px;
         font-size: 18px;
     }
+}
+
+.footer-logo img {
+    width: 300px;
+    max-width: 100%;
 }
 
 .footer-border {

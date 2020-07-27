@@ -70,9 +70,14 @@
     <blockquote>“The eventual strength of our vocabulary is determined not by the ten thousand common words but by how many rare words we understand… Whereas an adult uses only nine rare words per thousand when talking with a three- year-old, there are three times as many in a children’s book and more than seven times as many in a newspaper.” <span>– Jim Trelease</span></blockquote>
 
     
+    <div class="d-flex align-center justify-between">
+        <a href="when-reading.php" class="primary-btn float-left">< Back</a>
+        <?php if($row['wee_read_status'] == 7){ ?>
+            <a href="resources.php" class="primary-btn float-right">Resources</a>
+        <?php } ?>
+        <a href="tips-for-reading-aloud-to-children.php" class="primary-btn float-right">Save and Continue ></a>
+    </div>
 
-<a href="#" class="primary-btn float-left" id="goBack">< Back</a>
-<a href="tips-for-reading-aloud-to-children.php" class="primary-btn float-right">Save and Continue ></a>
     
 </div>
 

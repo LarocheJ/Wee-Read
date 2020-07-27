@@ -1,8 +1,23 @@
 <?php 
     require('../includes/connection.php');
 
+    $sql = "SELECT pee_wee_read_status FROM users WHERE email=?";
+    $stmt = mysqli_stmt_init($connection);
+    $user = mysqli_real_escape_string($connection, $_SESSION['email']);
+
+    mysqli_stmt_prepare($stmt, $sql);
+    mysqli_stmt_bind_param($stmt, "s", $user);
+    mysqli_stmt_execute($stmt);
+    $result = mysqli_stmt_get_result($stmt);
+    
+    $row = mysqli_fetch_array($result);
+
     if(isset($_SESSION['email'])) {
-        header('Location: wee-read/early-literacy.php');
+        if($row['wee_read_status'] > 0) {
+            header('Location: wee-read/early-literacy.php');
+        } elseif($row['pee_wee_read_status'] > 0) {
+            header('Location: pee-wee-read/why-pee-wee-read-is-important.php');
+        }
     }
 
     if($_SERVER['REQUEST_METHOD'] == 'POST'){

@@ -2,7 +2,7 @@
 
     include('../../includes/head.php'); 
 
-    $sql = "SELECT pee_wee_read_status FROM users WHERE email=?";
+    $sql = "SELECT * FROM users WHERE email=?";
     $stmt = mysqli_stmt_init($connection);
     $user = mysqli_real_escape_string($connection, $_SESSION['email']);
 
@@ -13,20 +13,20 @@
     
     $row = mysqli_fetch_array($result);
 
-    if($row['pee_wee_read_status'] == 10) {
-        $wee_read_status = 11;
-        $sql = "UPDATE users SET pee_wee_read_status=? WHERE email=?";
-        $stmt = mysqli_stmt_init($connection);        
+    // if($row['pee_wee_read_status'] == 10) {
+    //     $wee_read_status = 11;
+    //     $sql = "UPDATE users SET pee_wee_read_status=? WHERE email=?";
+    //     $stmt = mysqli_stmt_init($connection);        
 
-        mysqli_stmt_prepare($stmt, $sql);
-        mysqli_stmt_bind_param($stmt, "is", $wee_read_status, $_SESSION['email']);
-        mysqli_stmt_execute($stmt);
-    }
+    //     mysqli_stmt_prepare($stmt, $sql);
+    //     mysqli_stmt_bind_param($stmt, "is", $wee_read_status, $_SESSION['email']);
+    //     mysqli_stmt_execute($stmt);
+    // }
 
 ?>
 
 <div class="container">
-    <h1 class="large-heading cyan center">Congratulations</h1>
+    <h1 class="medium-heading cyan center">Congratulations, <?php print $row['full_name']; ?>!</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
 
     <img class="d-block margin-auto img-medium" src="<?php print $home ?>/images/tukay/tukay_rocket.png" alt="">
@@ -42,7 +42,7 @@
         <p><a href="volunteer">Train how to volunteer in an Early Learning or Child Care Centre</a></p>
     </div>
 
-    <a href="#" class="primary-btn float-left" id="goBack">< Back</a>
+    <a href="key-points.php" class="primary-btn float-left">< Back</a>
     <a href="../profile.php" class="primary-btn float-right">Go back to profile</a>
 </div>
 

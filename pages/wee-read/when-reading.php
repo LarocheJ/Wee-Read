@@ -43,9 +43,13 @@
     <p>Remember to promote learning without taking away from the children’s enjoyment of the book and your time together.</p>
     <blockquote>“When adults read to children, they are also passing torches—literacy torches—from one generation to the next.” <span>- Jim Trelease</span></blockquote>
 
-<a href="#" class="primary-btn float-left" id="goBack">< Back</a>
-<a href="after-reading.php" class="primary-btn float-right">Save and Continue ></a>
-    
+    <div class="d-flex align-center justify-between">
+        <a href="going-on-a-book-walk.php" class="primary-btn float-left">< Back</a>
+        <?php if($row['wee_read_status'] == 7){ ?>
+            <a href="resources.php" class="primary-btn float-right">Resources</a>
+        <?php } ?>
+        <a href="after-reading.php" class="primary-btn float-right">Save and Continue ></a>
+    </div>
 </div>
 
 <?php include('../../includes/footer.php'); ?>

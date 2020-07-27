@@ -38,8 +38,13 @@
         </div>
     </div>
 
-    <a href="#" class="primary-btn float-left" id="goBack">< Back</a>
-    <a href="read-sing-talk-play-love.php" class="primary-btn float-right">Save and Continue ></a>
+    <div class="d-flex align-center justify-between">
+        <a href="note.php" class="primary-btn float-left">< Back</a>
+        <?php if($row['pee_wee_read_status'] == 10){ ?>
+            <a href="resources.php" class="primary-btn float-right">Resources</a>
+        <?php } ?>
+        <a href="read-sing-talk-play-love.php" class="primary-btn float-right">Save and Continue ></a>
+    </div>
 </div>
 
 <?php include('../../includes/footer.php'); ?>

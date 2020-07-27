@@ -38,9 +38,14 @@
     </div>
     <p>Scan some of the pages of the book. Talk about the illustrations together. Don’t read the words on the pages, just use the pictures inside to make further predictions. Think aloud together about what the pictures might be saying about the story or topic. Wonder together about the characters, the content and what is likely to happen. Try to get the children to do most of the talking.</p>
 
-<a href="#" class="primary-btn float-left" id="goBack">< Back</a>
-<a href="when-reading.php" class="primary-btn float-right">Save and Continue ></a>
-    
+    <div class="d-flex align-center justify-between">
+        <a href="wee-read-format.php" class="primary-btn float-left">< Back</a>
+        <?php if($row['wee_read_status'] == 7){ ?>
+            <a href="resources.php" class="primary-btn float-right">Resources</a>
+        <?php } ?>
+        <a href="when-reading.php" class="primary-btn float-right">Save and Continue ></a>
+    </div>    
+
 </div>
 
 <?php include('../../includes/footer.php'); ?>

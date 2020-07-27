@@ -1,11 +1,5 @@
-.container {
-    width: 1100px;
-    max-width: 95%;
-    margin: 0 auto;
-}
-
 // Dynamic margin & padding classes
-$spaceamounts: (1,2,3,4,5);
+$spaceamounts: (0,1,2,3,4,5);
 
 @each $space in $spaceamounts {
     .m-#{$space} {

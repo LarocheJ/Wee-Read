@@ -67,6 +67,9 @@
             <img class="rounded cropped" src="<?php print $home ?>/images/stock/2017-06-09-Calgary-Reads-Inglewood-Book-House-2-12.jpg" alt="Woman reading a book to young children">
         </div>
     </div>
+    <?php if($row['wee_read_status'] == 7){ ?>
+        <a href="resources.php" class="primary-btn float-left">Resources</a>
+    <?php } ?>
     <a href="../register.php" class="primary-btn float-right">Save and Continue ></a>
 </div>
 

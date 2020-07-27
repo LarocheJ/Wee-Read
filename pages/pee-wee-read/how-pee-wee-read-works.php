@@ -47,8 +47,13 @@
         <li>When you love something and show me what your love looks like (by being excited, engaged or energized) it shows me that I might love it too. I will love the things you love, so if you want me to love reading, let me see you love reading! Let me “catch” you reading your own books, your own papers, your own notes. Show me that it’s valuable!</li>
     </ol>
 
-    <a href="#" class="primary-btn float-left" id="goBack">< Back</a>
-    <a href="key-points.php" class="primary-btn float-right">Save and Continue ></a>
+    <div class="d-flex align-center justify-between">
+        <a href="read-sing-talk-play-love.php" class="primary-btn float-left">< Back</a>
+        <?php if($row['pee_wee_read_status'] == 10){ ?>
+            <a href="resources.php" class="primary-btn float-right">Resources</a>
+        <?php } ?>
+        <a href="key-points.php" class="primary-btn float-right">Save and Continue ></a>
+    </div>
 </div>
 
 <?php include('../../includes/footer.php'); ?>

@@ -72,9 +72,13 @@
     </div>
     
    
-
-<a href="#" class="primary-btn float-left" id="goBack">< Back</a>
-<a href="congratulations.php" class="primary-btn float-right">Save and Continue ></a>
+    <div class="d-flex align-center justify-between">
+        <a href="after-reading.php" class="primary-btn float-left">< Back</a>
+        <?php if($row['wee_read_status'] == 7){ ?>
+            <a href="resources.php" class="primary-btn float-right">Resources</a>
+        <?php } ?>
+        <a href="resources.php" class="primary-btn float-right">Save and Continue ></a>
+    </div>
     
 </div>
 

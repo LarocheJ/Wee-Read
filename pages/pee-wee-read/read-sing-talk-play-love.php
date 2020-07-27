@@ -43,8 +43,13 @@
     <p>If I’m with important adults like teachers, coaches, mentors, and leaders, love might mean having role-models, guides, and safe people to ask questions of without feeling silly. It means knowing about trust and respect. </p>
     <p>Feeling loved and loving others every day helps my brain grow healthy and strong so it is always ready to learn from the people in my life. Spending time together reading is a powerful way to show this love!</p>
 
-    <a href="#" class="primary-btn float-left" id="goBack">< Back</a>
-    <a href="how-pee-wee-read-works.php" class="primary-btn float-right">Save and Continue ></a>
+    <div class="d-flex align-center justify-between">
+        <a href="whats-next.php" class="primary-btn float-left">< Back</a>
+        <?php if($row['pee_wee_read_status'] == 10){ ?>
+            <a href="resources.php" class="primary-btn float-right">Resources</a>
+        <?php } ?>
+        <a href="how-pee-wee-read-works.php" class="primary-btn float-right">Save and Continue ></a>
+    </div>
 </div>
 
 <?php include('../../includes/footer.php'); ?>
