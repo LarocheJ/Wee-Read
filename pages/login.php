@@ -70,7 +70,6 @@
         <small>Don't have an account? <a href="register.php">Sign up here</a></small>
     </form>
 </div>
-
 <?php 
 
     include('../includes/footer.php'); 

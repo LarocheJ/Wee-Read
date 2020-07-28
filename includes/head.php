@@ -26,6 +26,7 @@
         <ul class="nav-links">
             <li><a href="<?php print $home ?>/pages/wee-read">wee read</a></li>
             <li><a href="<?php print $home ?>/pages/pee-wee-read">pee wee read</a></li>
+            <li><a href="<?php print $home ?>/pages/for-schools.php">for schools</a></li>
             <li><a href="<?php print $home ?>/pages/contact.php">contact</a></li>
             <?php if(isset($_SESSION['email'])) { ?>
                 <div class="dropdown">

@@ -25,17 +25,36 @@
 
 <div class="container">
     <h1 class="cyan center medium-heading mt-3">Congratulations, <?php print $row['full_name']; ?>!</h1>
-    <div class="center mt-3">
-        <p>Please complete our survey. Your feedback helps us to improve and continue programs which help children to read with confidence and joy.</p>
-
-        <p><a href="volunteer">Train to volunteer in a school near you.</a></p>
-
-        <p>Sign up for our post-training email tips and updates. We’ll never spam or share your information!</p>
-
-        <p>Access Resources</p>
-
-        <p>Print your Certificate of Completion </p>
+    <p class="center cyan large-body-txt">Now that you have finished the module, here is what you can do next:</p>
+    <div class="center mt-5">
+        <div class="d-grid col-3 resources">
+            <div class="small-card">
+                <!-- TEMPORARY ICON -->
+                <img src="<?php print $home ?>/images/icons/clipboard-outline.svg" alt="Survey icon">
+                <a href="#" class="button">Complete and off-site survey</a>
+            </div>
+            <div class="small-card">
+                <!-- TEMPORARY ICON -->
+                <img src="<?php print $home ?>/images/icons/ribbon-outline.svg" alt="Certificate icon">
+                <a href="#" class="button">Download certificate of completion</a>
+            </div>
+            <div class="small-card">
+                <!-- TEMPORARY ICON -->
+                <img src="<?php print $home ?>/images/icons/book-outline.svg" alt="Resources icon">
+                <a href="#" class="button">Access Additional resources</a>
+            </div>
+        </div>
     </div>
-    <a href="tips-for-reading-aloud-to-children.php" class="primary-btn float-left">< Back</a>
-    <a href="../profile.php" class="primary-btn float-right" id="goBack">Back to profile</a>
+    <!-- <a href="tips-for-reading-aloud-to-children.php" class="primary-btn float-left">< Back</a>
+    <a href="../profile.php" class="primary-btn float-right" id="goBack">Back to profile</a> -->
 </div>
+<div class="cyan-bg py-5 mt-5">
+        <div class="center white">
+            <div class="container-small">
+                <h2 class="medium-heading">Want to know more?</h2>
+                <p class="large-body-txt">Etiam rhoncus eros et leo laoreet tincidunt. Aliquam molestie quis eros ut fringilla. Nullam luctus viverra elit ac dignissim. Proin hendrerit odio ut neque aliquet, id dictum neque porta</p>
+                <a href="#" class="primary-btn">Continue to further training ></a>
+            </div>
+        </div>
+</div>
+<?php include('../../includes/footer.php'); ?>

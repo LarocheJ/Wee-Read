@@ -6,12 +6,20 @@
     background-color: $cyan;
 }
 
+.cyan-light-bg {
+    background-color: lighten($cyan, 45%);
+}
+
 .orange {
     color: $orange;
 }
 
 .orange-bg {
     background-color: $orange;
+}
+
+.orange-light-bg {
+    background-color: lighten($orange, 45%);
 }
 
 .magenta {

@@ -1,4 +1,10 @@
 </div>
+<?php 
+    // Create a spacer div between footer and content on the resources page
+    if(!stripos($_SERVER['REQUEST_URI'], 'resources.php')){
+        print '<div class="spacer-100"></div>';
+    }
+?>
 <footer>
 <img class="footer-border" src="<?php print $home ?>/images/borders/border-footer.svg" alt="">
     <div class="container">

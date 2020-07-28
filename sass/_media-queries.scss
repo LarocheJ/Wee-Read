@@ -1,6 +1,71 @@
+// 1600px Breakpoint (Very large devices)
+@media(max-width: 1600px) {
+    .welcome {
+    
+        .right {
+            display: none;
+        }
+        
+        .left {
+            margin-top: 100px;
+        }
+    }
+}
 // 1200px Breakpoint (Large devices)
 @media(max-width: 1200px) {
+    .wee-read-container {
+        .wee-read {
+            flex-direction: column;
 
+            .image {
+                margin: 0 0 -10% 0;
+            }
+
+            .content {
+                padding: 100px 30px 30px 30px;
+            }
+
+            div {
+                margin: 30px 0;
+            }
+        }
+    }
+
+    .pee-wee-read-container {
+        .pee-wee-read {
+            flex-direction: column;
+            flex-direction: column-reverse;
+
+            .image {
+                margin: 0 0 -10% 0;
+            }
+
+            .content {
+                padding: 100px 30px 30px 30px;
+            }
+
+            div {
+                margin: 30px 0;
+            }
+        }
+    }
+
+    .welcome {
+        
+
+        .right {
+            display: none;
+        }
+    }
+
+    .welcome .left {
+        position: static;
+        padding: 30px;
+    }
+
+    .jumbo-heading {
+        font-size: 90px;
+    }
 }
 
 // 992px Breakpoint (Medium devices)

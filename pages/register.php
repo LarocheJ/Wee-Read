@@ -97,7 +97,6 @@
         <small>Already have an account? <a href="login.php">Log In</a></small>
     </form>
 </div>
-
 <?php 
     include('../includes/footer.php'); 
 ?>
