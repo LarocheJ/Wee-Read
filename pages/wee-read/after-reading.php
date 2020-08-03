@@ -12,8 +12,8 @@
     
     $row = mysqli_fetch_array($result);
 
-    if($row['wee_read_status'] == 5) {
-        $wee_read_status = 6;
+    if($row['wee_read_status'] == 4) {
+        $wee_read_status = 5;
         $sql = "UPDATE users SET wee_read_status=? WHERE email=?";
         $stmt = mysqli_stmt_init($connection);        
 
@@ -23,10 +23,20 @@
     }
 ?>
 
+<script>
+    window.onload = function() {
+    if(!window.location.hash) {
+        window.location = window.location + '#loaded';
+        window.location.reload();
+    }
+}
+</script>
+
+<div class="spacer-50"></div>
 <div class="container">
     <h1 class="cyan center">After Reading</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
-    <img class="rounded" src="<?php print $home ?>/images/stock/IMG_7107.jpg" alt="Woman reading to a baby">
+    <img class="rounded mb-3" src="<?php print $home ?>/images/stock/IMG_7107.jpg" alt="Woman reading to a baby">
     <p>Try using one or two of these extra activity ideas each time, for no longer than 10 minutes:</p>
     <ol>
         <li>Have an informal conversation about the book. Listen intently to the children’s ideas. Example prompts:</li>
@@ -69,14 +79,18 @@
 
     <blockquote>“The eventual strength of our vocabulary is determined not by the ten thousand common words but by how many rare words we understand… Whereas an adult uses only nine rare words per thousand when talking with a three- year-old, there are three times as many in a children’s book and more than seven times as many in a newspaper.” <span>– Jim Trelease</span></blockquote>
 
-    
-    <div class="d-flex align-center justify-between">
-        <a href="when-reading.php" class="primary-btn float-left">< Back</a>
-        <?php if($row['wee_read_status'] == 7){ ?>
-            <a href="resources.php" class="primary-btn float-right">Resources</a>
-        <?php } ?>
-        <a href="tips-for-reading-aloud-to-children.php" class="primary-btn float-right">Save and Continue ></a>
-    </div>
+    <div class="d-flex justify-between align-center mt-3 progression">
+        <div>
+            <a href="when-reading.php" class="primary-btn float-left">< Back</a>
+        </div>
+        <div>
+            <p class="bold cyan center large-body-txt mb-0"><?php print $row['wee_read_status']?> of 7</p>
+            <p class="cyan center mt-0">modules completed</p>
+        </div>
+        <div>
+            <a href="tips-for-reading-aloud-to-children.php?module=6" class="primary-btn float-right">Save and Continue ></a>
+        </div>
+    </div> 
 
     
 </div>

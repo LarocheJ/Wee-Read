@@ -30,6 +30,7 @@ p, ul, a {
 
 .medium-heading {
     font-size: 80px;
+    line-height: 1;
 }
 
 .small-heading {
@@ -46,4 +47,8 @@ p, ul, a {
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.underline {
+    text-decoration: underline;
 }

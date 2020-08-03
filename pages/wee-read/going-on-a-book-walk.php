@@ -1,5 +1,6 @@
 <?php 
 
+    require('../../includes/connection.php');
     include('../../includes/head.php'); 
 
     $sql = "SELECT wee_read_status FROM users WHERE email=?";
@@ -13,8 +14,8 @@
     
     $row = mysqli_fetch_array($result);
 
-    if($row['wee_read_status'] == 3) {
-        $wee_read_status = 4;
+    if($row['wee_read_status'] == 2) {
+        $wee_read_status = 3;
         $sql = "UPDATE users SET wee_read_status=? WHERE email=?";
         $stmt = mysqli_stmt_init($connection);        
 
@@ -25,6 +26,16 @@
 
 ?>
 
+<script>
+    window.onload = function() {
+    if(!window.location.hash) {
+        window.location = window.location + '#loaded';
+        window.location.reload();
+    }
+}
+</script>
+
+<div class="spacer-50"></div>
 <div class="container">
     <h1 class="cyan center">Going on a "Book Walk"</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
@@ -38,13 +49,18 @@
     </div>
     <p>Scan some of the pages of the book. Talk about the illustrations together. Don’t read the words on the pages, just use the pictures inside to make further predictions. Think aloud together about what the pictures might be saying about the story or topic. Wonder together about the characters, the content and what is likely to happen. Try to get the children to do most of the talking.</p>
 
-    <div class="d-flex align-center justify-between">
-        <a href="wee-read-format.php" class="primary-btn float-left">< Back</a>
-        <?php if($row['wee_read_status'] == 7){ ?>
-            <a href="resources.php" class="primary-btn float-right">Resources</a>
-        <?php } ?>
-        <a href="when-reading.php" class="primary-btn float-right">Save and Continue ></a>
-    </div>    
+    <div class="d-flex justify-between align-center mt-3 progression">
+        <div>
+            <a href="wee-read-format.php" class="primary-btn float-left">< Back</a>
+        </div>
+        <div>
+            <p class="bold cyan center large-body-txt mb-0"><?php print $row['wee_read_status']?> of 7</p>
+            <p class="cyan center mt-0">modules completed</p>
+        </div>
+        <div>
+            <a href="when-reading.php?module=4" class="primary-btn float-right">Save and Continue ></a>
+        </div>
+    </div>   
 
 </div>
 

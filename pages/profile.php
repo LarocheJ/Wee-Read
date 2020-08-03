@@ -29,7 +29,7 @@
     <h2 class="cyan center mb-3 small-heading">Programs:</h2> 
     
     <div class="programs">
-        <div class="card cyan">
+        <div class="card cyan bold">
             <h3 class="center">wee read</h3>
             <div class="circle border-cyan">
                 <?php print $row['wee_read_status'] ?>
@@ -38,19 +38,19 @@
             <p>modules completed</p>
             <a href="<?php print $home ?>/pages/wee-read/<?php 
                 if($row['wee_read_status'] == 0 ) {
-                    print 'index.php';
+                    print 'welcome.php?module=0';
                 } elseif($row['wee_read_status'] == 1) {
-                    print 'early-literacy.php';
+                    print 'early-literacy.php?module=1';
                 }  elseif($row['wee_read_status'] == 2) {
-                    print 'wee-read-format.php';
+                    print 'wee-read-format.php?module=2';
                 }  elseif($row['wee_read_status'] == 3) {
-                    print 'going-on-a-book-walk.php';
+                    print 'going-on-a-book-walk.php?module=3';
                 }  elseif($row['wee_read_status'] == 4) {
-                    print 'when-reading.php';
+                    print 'when-reading.php?module=4';
                 }  elseif($row['wee_read_status'] == 5) {
-                    print 'after-reading.php';
+                    print 'after-reading.php?module=5';
                 }  elseif($row['wee_read_status'] == 6) {
-                    print 'tips-for-reading-aloud-to-children.php';
+                    print 'tips-for-reading-aloud-to-children.php?module=6';
                 }  elseif($row['wee_read_status'] == 7) {
                     print 'resources.php';
                 }
@@ -64,8 +64,12 @@
             } ?>
             </a>
             
+            <?php if($row['wee_read_volunteer'] == 'yes') { ?>
+                <a class="center cyan underline" href="wee-read/volunteer">Volunteer training</a>
+            <?php } ?>
+
         </div>
-        <div class="card orange">
+        <div class="card orange bold">
             <h3 class="center">pee wee read</h3>
             <div class="circle border-orange">
                 <?php print $row['pee_wee_read_status'] ?>
@@ -74,27 +78,27 @@
             <p>modules completed</p>
             <a href="<?php print $home ?>/pages/pee-wee-read/<?php 
                 if($row['pee_wee_read_status'] == 0 ) {
-                    print 'index.php';
+                    print 'welcome.php?module=0';
                 } elseif($row['pee_wee_read_status'] == 1) {
-                    print 'why-pee-wee-read-is-important.php';
+                    print 'why-pee-wee-read-is-important.php?module=1';
                 }  elseif($row['pee_wee_read_status'] == 2) {
-                    print 'did-you-know.php';
+                    print 'did-you-know.php?module=2';
                 }  elseif($row['pee_wee_read_status'] == 3) {
-                    print 'early-literacy.php';
+                    print 'early-literacy.php?module=3';
                 }  elseif($row['pee_wee_read_status'] == 4) {
-                    print 'note.php';
+                    print 'note.php?module=4';
                 }  elseif($row['pee_wee_read_status'] == 5) {
-                    print 'whats-next.php';
+                    print 'whats-next.php?module=5';
                 } elseif($row['pee_wee_read_status'] == 6) {
-                    print 'read-sing-talk-play-love.php';
+                    print 'read-sing-talk-play-love.php?module=6';
                 }  elseif($row['pee_wee_read_status'] == 7) {
-                    print 'how-pee-wee-read-works.php';
+                    print 'how-pee-wee-read-works.php?module=7';
                 }  elseif($row['pee_wee_read_status'] == 8) {
-                    print 'key-points.php';
+                    print 'key-points.php?module=8';
                 }  elseif($row['pee_wee_read_status'] == 9) {
-                    print 'technology-use.php';
+                    print 'technology-use.php?module=9';
                 } elseif($row['pee_wee_read_status'] == 10) {
-                    print 'congratulations.php';
+                    print 'resources.php';
                 }
             ?>
             " class="primary-btn"><?php if($row['pee_wee_read_status'] == 10) { 
@@ -105,6 +109,11 @@
                 print 'Continue to next lesson >';
             } ?>
             </a>
+
+            <?php if($row['pee_wee_read_volunteer'] == 'yes') { ?>
+                <a class="center orange underline" href="pee-wee-read/volunteer">Volunteer training</a>
+            <?php } ?>
+
         </div>
     </div>
 

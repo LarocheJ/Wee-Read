@@ -1,23 +1,29 @@
 <?php 
     require('../includes/connection.php');
 
-    $sql = "SELECT pee_wee_read_status FROM users WHERE email=?";
-    $stmt = mysqli_stmt_init($connection);
-    $user = mysqli_real_escape_string($connection, $_SESSION['email']);
-
-    mysqli_stmt_prepare($stmt, $sql);
-    mysqli_stmt_bind_param($stmt, "s", $user);
-    mysqli_stmt_execute($stmt);
-    $result = mysqli_stmt_get_result($stmt);
-    
-    $row = mysqli_fetch_array($result);
-
     if(isset($_SESSION['email'])) {
-        if($row['wee_read_status'] > 0) {
-            header('Location: wee-read/early-literacy.php');
-        } elseif($row['pee_wee_read_status'] > 0) {
-            header('Location: pee-wee-read/why-pee-wee-read-is-important.php');
-        }
+        $sql = "SELECT * FROM users WHERE email=?";
+        $stmt = mysqli_stmt_init($connection);
+        $user = mysqli_real_escape_string($connection, $_SESSION['email']);
+    
+        mysqli_stmt_prepare($stmt, $sql);
+        mysqli_stmt_bind_param($stmt, "s", $user);
+        mysqli_stmt_execute($stmt);
+        $result = mysqli_stmt_get_result($stmt);
+        
+        $row = mysqli_fetch_array($result);
+
+        // if($row['wee_read_status'] > 0) {
+        //     header('Location: wee-read/early-literacy.php?module=1');
+        // } 
+        // if($row['pee_wee_read_status'] > 0 && $row['wee_read_status'] >=7) {
+        //     header('Location: pee-wee-read/why-pee-wee-read-is-important.php?module=1');
+        // }
+        // if($row['pee_wee_read_status'] >= 7 && $row['wee_read_status'] >= 7) {
+        //     header('Location: profile.php');
+        // }
+
+        header('Location: profile.php');
     }
 
     if($_SERVER['REQUEST_METHOD'] == 'POST'){
@@ -66,7 +72,13 @@
                 unset($_SESSION['form_full_name']);
                 unset($_SESSION['message']);
 
-                header("Location: profile.php?registration=success");
+                if(isset($_GET['from-wee-read'])) {
+                    header('Location: wee-read/welcome.php?registration=success');
+                } elseif(isset($_GET['from-pee-wee-read'])) {
+                    header('Location: pee-wee-read/welcome.php?registration=success');
+                } else {
+                    header('Location: profile.php?registration=success');
+                }
                 exit();
             }
         }
@@ -75,6 +87,7 @@
     include('../includes/head.php');
 ?>
 
+<div class="spacer-50"></div>
 <div class="container">
     <h1 class="cyan center">Hello!</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
@@ -94,7 +107,12 @@
             <?php }?>
         </div>
         <button type="submit" class="primary-btn">Sign Up</button>
-        <small>Already have an account? <a href="login.php">Log In</a></small>
+        <?php if(isset($_GET['from-wee-read'])) { ?>
+        <small>Already have an account? <a href="login.php?from-wee-read">Log In</a></small>
+        <?php } ?>
+        <?php if(isset($_GET['from-pee-wee-read'])) { ?>
+        <small>Already have an account? <a href="login.php?from-pee-wee-read">Log In</a></small>
+        <?php } ?>
     </form>
 </div>
 <?php 

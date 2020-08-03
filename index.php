@@ -8,7 +8,7 @@
             <p>Reading is the key that unlocks the world. Helping a child acquire the skills they need to turn that key is one of the greatest gifts we can provide them.</p>
             <p>wee read is not designed to show you how to teach a child to read, rather, it is about developing and deepening your confidence as a reader and helping you to become an effective role model for a child who is building their reading identity. What wee read will provide to you are research-based tools for making that reading time as powerful as possible!</p>
             <p>You don’t need to train in order to read with a child. Reading with a child should be a fun, stress-free, and joyful experience. The learning modules are free and yours to use with the important young people in your life at any time.</p>
-            <a href="<?php print $home ?>/pages/wee-read" class="primary-btn">Get Started</a>
+            <a href="<?php print $home ?>/pages/register.php" class="primary-btn">Get Started</a>
         </div>
     </div>
     <div class="right">

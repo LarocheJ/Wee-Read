@@ -1,5 +1,6 @@
 <?php 
-
+    // header('Refresh:0');
+    require('../../includes/connection.php');
     include('../../includes/head.php'); 
 
     $sql = "SELECT wee_read_status FROM users WHERE email=?";
@@ -13,8 +14,8 @@
     
     $row = mysqli_fetch_array($result);
 
-    if($row['wee_read_status'] == 6) {
-        $wee_read_status = 7;
+    if($row['wee_read_status'] == 5) {
+        $wee_read_status = 6;
         $sql = "UPDATE users SET wee_read_status=? WHERE email=?";
         $stmt = mysqli_stmt_init($connection);        
 
@@ -25,6 +26,16 @@
 
 ?>
 
+<script>
+    window.onload = function() {
+    if(!window.location.hash) {
+        window.location = window.location + '#loaded';
+        window.location.reload();
+    }
+}
+</script>
+
+<div class="spacer-50"></div>
 <div class="container">
     <h1 class="cyan center">Tips for reading aloud to children</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
@@ -70,15 +81,19 @@
             <img class="rounded cropped" src="<?php print $home ?>/images/stock/Reading-Place-16.jpg" alt="Man and child reading a book under blankets">
         </div>
     </div>
-    
-   
-    <div class="d-flex align-center justify-between">
-        <a href="after-reading.php" class="primary-btn float-left">< Back</a>
-        <?php if($row['wee_read_status'] == 7){ ?>
-            <a href="resources.php" class="primary-btn float-right">Resources</a>
-        <?php } ?>
-        <a href="resources.php" class="primary-btn float-right">Save and Continue ></a>
-    </div>
+
+    <div class="d-flex justify-between align-center mt-3 progression">
+        <div>
+            <a href="after-reading.php" class="primary-btn float-left">< Back</a>
+        </div>
+        <div>
+            <p class="bold cyan center large-body-txt mb-0"><?php print $row['wee_read_status']?> of 7</p>
+            <p class="cyan center mt-0">modules completed</p>
+        </div>
+        <div>
+            <a href="resources.php" class="primary-btn float-right">Save and Continue ></a>
+        </div>
+    </div> 
     
 </div>
 

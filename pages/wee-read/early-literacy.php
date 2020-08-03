@@ -1,4 +1,5 @@
 <?php 
+    
     require('../../includes/connection.php');
     include('../../includes/head.php'); 
 
@@ -14,7 +15,7 @@
     $row = mysqli_fetch_array($result);
 
     if($row['wee_read_status'] == 1) {
-        $wee_read_status = 2;
+        $wee_read_status = 1;
         $sql = "UPDATE users SET wee_read_status=? WHERE email=?";
         $stmt = mysqli_stmt_init($connection);        
 
@@ -24,6 +25,16 @@
     }
 ?>
 
+<script>
+    window.onload = function() {
+    if(!window.location.hash) {
+        window.location = window.location + '#loaded';
+        window.location.reload();
+    }
+}
+</script>
+
+<div class="spacer-50"></div>
 <div class="container">
     <h1 class="cyan center">Early Literacy</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
@@ -37,15 +48,20 @@
     <p><strong>Phonological Awareness</strong> is understanding that words are made up of sounds and that those sounds have symbols that represent them. The children that you’re working with should be able to use the knowledge they have about sounds to “sound out” easy words when reading them.</p>
     <p><strong>Print Motivation</strong> is the spark that children need to have to even be interested in learning how to read in the first place. Children should love the idea of reading so much that they are motivated to work to learn how to do it.</p>
     <p><strong>Narrative Skills</strong> are storytelling skills. Knowing that stories have beginnings, middle parts, and endings, and are full of characters and information. This is true of stories that we find in books and the ones that children tell in real life. Providing opportunities for children to hear and tell personal stories is an important part of learning to read printed stories.
-    </p>
+    </p> 
 
-    <div class="d-flex align-center justify-between">
-        <a href="index.php" class="primary-btn float-left">< Back</a>
-        <?php if($row['wee_read_status'] == 7){ ?>
-            <a href="resources.php" class="primary-btn float-right">Resources</a>
-        <?php } ?>
-        <a href="wee-read-format.php" class="primary-btn float-right">Save and Continue ></a>
-    </div>    
+    <div class="d-flex justify-between align-center mt-3 progression">
+        <div>
+            <a href="welcome.php" class="primary-btn float-left">< Back</a>
+        </div>
+        <div>
+            <p class="bold cyan center large-body-txt mb-0"><?php print $row['wee_read_status']?> of 7</p>
+            <p class="cyan center mt-0">modules completed</p>
+        </div>
+        <div>
+            <a href="wee-read-format.php?module=2" class="primary-btn float-right">Save and Continue ></a>
+        </div>
+    </div>   
 
 </div>
 

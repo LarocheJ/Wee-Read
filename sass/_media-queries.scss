@@ -3,16 +3,17 @@
     .welcome {
     
         .right {
-            display: none;
-        }
-        
-        .left {
-            margin-top: 100px;
+            height: 100vh;
+            width: 80%;
+            border-bottom-right-radius: 5%;
+            right: -5%;
+            background-position: center;
         }
     }
 }
 // 1200px Breakpoint (Large devices)
 @media(max-width: 1200px) {
+
     .wee-read-container {
         .wee-read {
             flex-direction: column;
@@ -28,6 +29,18 @@
             div {
                 margin: 30px 0;
             }
+        }
+    }
+
+    .welcome {
+        .left {
+            left: 5%;
+        }
+
+        .right {
+            width: 50%;
+            border-bottom-right-radius: 0;
+            background-position: center;
         }
     }
 
@@ -50,19 +63,6 @@
         }
     }
 
-    .welcome {
-        
-
-        .right {
-            display: none;
-        }
-    }
-
-    .welcome .left {
-        position: static;
-        padding: 30px;
-    }
-
     .jumbo-heading {
         font-size: 90px;
     }
@@ -70,6 +70,18 @@
 
 // 992px Breakpoint (Medium devices)
 @media(max-width: 992px) {
+    .welcome {
+
+        .left {
+            position: static;
+            padding: 30px;
+        }
+
+        .right {
+            display: none;
+        }
+    }
+
     .col-3 {
         grid-template-columns: 1fr 1fr;
     }
@@ -85,16 +97,22 @@
             margin: 50px 0;
         }
     }
-}
 
-// 768px Breakpoint (Small devices)
-@media(max-width: 768px) {
+    .read-index-container { 
+        flex-direction: column;
+
+        .round-image-container {
+            margin: 0 0 50px 0;
+        }
+    }
+
+    // Show responsive menu
     .nav-links {
         position: fixed;
         right: 0;
         top: 11vh;
         height: 89vh;
-        width: 50%;
+        width: 40%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -112,6 +130,33 @@
         cursor: pointer;
     }
 
+    .dropdown {
+        display: none;
+    }
+
+    .navbar .mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+
+        li {
+            margin: 20px 0;
+        }
+
+        hr {
+            border: 1px solid $cyan;
+            width: 50%;
+            margin: 20px 0;
+        }
+    }
+
+    
+}
+
+// 768px Breakpoint (Small devices)
+@media(max-width: 768px) {
     .d-flex {
         flex-direction: column;
 
@@ -120,10 +165,32 @@
         }
     }
 
+    .progression {
+        flex-direction: column-reverse;
+        justify-content: center;
+
+        div {
+            margin: 10px 0;
+        }
+    }
+
     .cropped {
         max-width: 100%;
     }
-    
+
+    .tukay {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: 0 auto;
+
+        .tukay-img {
+            max-width: 100%;
+        }
+
+        .bubble {
+            margin: 0 auto;
+        }
+    }
     
 }
     
@@ -154,7 +221,7 @@
         .line3 {
             transform: rotate(45deg) translate(-5px,-6px);
         }
-    }
+    } 
 
 // 576px Breakpoint
 @media(max-width: 576px) {

@@ -28,16 +28,29 @@
             <li><a href="<?php print $home ?>/pages/pee-wee-read">pee wee read</a></li>
             <li><a href="<?php print $home ?>/pages/for-schools.php">for schools</a></li>
             <li><a href="<?php print $home ?>/pages/contact.php">contact</a></li>
+            <!-- Dropdown -->
+            <!-- Hide this if mobile -->
             <?php if(isset($_SESSION['email'])) { ?>
                 <div class="dropdown">
                     <a class="secondary-btn" href="<?php print $home ?>/pages/profile.php">Profile</a>
                     <div class="dropdown-content">
-                        <a href="<?php print $home ?>/pages/logout.php">Logout</a>
+                        <a href="<?php print $home ?>/pages/profile.php">Dashboard</a>
+                        <a href="<?php print $home ?>/pages/logout.php">Sign Out</a>
                     </div>
                 </div>
             <?php } else { ?>
                 <li><a class="secondary-btn" href="<?php print $home ?>/pages/login.php">Log In</a></li>
             <?php } ?>
+            <!-- Show this if mobile -->
+                <span class="mobile">
+                    <?php if(isset($_SESSION['email'])) { ?>
+                        <hr>
+                        <li><a href="<?php print $home ?>/pages/profile.php">Dashboard</a></li>
+                        <li><a href="<?php print $home ?>/pages/logout.php">Sign Out</a></li>
+                    <?php } ?>
+                        <!-- <li><a class="secondary-btn" href="<?php //print $home ?>/pages/login.php">Log In</a></li> -->
+                </span>
+            
         </ul>
         <div class="burger">
             <div class="line1"></div>

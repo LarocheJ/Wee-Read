@@ -1,5 +1,6 @@
 <?php 
 
+    require('../../includes/connection.php');
     include('../../includes/head.php'); 
 
     $sql = "SELECT wee_read_status FROM users WHERE email=?";
@@ -13,8 +14,8 @@
     
     $row = mysqli_fetch_array($result);
 
-    if($row['wee_read_status'] == 4) {
-        $wee_read_status = 5;
+    if($row['wee_read_status'] == 3) {
+        $wee_read_status = 4;
         $sql = "UPDATE users SET wee_read_status=? WHERE email=?";
         $stmt = mysqli_stmt_init($connection);        
 
@@ -25,6 +26,16 @@
     
 ?>
 
+<script>
+    window.onload = function() {
+    if(!window.location.hash) {
+        window.location = window.location + '#loaded';
+        window.location.reload();
+    }
+}
+</script>
+
+<div class="spacer-50"></div>
 <div class="container">
     <h1 class="cyan center">When Reading</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
@@ -43,13 +54,18 @@
     <p>Remember to promote learning without taking away from the children’s enjoyment of the book and your time together.</p>
     <blockquote>“When adults read to children, they are also passing torches—literacy torches—from one generation to the next.” <span>- Jim Trelease</span></blockquote>
 
-    <div class="d-flex align-center justify-between">
-        <a href="going-on-a-book-walk.php" class="primary-btn float-left">< Back</a>
-        <?php if($row['wee_read_status'] == 7){ ?>
-            <a href="resources.php" class="primary-btn float-right">Resources</a>
-        <?php } ?>
-        <a href="after-reading.php" class="primary-btn float-right">Save and Continue ></a>
-    </div>
+    <div class="d-flex justify-between align-center mt-3 progression">
+        <div>
+            <a href="going-on-a-book-walk.php" class="primary-btn float-left">< Back</a>
+        </div>
+        <div>
+            <p class="bold cyan center large-body-txt mb-0"><?php print $row['wee_read_status']?> of 7</p>
+            <p class="cyan center mt-0">modules completed</p>
+        </div>
+        <div>
+            <a href="after-reading.php?module=5" class="primary-btn float-right">Save and Continue ></a>
+        </div>
+    </div> 
 </div>
 
 <?php include('../../includes/footer.php'); ?>

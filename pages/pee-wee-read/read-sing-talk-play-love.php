@@ -1,5 +1,5 @@
 <?php 
-
+    require('../../includes/connection.php');
     include('../../includes/head.php'); 
 
     $sql = "SELECT pee_wee_read_status FROM users WHERE email=?";
@@ -13,8 +13,8 @@
     
     $row = mysqli_fetch_array($result);
 
-    if($row['pee_wee_read_status'] == 6) {
-        $wee_read_status = 7;
+    if($row['pee_wee_read_status'] == 5) {
+        $wee_read_status = 6;
         $sql = "UPDATE users SET pee_wee_read_status=? WHERE email=?";
         $stmt = mysqli_stmt_init($connection);        
 
@@ -24,6 +24,17 @@
     }
 
 ?>
+
+<script>
+    window.onload = function() {
+        if(!window.location.hash) {
+            window.location = window.location + '#loaded';
+            window.location.reload();
+        }
+    }
+</script>
+
+<div class="spacer-50"></div>
 <div class="container">
     <h1 class="cyan center">Read, Sing, Talk, Play and Love EVERY day! Here’s why</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
@@ -43,13 +54,19 @@
     <p>If I’m with important adults like teachers, coaches, mentors, and leaders, love might mean having role-models, guides, and safe people to ask questions of without feeling silly. It means knowing about trust and respect. </p>
     <p>Feeling loved and loving others every day helps my brain grow healthy and strong so it is always ready to learn from the people in my life. Spending time together reading is a powerful way to show this love!</p>
 
-    <div class="d-flex align-center justify-between">
-        <a href="whats-next.php" class="primary-btn float-left">< Back</a>
-        <?php if($row['pee_wee_read_status'] == 10){ ?>
-            <a href="resources.php" class="primary-btn float-right">Resources</a>
-        <?php } ?>
-        <a href="how-pee-wee-read-works.php" class="primary-btn float-right">Save and Continue ></a>
+    <div class="d-flex justify-between align-center mb-3 progression">
+        <div>
+            <a href="whats-next.php" class="primary-btn float-left">< Back</a>
+        </div>
+        <div>
+            <p class="bold cyan center large-body-txt mb-0"><?php print $row['pee_wee_read_status']?> of 10</p>
+            <p class="cyan center mt-0">modules completed</p>
+        </div>
+        <div>
+            <a href="how-pee-wee-read-works.php?module=7" class="primary-btn float-right">Save and Continue ></a>
+        </div>
     </div>
+
 </div>
 
 <?php include('../../includes/footer.php'); ?>

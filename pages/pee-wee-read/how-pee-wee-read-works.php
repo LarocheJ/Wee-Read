@@ -1,5 +1,5 @@
 <?php 
-
+    require('../../includes/connection.php');
     include('../../includes/head.php'); 
 
     $sql = "SELECT pee_wee_read_status FROM users WHERE email=?";
@@ -13,8 +13,8 @@
     
     $row = mysqli_fetch_array($result);
 
-    if($row['pee_wee_read_status'] == 7) {
-        $wee_read_status = 8;
+    if($row['pee_wee_read_status'] == 6) {
+        $wee_read_status = 7;
         $sql = "UPDATE users SET pee_wee_read_status=? WHERE email=?";
         $stmt = mysqli_stmt_init($connection);        
 
@@ -25,10 +25,20 @@
 
 ?>
 
+<script>
+    window.onload = function() {
+        if(!window.location.hash) {
+            window.location = window.location + '#loaded';
+            window.location.reload();
+        }
+    }
+</script>
+
+<div class="spacer-50"></div>
 <div class="container">
     <h1 class="cyan center">How pee wee read Works</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
-    <p>Now you know why pee wee read is important. Let’s explore more about how to do it. Here are 10 tools and tips to help me READ, SING, TALK, PLAY, AND LOVE every day!</p>
+    <p>Now you know why <em>pee wee read</em> is important. Let’s explore more about how to do it. Here are 10 tools and tips to help me READ, SING, TALK, PLAY, AND LOVE every day!</p>
     <h2 class="cyan uppercase">Read</h2>
     <ol>
         <li>Choose books that we’ll both love. If you’re not excited to read a book, why would I be? It doesn’t matter if it’s a new book or one that we’ve read a hundred times already, if we love it, it’s building my brain! There’s a list of books that lots of people love in the Resource section so if we’re stuck, these are a pretty safe bet! </li>
@@ -47,13 +57,19 @@
         <li>When you love something and show me what your love looks like (by being excited, engaged or energized) it shows me that I might love it too. I will love the things you love, so if you want me to love reading, let me see you love reading! Let me “catch” you reading your own books, your own papers, your own notes. Show me that it’s valuable!</li>
     </ol>
 
-    <div class="d-flex align-center justify-between">
-        <a href="read-sing-talk-play-love.php" class="primary-btn float-left">< Back</a>
-        <?php if($row['pee_wee_read_status'] == 10){ ?>
-            <a href="resources.php" class="primary-btn float-right">Resources</a>
-        <?php } ?>
-        <a href="key-points.php" class="primary-btn float-right">Save and Continue ></a>
+    <div class="d-flex justify-between align-center mb-3 progression">
+        <div>
+            <a href="read-sing-talk-play-love.php" class="primary-btn float-left">< Back</a>
+        </div>
+        <div>
+            <p class="bold cyan center large-body-txt mb-0"><?php print $row['pee_wee_read_status']?> of 10</p>
+            <p class="cyan center mt-0">modules completed</p>
+        </div>
+        <div>
+            <a href="key-points.php?module=8" class="primary-btn float-right">Save and Continue ></a>
+        </div>
     </div>
+
 </div>
 
 <?php include('../../includes/footer.php'); ?>

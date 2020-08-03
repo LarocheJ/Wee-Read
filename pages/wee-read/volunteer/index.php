@@ -1,5 +1,32 @@
-<?php include('../../../includes/head.php'); ?>
+<?php 
 
+    require('../../../includes/connection.php');
+    include('../../../includes/head.php'); 
+
+    $sql = "SELECT wee_read_volunteer FROM users WHERE email=?";
+    $stmt = mysqli_stmt_init($connection);
+    $user = mysqli_real_escape_string($connection, $_SESSION['email']);
+
+    mysqli_stmt_prepare($stmt, $sql);
+    mysqli_stmt_bind_param($stmt, "s", $user);
+    mysqli_stmt_execute($stmt);
+    $result = mysqli_stmt_get_result($stmt);
+
+    $row = mysqli_fetch_array($result);
+
+    if($row['wee_read_volunteer'] == 'no') {
+        $wee_read_volunteer = 'yes';
+        $sql = "UPDATE users SET wee_read_volunteer=? WHERE email=?";
+        $stmt = mysqli_stmt_init($connection);        
+
+        mysqli_stmt_prepare($stmt, $sql);
+        mysqli_stmt_bind_param($stmt, "ss", $wee_read_volunteer, $_SESSION['email']);
+        mysqli_stmt_execute($stmt);
+    }
+
+?>
+
+<div class="spacer-50"></div>
 <div class="container">
     <h1 class="center cyan">Welcome!</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">

@@ -1,5 +1,5 @@
 <?php 
-
+    require('../../includes/connection.php');
     include('../../includes/head.php'); 
 
     $sql = "SELECT pee_wee_read_status FROM users WHERE email=?";
@@ -13,8 +13,8 @@
     
     $row = mysqli_fetch_array($result);
 
-    if($row['pee_wee_read_status'] == 5) {
-        $wee_read_status = 6;
+    if($row['pee_wee_read_status'] == 4) {
+        $wee_read_status = 5;
         $sql = "UPDATE users SET pee_wee_read_status=? WHERE email=?";
         $stmt = mysqli_stmt_init($connection);        
 
@@ -25,6 +25,16 @@
 
 ?>
 
+<script>
+    window.onload = function() {
+        if(!window.location.hash) {
+            window.location = window.location + '#loaded';
+            window.location.reload();
+        }
+    }
+</script>
+
+<div class="spacer-50"></div>
 <div class="container">
     <h1 class="cyan center">What’s Next?</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
@@ -38,13 +48,19 @@
         </div>
     </div>
 
-    <div class="d-flex align-center justify-between">
-        <a href="note.php" class="primary-btn float-left">< Back</a>
-        <?php if($row['pee_wee_read_status'] == 10){ ?>
-            <a href="resources.php" class="primary-btn float-right">Resources</a>
-        <?php } ?>
-        <a href="read-sing-talk-play-love.php" class="primary-btn float-right">Save and Continue ></a>
+    <div class="d-flex justify-between align-center mb-3 progression">
+        <div>
+            <a href="note.php" class="primary-btn float-left">< Back</a>
+        </div>
+        <div>
+            <p class="bold cyan center large-body-txt mb-0"><?php print $row['pee_wee_read_status']?> of 10</p>
+            <p class="cyan center mt-0">modules completed</p>
+        </div>
+        <div>
+            <a href="read-sing-talk-play-love.php?module=6" class="primary-btn float-right">Save and Continue ></a>
+        </div>
     </div>
+
 </div>
 
 <?php include('../../includes/footer.php'); ?>

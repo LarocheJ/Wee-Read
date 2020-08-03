@@ -1,5 +1,6 @@
 <?php include('../../../includes/head.php'); ?>
 
+<div class="spacer-50"></div>
 <div class="container">
     <h1 class="center cyan">Overview of School Sessions</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
@@ -28,5 +29,6 @@
     <a href="#" class="primary-btn float-left" id="goBack">< Back</a>
     <a href="getting-started.php" class="primary-btn float-right">Save and Continue ></a>
 </div>
+<div class="spacer-50"></div>
 
 <?php include('../../../includes/footer.php'); ?>

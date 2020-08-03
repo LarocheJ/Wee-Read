@@ -25,10 +25,16 @@
                 if($row = mysqli_fetch_assoc($result)){
                     if($email == $_POST['email']){ 
                         $_SESSION['email'] = $_POST['email'];
-
                         unset($_SESSION['message']);
                         
-                        header("Location: profile.php?login=success");
+                        if(isset($_GET['from-wee-read'])) {
+                            header('Location: wee-read/welcome.php?login=success');
+                        } elseif(isset($_GET['from-pee-wee-read'])) {
+                            header('Location: pee-wee-read/welcome.php?login=success');
+                        } else {
+                            header('Location: profile.php?login=success');
+                        }
+
                         exit();
                     }
                 } else {
@@ -44,6 +50,7 @@
     
 ?>
 
+<div class="spacer-50"></div>
 <div class="container">
     <h1 class="cyan center">Log In</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
