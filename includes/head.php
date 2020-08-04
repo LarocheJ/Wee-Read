@@ -48,7 +48,6 @@
                         <li><a href="<?php print $home ?>/pages/profile.php">Dashboard</a></li>
                         <li><a href="<?php print $home ?>/pages/logout.php">Sign Out</a></li>
                     <?php } ?>
-                        <!-- <li><a class="secondary-btn" href="<?php //print $home ?>/pages/login.php">Log In</a></li> -->
                 </span>
             
         </ul>

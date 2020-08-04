@@ -13,20 +13,11 @@
         
         $row = mysqli_fetch_array($result);
 
-        // if($row['wee_read_status'] > 0) {
-        //     header('Location: wee-read/early-literacy.php?module=1');
-        // } 
-        // if($row['pee_wee_read_status'] > 0 && $row['wee_read_status'] >=7) {
-        //     header('Location: pee-wee-read/why-pee-wee-read-is-important.php?module=1');
-        // }
-        // if($row['pee_wee_read_status'] >= 7 && $row['wee_read_status'] >= 7) {
-        //     header('Location: profile.php');
-        // }
-
         header('Location: profile.php');
     }
 
     if($_SERVER['REQUEST_METHOD'] == 'POST'){
+
         $full_name = mysqli_real_escape_string($connection, ucwords($_POST['full_name']));
         $email = mysqli_real_escape_string($connection, $_POST['email']);
 
@@ -65,7 +56,6 @@
             } else {
                 mysqli_stmt_bind_param($stmt, "ss", $full_name, $email);
                 mysqli_stmt_execute($stmt);
-                // $_SESSION['message'] = 'Thank you for signing up!';
                 $_SESSION['name'] = $full_name;
                 $_SESSION['email'] = $email; 
 
@@ -95,24 +85,23 @@
     <form action="" method="post">
         <div class="input-field">
             <label for="full_name">Full Name</label>
-            <input type="text" name="full_name" id="full_name" value="<?php if(isset($_SESSION['form_full_name'])) { print $_SESSION['form_full_name']; } ?>">
+            <input type="text" name="full_name" id="full_name" value="<?php if(isset($_GET['error'])) { print $_SESSION['form_full_name']; } ?>" required>
         </div>
         <div class="input-field">
             <label for="email">Email</label>
             <input type="text" name="email" id="email" class="<?php if(isset($_GET['error'])) {
                 print 'error-border';
-            }?>">
+            }?>" required>
             <?php if(isset($_GET['error'])) { ?>
                 <small class="error-msg-small">This email address is taken. Please enter a different one or log in below.</small>
             <?php }?>
         </div>
         <button type="submit" class="primary-btn">Sign Up</button>
-        <?php if(isset($_GET['from-wee-read'])) { ?>
-        <small>Already have an account? <a href="login.php?from-wee-read">Log In</a></small>
-        <?php } ?>
-        <?php if(isset($_GET['from-pee-wee-read'])) { ?>
-        <small>Already have an account? <a href="login.php?from-pee-wee-read">Log In</a></small>
-        <?php } ?>
+        <small>Already have an account? <a href="<?php if(isset($_GET['from-wee-read'])) {
+                print 'login.php?from-wee-read';
+            } elseif(isset($_GET['from-pee-wee-read'])) {
+                print 'login.php?from-pee-wee-read';
+            } else { print 'login.php'; }?>"> Log In</a></small>
     </form>
 </div>
 <?php 
