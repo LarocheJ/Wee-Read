@@ -55,7 +55,7 @@
                     print 'resources.php';
                 }
             ?>
-            " class="primary-btn"><?php if($row['wee_read_status'] == 7) { 
+            " class="primary-btn mb-1"><?php if($row['wee_read_status'] == 7) { 
                 print 'Go to resources >';
             } elseif ($row['wee_read_status'] == 0) {
                 print 'Get Started >';
@@ -101,7 +101,7 @@
                     print 'resources.php';
                 }
             ?>
-            " class="primary-btn"><?php if($row['pee_wee_read_status'] == 10) { 
+            " class="primary-btn mb-1"><?php if($row['pee_wee_read_status'] == 10) { 
                 print 'Go to resources >';
             } elseif ($row['pee_wee_read_status'] == 0) {
                 print 'Get Started >';

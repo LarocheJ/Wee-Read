@@ -68,8 +68,17 @@ $spaceamounts: (0,1,2,3,4,5);
     float: left;
 }
 
+// ALIGN
 .center {
     text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
 }
 
 .rainbow-border {
@@ -136,6 +145,22 @@ img {
         }
     }
 }
+
+.list-style-none {
+    margin-left: 0 !important;
+
+    li {
+
+        &::before {
+            content: "" !important;
+            width: 0 !important;
+            height: 0 !important;
+            margin: 0 !important;
+        }
+    }
+}
+
+
 
 // Organized list style
 .wrapper ol {

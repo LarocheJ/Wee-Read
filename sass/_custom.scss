@@ -140,6 +140,10 @@
         background-image: url(../images/tukay/Tukay_Spot_Finals6.png);
     }
 
+    .for-schools {
+        background-image: url(../images/stock/Reading-Place-7.jpg);
+    }
+
     .round-image {
         border-radius: 50%;
         width: 100%;
@@ -234,4 +238,16 @@
     div {
         width: auto;
     }
+}
+
+.steps {
+    div {
+        border: 1px solid rgb(187, 187, 187);
+        margin: 10px !important;
+        padding: 20px;
+    }
+}
+
+.whats-next {
+    margin-bottom: -100px !important;
 }

@@ -45,7 +45,7 @@
         </div>
     </div>
 </div>
-<div class="cyan-bg py-5 mt-5">
+<div class="cyan-bg py-5 mt-5 whats-next">
         <div class="center white">
             <div class="container-small">
                 <h2 class="medium-heading">So, what's next?</h2>

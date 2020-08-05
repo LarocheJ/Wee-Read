@@ -368,6 +368,14 @@ p {
   text-align: center;
 }
 
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
 .rainbow-border {
   display: block;
   width: 400px;
@@ -427,6 +435,17 @@ img {
   border-radius: 50%;
   background-color: #00AEEF;
   margin: 2.5px 10px;
+}
+
+.list-style-none {
+  margin-left: 0 !important;
+}
+
+.list-style-none li::before {
+  content: "" !important;
+  width: 0 !important;
+  height: 0 !important;
+  margin: 0 !important;
 }
 
 .wrapper ol {
@@ -1130,7 +1149,6 @@ p, ul, a {
   text-transform: uppercase;
   background-color: #EC0092;
   color: #fff;
-  margin: 20px 0;
   font-size: 20px;
   -webkit-transition: .2s ease all;
   transition: .2s ease all;
@@ -1406,6 +1424,10 @@ p, ul, a {
   background-image: url(../images/tukay/Tukay_Spot_Finals6.png);
 }
 
+.round-image-container .for-schools {
+  background-image: url(../images/stock/Reading-Place-7.jpg);
+}
+
 .round-image-container .round-image {
   border-radius: 50%;
   width: 100%;
@@ -1504,6 +1526,16 @@ p, ul, a {
   width: auto;
 }
 
+.steps div {
+  border: 1px solid #bbbbbb;
+  margin: 10px !important;
+  padding: 20px;
+}
+
+.whats-next {
+  margin-bottom: -100px !important;
+}
+
 .cyan {
   color: #00AEEF;
 }
@@ -1569,9 +1601,12 @@ p, ul, a {
 }
 
 footer {
+  margin-top: 100px;
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
+  left: 0;
+  right: 0;
   z-index: 0;
   background: #fff;
 }
@@ -1815,6 +1850,10 @@ footer .trademark {
   }
   .tukay .bubble {
     margin: 0 auto;
+  }
+  .align-left, .align-right {
+    margin: 20px 0 0 0 !important;
+    text-align: center;
   }
 }
 

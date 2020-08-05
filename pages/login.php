@@ -73,7 +73,7 @@
                 <small class="error-msg-small"><?php if(isset($_SESSION['message'])) { print $_SESSION['message']; } ?></small>
             <?php }?>
         </div>
-        <button type="submit" class="primary-btn">Log In</button>
+        <button type="submit" class="primary-btn mb-1">Log In</button>
         <small>Don't have an account? <a href="register.php">Sign up here</a></small>
     </form>
 </div>

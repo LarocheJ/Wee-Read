@@ -1,5 +1,4 @@
 <?php include('includes/head.php'); ?>
-
 <div class="welcome">
     <div class="left">
         <div class="cyan">

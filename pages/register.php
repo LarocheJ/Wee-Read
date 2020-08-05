@@ -96,7 +96,7 @@
                 <small class="error-msg-small">This email address is taken. Please enter a different one or log in below.</small>
             <?php }?>
         </div>
-        <button type="submit" class="primary-btn">Sign Up</button>
+        <button type="submit" class="primary-btn mb-1">Sign Up</button>
         <small>Already have an account? <a href="<?php if(isset($_GET['from-wee-read'])) {
                 print 'login.php?from-wee-read';
             } elseif(isset($_GET['from-pee-wee-read'])) {
