@@ -12,7 +12,7 @@
             <a class="footer-logo" href="<?php print $home ?>"><img src="<?php print $home ?>/images/logos/wee-read-logo.svg" alt="Wee Read logo"></a>
             <div class="center mt-2 d-flex align-center vertical">
                 <p class="bold copyright">Copyright &copy; Wee Read <?php print date('Y'); ?></p>
-                <p class="orange mt-0 trademark">wee read and pee wee read are trademarks of Clagary Reads</p>
+                <p class="orange mt-0 trademark">wee read and pee wee read are trademarks of Calgary Reads</p>
             </div>
         </div>
         <div>
