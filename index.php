@@ -14,6 +14,7 @@
 
     </div>
 </div>
+<img class="tree-graphic" src="images/graphics/WeeRead-TreeGraphic.png" alt="Wee read tree graphic">
 <section class="homepage">
     <div class="wee-read-container">
         <div class="wee-read">

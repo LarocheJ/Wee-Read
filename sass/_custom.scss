@@ -2,6 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fcfcfc;
+    padding: 0 0 20px 0;
 
     div {
         width: 100%;
@@ -250,4 +252,11 @@
 
 .whats-next {
     margin-bottom: -100px !important;
+}
+
+.tree-graphic {
+    display: block;
+    width: 1200px;
+    max-width: 100%;
+    margin: 100px auto;
 }

@@ -20,18 +20,19 @@
         </ul>
         <p>Once you have completed the administrator’s module you will be able to start interviewing volunteers to read with children at your organization.</p>
         <p>It is up to the discretion of your organization to accept Volunteers. Listing your organization as a <em><strong>wee read</strong></em> or <em><strong>pee wee read</strong></em> location means that you are ready to accept volunteers, however, it is your decision which volunteers will be the right fit for your program.</p>
-        <div class="d-flex align-middle justify-between">
-            <div class="align-left">
-                <p>Offer <em>wee read</em> in your school</p>
-                <a href="offer-wee-read" class="primary-btn">get started</a>
-            </div>
-            <div class="align-right">
-                <p>Offer <em>pee wee read</em> in your centre</p>
-                <a href="offer-pee-wee-read" class="primary-btn">get started</a>
-            </div>
-        </div>
-        
     </div>
 </div>
-
+<div class="container">
+    <img class="tree-graphic" src="../../images/graphics/WeeRead-TreeGraphic.png" alt="Wee read tree graphic">
+    <div class="d-flex cyan">
+        <div class="align-left">
+            <p>Offer <em>wee read</em> in your school</p>
+            <a href="offer-wee-read" class="primary-btn">get started</a>
+        </div>
+        <div class="align-right">
+            <p>Offer <em>pee wee read</em> in your centre</p>
+            <a href="offer-pee-wee-read" class="primary-btn">get started</a>
+        </div>
+    </div>
+</div>
 <?php include('../../includes/footer.php'); ?>
