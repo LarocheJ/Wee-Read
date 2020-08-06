@@ -4,10 +4,8 @@
     
 ?> 
 
-<div class="spacer-50"></div>
 <div class="container mb-5">
-
-<h1 class="cyan center mt-3">Getting Started</h1>
+    <h1 class="cyan center mt-3">Getting Started</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
     <p class="center">You can implement this program in a few simple steps:</p>
     <div class="d-flex justify-between align-middle steps">
@@ -106,7 +104,7 @@
         </div>
     </div>
     <a href="overview.php" class="primary-btn float-left my-3" >< Back</a>
-    <a href="congratulations.php" class="primary-btn float-right my-3">Save and Continue ></a>
+    <a href="congratulations.php" class="primary-btn float-right my-3">Continue ></a>
 </div>
 <div class="spacer-100"></div>
 

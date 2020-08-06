@@ -1,6 +1,8 @@
 <?php 
 
     require('../../includes/connection.php');
+    require('../../includes/functions.php');
+    checkIfLoggedIn();
     include('../../includes/head.php'); 
 
     if(isset($_SESSION['email'])) {

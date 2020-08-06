@@ -1,11 +1,18 @@
-<?php include('../../../includes/head.php'); ?>
+<?php 
+
+    require('../../../includes/connection.php');
+    require('../../../includes/functions.php');
+    checkIfLoggedIn();
+    include('../../../includes/head.php'); 
+
+?>
 
 <div class="spacer-50"></div>
 <div class="container">
     <h1 class="center cyan">Finally</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
 
-    <ul>
+    <ul class="mb-3">
         <li>Make sure you are familiar with safety procedures and emergency exits at your centre! If you haven’t received an orientation to those procedures, ask for one!</li>
         <li>Children look forward to your visits and will be very disappointed if you do not come when they are expecting you. If you know in advance that you will be away please tell them.</li>
         <li>If you can’t make a session, please phone the centre, identify yourself as a pee wee read volunteer and ask for a message to be delivered to your reading friends. Hopefully this rarely, if ever, needs to happen.</li>
@@ -15,7 +22,7 @@
     </ul>
 
     <a href="#" class="primary-btn float-left" id="goBack">< Back</a>
-    <a href="whats-next.php" class="primary-btn float-right">Save and Continue ></a>
+    <a href="whats-next.php" class="primary-btn float-right">Continue ></a>
     
 </div>
 <div class="spacer-50"></div>

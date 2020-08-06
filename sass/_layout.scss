@@ -48,6 +48,12 @@
     margin: 20px 0;
 }
 // END DISPLAY TYPES
+
+// COLUMNS
+.col-2 {
+    grid-template-columns: 1fr 1fr;
+}
+
 .col-3 {
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -55,6 +61,7 @@
 .col-4 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+// END COLUMNS
 
 .justify-between {
     justify-content: space-between;

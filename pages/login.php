@@ -58,16 +58,14 @@
 
     <form action="" method="post">
         <?php if(isset($_GET['error'])) { 
-            if($_GET['error'] == 'sql_error') {
+            if($_GET['error'] == 'sql_error' || $_GET['error'] == 'not_authenticated') {
         ?>
             <p class="error-msg"><?php print $_SESSION['message']; ?></p>
         <?php }} ?>
         <div class="input-field">
             <label for="email">Email</label>
             <input type="text" name="email" id="email" class="<?php if(isset($_GET['error'])) {
-                if(isset($_SESSION['message'])) {
-                    print 'error-border';
-                }
+                print 'error-border';
             }?>">
             <?php if(isset($_GET['error'])) { ?>
                 <small class="error-msg-small"><?php if(isset($_SESSION['message'])) { print $_SESSION['message']; } ?></small>

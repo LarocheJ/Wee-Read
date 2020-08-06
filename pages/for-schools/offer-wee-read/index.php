@@ -4,7 +4,6 @@
     
 ?> 
 
-<div class="spacer-50"></div>
 <div class="container">
 
 <h1 class="cyan center mt-3">school administration module</h1>
@@ -29,7 +28,7 @@
         <div>
             <p>Thank you for giving your time to make the wee read program available to your young students.</p>
             <p class="mb-3"><strong>Disclaimer:</strong> Please note that while you are making the commitment to allow volunteers who are trained in wee read to come to your school to read with children in your care, you are entirely responsible for completing all volunteer interview/vetting and onboarding processes. The volunteer’s Certificate of Completion does not include any screening process for suitability or police security checks.</p>
-            <a href="overview.php" class="primary-btn float-right my-3">Save and Continue ></a>
+            <a href="overview.php" class="primary-btn float-right my-3">Continue ></a>
         </div>
     </div>
     

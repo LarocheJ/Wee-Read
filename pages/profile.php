@@ -52,7 +52,7 @@
                 }  elseif($row['wee_read_status'] == 6) {
                     print 'tips-for-reading-aloud-to-children.php?module=6';
                 }  elseif($row['wee_read_status'] == 7) {
-                    print 'resources.php';
+                    print 'complete.php';
                 }
             ?>
             " class="primary-btn mb-1"><?php if($row['wee_read_status'] == 7) { 
@@ -98,7 +98,7 @@
                 }  elseif($row['pee_wee_read_status'] == 9) {
                     print 'technology-use.php?module=9';
                 } elseif($row['pee_wee_read_status'] == 10) {
-                    print 'resources.php';
+                    print 'complete.php';
                 }
             ?>
             " class="primary-btn mb-1"><?php if($row['pee_wee_read_status'] == 10) { 

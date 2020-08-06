@@ -1,6 +1,8 @@
 <?php 
-    // header('Refresh:0');
+
     require('../../includes/connection.php');
+    require('../../includes/functions.php');
+    checkIfLoggedIn();
     include('../../includes/head.php'); 
 
     $sql = "SELECT wee_read_status FROM users WHERE email=?";
@@ -91,7 +93,7 @@
             <p class="cyan center mt-0">modules completed</p>
         </div>
         <div>
-            <a href="resources.php" class="primary-btn float-right">Save and Continue ></a>
+            <a href="complete.php" class="primary-btn float-right">Save and Continue ></a>
         </div>
     </div> 
     

@@ -1,4 +1,11 @@
-<?php include('../../../includes/head.php'); ?>
+<?php
+
+    require('../../../includes/connection.php');
+    require('../../../includes/functions.php');
+    checkIfLoggedIn();
+    include('../../../includes/head.php'); 
+
+?>
 
 <div class="spacer-50"></div>
 <div class="container">
@@ -14,7 +21,7 @@
     </ul>
 
     <h2 class="cyan mt-3">The flexible format of a pee wee read time together</h2>
-    <ul>
+    <ul class="mb-3">
         <li>Select books from the pee wee read box of recommended reads provided by the centre. You will be reading with a couple of children who have been identified by their teachers and caregivers as good candidates for reading with you. Try to vary the type of books you read so the children hear both fiction and non-fiction texts.</li>
         <li>Read to your young friends, letting the words work their magic. Use lots of expression and enthusiasm! Pause every so often to pose a question that enhances their understanding, explain what a word means, or draw out your young friend’s personal experiences that might connect to the book you are reading. Warm, responsive interactions are the keys to serve and return relationships.</li>
         <li>Take time after you finish reading to talk about the book. Look into the children’s faces and listen closely.</li>
@@ -26,7 +33,7 @@
     </ul>
 
     <a href="#" class="primary-btn float-left" id="goBack">< Back</a>
-    <a href="optional-activities.php" class="primary-btn float-right">Save and Continue ></a>
+    <a href="optional-activities.php" class="primary-btn float-right">Continue ></a>
 </div>
 <div class="spacer-50"></div>
 

@@ -1,4 +1,11 @@
-<?php include('../../../includes/head.php'); ?>
+<?php 
+
+    require('../../../includes/connection.php');
+    require('../../../includes/functions.php');
+    checkIfLoggedIn();
+    include('../../../includes/head.php'); 
+
+?>
 
 <div class="spacer-50"></div>
 <div class="container">
@@ -13,10 +20,10 @@
     </p>
     <p>If you have questions about a child’s behaviour or issues related to your time together please talk with the school personnel.</p>
     <p>If you have general questions about the wee read program, ask the school personnel. No question is too small or too silly. They want you to be satisfied and excited volunteers who keep sharing your time with children.</p>
-    <p>If you would like to continue reading with your young friends past the minimum eight weeks, let the school know.</p>
+    <p class="mb-3">If you would like to continue reading with your young friends past the minimum eight weeks, let the school know.</p>
 
     <a href="#" class="primary-btn float-left" id="goBack">< Back</a>
-    <a href="congratulations.php" class="primary-btn float-right">Save and Continue ></a>
+    <a href="congratulations.php" class="primary-btn float-right">Continue ></a>
 </div>
 <div class="spacer-50"></div>
 

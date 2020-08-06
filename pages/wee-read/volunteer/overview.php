@@ -1,4 +1,11 @@
-<?php include('../../../includes/head.php'); ?>
+<?php
+
+    require('../../../includes/connection.php');
+    require('../../../includes/functions.php');
+    checkIfLoggedIn();
+    include('../../../includes/head.php'); 
+
+?>
 
 <div class="spacer-50"></div>
 <div class="container">
@@ -15,7 +22,7 @@
     </ul>
 
     <h2 class="cyan mt-3">The Format of a wee read Session</h2>
-    <ul>
+    <ul class="mb-3">
         <li>Select books from the wee read box of recommended reads (provided by the school). You will be reading with two children that have been identified by their teacher as good candidates for reading with you. Try to vary the type of book you read so the children hear both fiction and non-fiction text.</li>
         <li>Before you start reading to the children, do a ‘Book Walk’-- a stroll through the book, looking at the pictures and asking the children what they think it might be about.</li>
         <li>Read to your young friends, letting the words work their magic. Use lots of expression and enthusiasm! Pausing only a couple of times to ask the children questions or comment on the story in a way that will engage them. Ask questions that enhances their understanding, explain what a word means or draw out your young friend’s personal experiences that connect to the book you are reading. Engaged, interactive reading is “a merger of motivation and thoughtfulness”.</li>
@@ -27,7 +34,7 @@
     </ul>
 
     <a href="#" class="primary-btn float-left" id="goBack">< Back</a>
-    <a href="getting-started.php" class="primary-btn float-right">Save and Continue ></a>
+    <a href="getting-started.php" class="primary-btn float-right">Continue ></a>
 </div>
 <div class="spacer-50"></div>
 

@@ -27,6 +27,7 @@
         } 
     }
 
+    require('../includes/connection.php');
     include('../includes/head.php');
 ?>
 <div class="contact-bg"></div>

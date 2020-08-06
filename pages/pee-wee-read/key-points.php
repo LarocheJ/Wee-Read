@@ -1,5 +1,7 @@
 <?php 
     require('../../includes/connection.php');
+    require('../../includes/functions.php');
+    checkIfLoggedIn();
     include('../../includes/head.php'); 
 
     $sql = "SELECT pee_wee_read_status FROM users WHERE email=?";

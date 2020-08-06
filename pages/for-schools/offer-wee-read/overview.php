@@ -4,10 +4,8 @@
     
 ?> 
 
-<div class="spacer-50"></div>
 <div class="container mb-5">
-
-<h1 class="cyan center mt-3">Overview</h1>
+    <h1 class="cyan center mt-3">Overview</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
     <div class="d-flex justify-between align-top">
         <div>
@@ -34,9 +32,9 @@
         </ul>
         </div>
     </div>
-        <a href="index.php" class="primary-btn float-left my-3" >< Back</a>
-        <a href="getting-started.php" class="primary-btn float-right my-3">Save and Continue ></a>
-    <div class="spacer-100"></div>
+    <a href="index.php" class="primary-btn float-left my-3" >< Back</a>
+    <a href="getting-started.php" class="primary-btn float-right my-3">Continue ></a>
 </div>
+<div class="spacer-100"></div>
 
 <?php include('../../../includes/footer.php'); ?>

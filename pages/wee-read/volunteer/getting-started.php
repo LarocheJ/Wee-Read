@@ -1,4 +1,11 @@
-<?php include('../../../includes/head.php'); ?>
+<?php 
+
+    require('../../../includes/connection.php');
+    require('../../../includes/functions.php');
+    checkIfLoggedIn();
+    include('../../../includes/head.php'); 
+
+?>
 
 <div class="spacer-50"></div>
 <div class="container">
@@ -22,7 +29,7 @@
         <li>Something they might be interested to know about you (i.e.: "I have a cat named Mr. Freckles")</li>
     </ul>
     <p class="bold">Encourage them to tell you:</p>
-    <ul>
+    <ul class="mb-3">
         <li>Their names – children appreciate when adults learn how to pronounce their name properly</li>
         <li>What they like doing in school and after school</li>
         <li>If they have any pets, brothers, sisters</li>
@@ -31,7 +38,7 @@
     </ul>
 
     <a href="#" class="primary-btn float-left" id="goBack">< Back</a>
-    <a href="get-reading.php" class="primary-btn float-right">Save and Continue ></a>
+    <a href="get-reading.php" class="primary-btn float-right">Continue ></a>
 </div>
 <div class="spacer-50"></div>
 
