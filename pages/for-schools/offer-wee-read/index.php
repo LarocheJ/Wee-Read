@@ -23,7 +23,7 @@
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
     <div class="d-flex justify-between align-top">
         <div>
-            <img class="rounded cropped" src="<?php print $home ?>/images/stock/IMG_7112.jpg" alt="Parents reading to their young daughter">
+            <img class="rounded cropped" src="<?php print $home ?>/images/stock/calgary_reads (12 of 30).jpg" alt="Man reading to children in a gymnasium">
         </div>
         <div>
             <p>Thank you for giving your time to make the wee read program available to your young students.</p>

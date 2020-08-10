@@ -11,7 +11,7 @@
 <div class="container">
 <h1 class="center cyan medium-heading">Congratulations!</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
-    <div class="center mb-3">
+    <div class="mb-3">
         <p>You have completed the <em>wee read</em> training. Please use what you have learned and the resources provided to guide you in the powerful <em>wee read</em> process.</p>
         <p>Thank you for committing to come to the school every week and help children to become confident and joyful readers!</p>
     </div>
@@ -19,7 +19,7 @@
     <h1 class="center cyan">What’s next?</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
 
-    <ul class="center">
+    <ul class=">
         <li>Check out the Resources</li>
         <li><a href="https://www.surveymonkey.com/r/BXFGMJC" target="_blank">Complete the Survey</a></li>
         <li>Sign up for our post-training emails! We’ll never spam!</li>

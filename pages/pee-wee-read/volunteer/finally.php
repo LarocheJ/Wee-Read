@@ -11,6 +11,7 @@
 <div class="container">
     <h1 class="center cyan">Finally</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
+    <img class="width-300 margin-auto" src="<?php print $home ?>/images/tukay/tukay_social_noshadow.png" alt="">
 
     <ul class="mb-3">
         <li>Make sure you are familiar with safety procedures and emergency exits at your centre! If you haven’t received an orientation to those procedures, ask for one!</li>
