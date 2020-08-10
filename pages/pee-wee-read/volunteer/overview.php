@@ -11,7 +11,8 @@
 <div class="container">
     <h1 class="center cyan">Overview of Volunteer Sessions</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
-    <ul>
+    <img class="width-300 margin-auto" src="<?php print $home ?>/images/tukay/Tukay_Reading_Feb9.png" alt="">
+    <ul class="mt-3">
         <li>When you enter the centre, you'll sign in with an administrator.</li>
         <li>Then you'll choose 2-3 books to read. Make sure they’re ones you’re excited to read aloud.</li>
         <li>Scan the books in preparation for reading them so you feel confident about sharing them.</li>

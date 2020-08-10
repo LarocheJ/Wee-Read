@@ -60,7 +60,7 @@
         <li>When you love something and show me what your love looks like (by being excited, engaged or energized) it shows me that I might love it too. I will love the things you love, so if you want me to love reading, let me see you love reading! Let me “catch” you reading your own books, your own papers, your own notes. Show me that it’s valuable!</li>
     </ol>
 
-    <div class="d-flex justify-between align-center mb-3 progression">
+    <div class="d-flex justify-between align-center my-3 progression">
         <div>
             <a href="read-sing-talk-play-love.php" class="primary-btn float-left">< Back</a>
         </div>

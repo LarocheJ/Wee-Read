@@ -63,7 +63,7 @@
         </ul>
     </div>
 
-    <div class="d-flex justify-between align-center mb-3 progression">
+    <div class="d-flex justify-between align-center my-3 progression">
         <div>
             <a href="how-pee-wee-read-works.php" class="primary-btn float-left">< Back</a>
         </div>

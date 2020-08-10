@@ -50,7 +50,7 @@
         <li><strong>Don’t force it!</strong> Children need to develop a positive relationship with books and reading, so we don’t want feel forced to read.</li>
     </ul>
 
-    <div class="d-flex justify-between align-center mb-3 progression">
+    <div class="d-flex justify-between align-center my-3 progression">
         <div>
             <a href="welcome.php" class="primary-btn float-left">< Back</a>
         </div>

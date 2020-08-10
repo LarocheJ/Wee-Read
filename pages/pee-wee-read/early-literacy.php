@@ -50,7 +50,7 @@
     <p><strong>Print Motivation</strong> is that spark we were talking about. I have to love reading so much that by the time I get to kindergarten I can’t wait to learn what all those letters and words are and how to read them!</p>
     <p><strong>Narrative Skills</strong> are storytelling skills. Knowing that stories have beginnings, middles, and ends, and are full of characters and information. This is true of stories that we find in books and the ones that I tell in real life. Like when I talk about that time I went to the grocery store and I dropped my ice cream and I cried a little and then I felt better!</p>
 
-    <div class="d-flex justify-between align-center mb-3 progression">
+    <div class="d-flex justify-between align-center my-3 progression">
         <div>
             <a href="did-you-know.php" class="primary-btn float-left">< Back</a>
         </div>
