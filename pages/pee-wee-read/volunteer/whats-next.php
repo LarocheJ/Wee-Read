@@ -19,7 +19,7 @@
     <h1 class="center cyan">What’s next?</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
 
-    <ul class=">
+    <ul>
         <li>Check out the Resources</li>
         <li><a href="https://www.surveymonkey.com/r/BXFGMJC" target="_blank">Complete the Survey</a></li>
         <li>Sign up for our post-training emails! We’ll never spam!</li>

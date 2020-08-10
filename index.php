@@ -18,8 +18,7 @@
 <section class="homepage">
     <div class="wee-read-container">
         <div class="wee-read">
-            <div class="image">
-            </div>
+            <div class="image"></div>
             <div class="content">
                 <h2>What is wee read?</h2>
                 <p>wee read is for adults reading with children ages 5-8, who we call ‘emerging and new readers’. When you complete the wee read module, you will be confident in your ability to accompany a school-age reader on their journey to reading mastery. If you have a student in your life, you can use the learning from the module to read with them. This initial training will take about two hours to complete.</p>
@@ -36,8 +35,7 @@
                 <p>pee wee read is for adults reading with children ages 3-5, who we call ‘pre-readers’. When you complete the pee wee read module you will be confident in your ability to accompany very young children on their early literacy journeys. If you have a very young child in your life, you can use the learning from the module to read with them. This initial training will take about two hours to complete.</p>
                 <p>Additionally, if after completing the initial module, you would like to train to volunteer to read with very young children in an early learning or childcare centres near you, you can progress to the Early Learners’ Volunteer Training. The additional Early Learners’ Volunteer Training will take one hour to complete.</p>
                 <a href="pages/pee-wee-read" class="primary-btn">Get Started</a>
-            </div>
-            <div class="image">
+            </div><div class="image">
             </div>
         </div>
     </div>
