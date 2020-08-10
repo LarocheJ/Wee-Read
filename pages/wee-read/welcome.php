@@ -71,7 +71,7 @@
             </ul>
         </div>
         <div>
-            <img class="rounded cropped" src="<?php print $home ?>/images/stock/2017-06-09-Calgary-Reads-Inglewood-Book-House-2-12.jpg" alt="Woman reading a book to young children">
+            <img class="rounded cropped" src="<?php print $home ?>/images/stock/Picture2.jpg" alt="Woman reading a book to young children.">
         </div>
     </div>
 

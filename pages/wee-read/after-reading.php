@@ -40,7 +40,7 @@
 <div class="container">
     <h1 class="cyan center">After Reading</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
-    <img class="rounded mb-3" src="<?php print $home ?>/images/stock/IMG_7107.jpg" alt="Woman reading to a baby">
+    <img class="rounded mb-3" src="<?php print $home ?>/images/stock/Picture1.jpg" alt="Female senior citizen reading to child.">
     <p>Try using one or two of these extra activity ideas each time, for no longer than 10 minutes:</p>
     <ol>
         <li>Have an informal conversation about the book. Listen intently to the children’s ideas. Example prompts:</li>

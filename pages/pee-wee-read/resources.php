@@ -10,7 +10,8 @@
 <div class="container">
     <h1 class="cyan center mt-3">Resources</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
-    <ul class="center">
+    <p>These downloadable files are further resouces to help with this course.</p>
+    <ul>
         <li><a href="<?php print $home ?>/files/pee-wee-read/3Bs and where to find books.pdf">3Bs and where to find books</a></li>
         <li><a href="<?php print $home ?>/files/pee-wee-read/50 books to read.pdf">50 books to read</a></li>
         <li><a href="<?php print $home ?>/files/pee-wee-read/Animal Sounds.pdf">Animal Sounds</a></li>

@@ -41,7 +41,7 @@
     <h1 class="cyan center">Early Literacy</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
     <p class="center">The important adults in young children’s lives are their first and best teachers.</p>
-    <img class="rounded" src="<?php print $home ?>/images/stock/2017-06-01-5.jpg" alt="image">
+    <img class="rounded" src="<?php print $home ?>/images/stock/2017-06-01-5.jpg" alt="Female senior citizen reading with a child.">
     <p>“Early literacy” is everything children need to know about reading and writing to help them be ready to actually read and write. Early literacy skills begin to develop right from birth. Positive early experiences with books and language create the foundation for success in learning to read.</p>
     <p>This means helping a child continue to build <strong>Vocabulary</strong>, <strong>Print Awareness</strong>, <strong>Print Motivation</strong>, <strong>Narrative Skills</strong>, <strong>Letter Knowledge</strong>, and <strong>Phonological Awareness</strong>. You’ll learn more about each of these skills, and then move on to what you can do to help children develop them.</p>
     <p><strong>Vocabulary</strong> is how many words people know.. Children should know thousands of words by the time they reach grade three, which means they need to have heard millions of words before then!</p>

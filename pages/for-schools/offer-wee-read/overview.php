@@ -16,7 +16,7 @@
         </div>
     </div>
     <div class="d-flex justify-between align-top mt-3">
-        <div><img class="rounded cropped" src="<?php print $home ?>/images/stock/2017-06-09-Calgary-Reads-Inglewood-Book-House 2-7.jpg" alt="Woman showing a book"></div>
+        <div><img class="rounded cropped" src="<?php print $home ?>/images/stock/ReadTogether-02-0413.jpg" alt="Woman showing a book"></div>
         <div>
         <p>Reading aloud and talking with kindergarten and grade one children:</p>
         <ul>

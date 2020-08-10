@@ -51,13 +51,13 @@
             </ul>
         </div>
         <div>
-            <img class="rounded cropped" src="<?php print $home ?>/images/stock/2017-06-09-Calgary-Reads-Inglewood-Book-House-1-edited-104.jpg" alt="Man talking to a toddler">
+            <img class="rounded cropped" src="<?php print $home ?>/images/stock/CMReadingRally-16-1013.jpg" alt="Woman reading a Dr. Seuss book to a child.">
         </div>
     </div>
     
     <div class="d-flex justify-between align-middle my-3">
         <div>
-            <img class="rounded cropped" src="<?php print $home ?>/images/stock/2017-06-09-Calgary-Reads-Inglewood-Book-House-2-36.jpg" alt="Woman talking to a young boy">
+            <img class="rounded cropped" src="<?php print $home ?>/images/stock/calgary_reads (11 of 30).jpg" alt="Man reading to smiling child">
         </div>
         <div>
         <p class="bold">During reading:</p>
@@ -80,7 +80,7 @@
             </ul>
         </div>
         <div>
-            <img class="rounded cropped" src="<?php print $home ?>/images/stock/Reading-Place-16.jpg" alt="Man and child reading a book under blankets">
+            <img class="rounded cropped" src="<?php print $home ?>/images/stock/wrodjar.jpg" alt="Smiling woman doing activity with child.">
         </div>
     </div>
 

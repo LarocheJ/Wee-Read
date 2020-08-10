@@ -49,7 +49,7 @@
             <p>Get children interested in print by tracking (sometimes running your finger under the words as you are reading the text) or pointing to special letters or words on a page.</p>
         </div>
         <div>
-            <img class="rounded cropped" src="<?php print $home ?>/images/stock/2017-06-09-Calgary-Reads-Inglewood-Book-House-2-36.jpg" alt="Woman talking to a young boy">
+            <img class="rounded cropped" src="<?php print $home ?>/images/stock/ReadTogether-03-0413.jpg" alt="Man excitedly reading to two children.">
         </div>
     </div>
     <p>When you read a rhyming story, especially one they have heard before, stop and let them fill in the final rhyming word that ends a line. Encourage them to chime in! Poems and nursery rhymes are great for this, too. Rhymes help children feel successful in predicting what work comes next. It’s also an easy way for them to joke with you; being playful with language is an important part of learning how it works.</p>

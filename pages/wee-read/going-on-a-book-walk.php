@@ -43,7 +43,7 @@
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
     <div class="d-flex justify-between align-top">
         <div>
-            <img class="rounded" src="<?php print $home ?>/images/stock/2017-06-01-8.jpg" alt="2 young boys and a man sitting outside and reading">
+            <img class="rounded" src="<?php print $home ?>/images/stock/IMG_6871.jpg" alt="two children reading with an older man.">
         </div>
         <div>
             <p>A Book Walk should be no longer than a minute or two. Look at the cover together. Read the title aloud. Encourage children to predict what the book might be about. Predicting should not take too much time. Prediction is not the same thing as guessing. When you ask for a prediction you are teaching children to use their brains and think! Ask children to share what they might already know about the story/topic. Model! Use language such as "I wonder if this book is about boats, because I see a boat here."</p>
