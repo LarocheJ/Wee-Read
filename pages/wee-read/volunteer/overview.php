@@ -33,8 +33,10 @@
         <li>End the session by walking your friends back to their classroom. This is a good time to keep talking together and focus on what’s special about reading. Learn about their interests so you can request books from the school that will engage them even more!</li>
     </ul>
 
-    <a href="#" class="primary-btn float-left" id="goBack">< Back</a>
-    <a href="getting-started.php" class="primary-btn float-right">Continue ></a>
+    <div class="d-flex justify-between align-middle volunteer-progression">
+        <a href="#" class="primary-btn mt-1" id="goBack">< Back</a>
+        <a href="getting-started.php" class="primary-btn mt-1">Continue ></a>
+    </div>
 </div>
 <div class="spacer-50"></div>
 

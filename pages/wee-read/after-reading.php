@@ -82,12 +82,18 @@
     </ol>
 
     <blockquote>&ldquo;The eventual strength of our vocabulary is determined not by the ten thousand common words but by how many rare words we understand… Whereas an adult uses only nine rare words per thousand when talking with a three- year-old, there are three times as many in a children’s book and more than seven times as many in a newspaper.&rdquo; <span>– Jim Trelease</span></blockquote>
-    <video controls width="48%" style="float:left;margin-right:2%;" poster="../../images/video-posters/follow_up_activity.png">
-        <source src="../../videos/follow_up_activity.mp4" type="video/mp4">
-    </video>
-    <video controls width="48%" poster="../../images/video-posters/game.png">
-        <source src="../../videos/game.mp4" type="video/mp4">
-    </video>
+    <div class="d-flex justify-between">
+        <div>
+            <video controls width="100%" class="mt-1" poster="<?php print $home ?>/images/video-posters/follow_up_activity.png">
+                <source src="<?php print $home ?>/videos/follow_up_activity.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div>
+            <video controls width="100%" class="mt-1" poster="<?php print $home ?>/images/video-posters/game.png">
+                <source src="<?php print $home ?>/videos/game.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
 
     <div class="d-flex justify-between align-center mt-3 progression">
         <div>

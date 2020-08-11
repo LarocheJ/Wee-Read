@@ -83,8 +83,8 @@
             <img class="rounded cropped" src="<?php print $home ?>/images/stock/wrodjar.jpg" alt="Smiling woman doing activity with child.">
         </div>
     </div>
-    <video controls width="100%" poster="../../images/video-posters/bonding.png">
-        <source src="../../videos/bonding.mp4" type="video/mp4">
+    <video controls width="100%" poster="<?php print $home ?>/images/video-posters/bonding.png">
+        <source src="<?php print $home ?>/videos/bonding.mp4" type="video/mp4">
     </video>
 
     <div class="d-flex justify-between align-center mt-3 progression">

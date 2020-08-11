@@ -38,7 +38,7 @@
             </div>
             <div class="small-card">
                 <img src="<?php print $home ?>/images/icons/certificate.svg" alt="Certificate icon">
-                <a href="#" class="button">Download certificate of completion</a>
+                <a href="create_certificate.php" class="button">View certificate of completion</a>
             </div>
             <div class="small-card">
                 <img src="<?php print $home ?>/images/icons/resources.svg" alt="Resources icon">

@@ -47,10 +47,10 @@
         </div>
     </div>
     <div>
-        <video controls width="100%" poster="../../images/video-posters/intro.png">
-            <source src="../../videos/intro.mp4" type="video/mp4">
+        <video class="mt-3" controls width="100%" poster="<?php print $home ?>/images/video-posters/intro.png">
+            <source src="<?php print $home ?>/videos/intro.mp4" type="video/mp4">
         </video>
-        <h1 class="cyan center mt-5">Why wee read is important</h1>
+        <h1 class="cyan center mt-3">Why wee read is important</h1>
         <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
         <p>Do you remember learning to read? Most of us cannot really recall this process. Reading a complex activity. Perhaps, without you even knowing, two of the most important things that helped you to become a reader were: </p>
         <ul>

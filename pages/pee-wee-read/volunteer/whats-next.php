@@ -27,9 +27,9 @@
     </ul>
 
     <div class="d-flex align-center justify-between mt-3">
-        <a href="#" class="primary-btn" id="goBack">< Back</a>
-        <a href="../volunteer" class="primary-btn">Back to volunteer home page</a>
-        <a href="../../profile.php" class="primary-btn">Back to profile</a>
+        <a href="#" class="primary-btn mt-1" id="goBack">< Back</a>
+        <a href="../volunteer" class="primary-btn mt-1">Back to volunteer home page</a>
+        <a href="../../profile.php" class="primary-btn mt-1">Back to profile</a>
     </div>
     
 </div>

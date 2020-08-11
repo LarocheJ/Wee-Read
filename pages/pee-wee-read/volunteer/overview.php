@@ -33,8 +33,10 @@
         <li>Sign out from the centre.</li>
     </ul>
 
-    <a href="#" class="primary-btn float-left" id="goBack">< Back</a>
-    <a href="optional-activities.php" class="primary-btn float-right">Continue ></a>
+    <div class="d-flex justify-between align-middle volunteer-progression">
+        <a href="#" class="primary-btn mt-1" id="goBack">< Back</a>
+        <a href="optional-activities.php" class="primary-btn mt-1">Continue ></a>
+    </div>
 </div>
 <div class="spacer-50"></div>
 

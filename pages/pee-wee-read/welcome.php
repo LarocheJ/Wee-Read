@@ -49,7 +49,7 @@
 
     <div class="d-flex justify-between align-center my-3 progression">
         <div>
-            <a href="#" class="primary-btn float-left" id="goBack">< Back</a>
+            <a href="<?php print $home ?>/pages/profile.php" class="primary-btn float-left">< Profile</a>
         </div>
         <div>
             <p class="bold cyan center large-body-txt mb-0"><?php print $row['pee_wee_read_status']?> of 10</p>

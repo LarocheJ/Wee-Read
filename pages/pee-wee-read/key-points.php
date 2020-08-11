@@ -42,7 +42,7 @@
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
     <img class="d-block margin-auto img-medium" src="<?php print $home ?>/images/tukay/Tukay_Spot_Finals3.png" alt="">
     
-    <div class="center">
+    <div class="">
         <h2 class="uppercase cyan">Before reading</h2>
         <ul>
             <li>Sit close together so everyone can all see the pictures in the book</li>

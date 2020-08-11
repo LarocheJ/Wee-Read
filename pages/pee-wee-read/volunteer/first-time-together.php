@@ -31,8 +31,10 @@
     <h2 class="cyan">Get Reading</h2>
     <p class="mb-3">Use the tips and strategies you learned from your pee wee read training to read and interact with the children you’re volunteering with.</p>
 
-    <a href="#" class="primary-btn float-left" id="goBack">< Back</a>
-    <a href="finally.php" class="primary-btn float-right">Continue ></a>
+    <div class="d-flex justify-between align-middle volunteer-progression">
+        <a href="#" class="primary-btn mt-1" id="goBack">< Back</a>
+        <a href="finally.php" class="primary-btn mt-1">Continue ></a>
+    </div>
 </div>
 <div class="spacer-50"></div>
 

@@ -22,9 +22,11 @@
         <li>If you would like to continue reading with your young friends past the minimum eight weeks just let the centre know.</li>
     </ul>
 
-    <a href="#" class="primary-btn float-left" id="goBack">< Back</a>
-    <a href="whats-next.php" class="primary-btn float-right">Continue ></a>
-    
+    <div class="d-flex justify-between align-middle volunteer-progression">
+        <a href="#" class="primary-btn mt-1" id="goBack">< Back</a>
+        <a href="whats-next.php" class="primary-btn mt-1">Continue ></a>
+    </div>
+
 </div>
 <div class="spacer-50"></div>
 

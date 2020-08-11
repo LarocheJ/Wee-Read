@@ -32,8 +32,8 @@
 <div class="container">
     <h1 class="center cyan">Welcome!</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
-    <video controls width="100%" poster="../../images/video-posters/wee_read_training_poster.jpg">
-        <source src="../../videos/volunteer_training.mp4" type="video/mp4">
+    <video class="mb-1" controls width="100%" poster="<?php print $home ?>/images/video-posters/wee_read_training_poster.jpg">
+        <source src="<?php print $home ?>/videos/volunteer_training.mp4" type="video/mp4">
     </video>
     <p>Thank you for volunteering for this special opportunity to help a child to become a confident and joyful reader. We are grateful that you would choose to make this commitment which will have long lasting positive impacts.</p>
     <h2 class="cyan mt-3">You Will</h2>
@@ -43,8 +43,11 @@
         <li>Become an important part of their school lives.</li>
     </ul>
 
-    <a href="#" class="primary-btn float-left" id="goBack">< Back</a>
-    <a href="overview.php" class="primary-btn float-right">Continue ></a>
+    <div class="d-flex justify-between align-middle volunteer-progression">
+        <a href="<?php print $home ?>/pages/profile.php" class="primary-btn mt-1">< Profile</a>
+        <a href="overview.php" class="primary-btn mt-1">Continue ></a>
+    </div>
+    
 </div>
 
 <?php include('../../../includes/footer.php'); ?>

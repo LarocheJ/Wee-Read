@@ -19,8 +19,10 @@
         <li>Animal Sounds</li>
     </ul>
     
-    <a href="#" class="primary-btn float-left" id="goBack">< Back</a>
-    <a href="first-time-together.php" class="primary-btn float-right">Continue ></a>
+    <div class="d-flex justify-between align-middle volunteer-progression">
+        <a href="#" class="primary-btn mt-1" id="goBack">< Back</a>
+        <a href="first-time-together.php" class="primary-btn mt-1">Continue ></a>
+    </div>
 </div>
 
 <?php include('../../../includes/footer.php'); ?>

@@ -40,8 +40,10 @@
         <li>Become an important part of their lives while you’re there.</li>
     </ul>
 
-    <a href="#" class="primary-btn float-left" id="goBack">< Back</a>
-    <a href="overview.php" class="primary-btn float-right">Continue ></a>
+    <div class="d-flex justify-between align-middle volunteer-progression">
+        <a href="<?php print $home ?>/pages/profile.php" class="primary-btn mt-1" id="goBack">< Profile</a>
+        <a href="overview.php" class="primary-btn mt-1">Continue ></a>
+    </div>
 </div>
 
 <?php include('../../../includes/footer.php'); ?>
