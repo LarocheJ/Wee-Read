@@ -55,6 +55,9 @@
     <p>When you read a rhyming story, especially one they have heard before, stop and let them fill in the final rhyming word that ends a line. Encourage them to chime in! Poems and nursery rhymes are great for this, too. Rhymes help children feel successful in predicting what work comes next. It’s also an easy way for them to joke with you; being playful with language is an important part of learning how it works.</p>
     <p>Remember to promote learning without taking away from the children’s enjoyment of the book and your time together.</p>
     <blockquote>“When adults read to children, they are also passing torches—literacy torches—from one generation to the next.” <span>- Jim Trelease</span></blockquote>
+    <video controls width="100%" poster="../../images/video-posters/enthusiasm.png">
+        <source src="../../videos/enthusiasm.mp4" type="video/mp4">
+    </video>
 
     <div class="d-flex justify-between align-center mt-3 progression">
         <div>

@@ -32,6 +32,9 @@
 <div class="container">
     <h1 class="center cyan">Welcome!</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
+    <video controls width="100%" poster="../../images/video-posters/wee_read_training_poster.jpg">
+        <source src="../../videos/volunteer_training.mp4" type="video/mp4">
+    </video>
     <p>Thank you for volunteering for this special opportunity to help a child to become a confident and joyful reader. We are grateful that you would choose to make this commitment which will have long lasting positive impacts.</p>
     <h2 class="cyan mt-3">You Will</h2>
     <ul class="mb-3">

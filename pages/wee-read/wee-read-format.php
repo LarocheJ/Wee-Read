@@ -72,13 +72,19 @@
             <li>AFTER READING</li>
         </ul>
 
+    <video controls width="100%">
+        <source src="../../videos/selecting_books.mp4" type="video/mp4" poster="../../images/video-posters/selecting_books.png">
+    </video>
     <h1 class="cyan center">Keep in Mind</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
     <ul class="mb-3 center">
         <li>We want children to develop a positive relationship with books and reading.</li>
         <li>The more fun the you have reading, the more fun the child will have.</li>
         <li>Find ways to communicate your excitement and joy for reading.</li>
-    </ul>    
+    </ul>
+    <video controls width="100%" poster="../../images/video-posters/anytime_anywhere.png">
+        <source src="../../videos/anytime_anywhere.mp4" type="video/mp4">
+    </video>
 
     <div class="d-flex justify-between align-center mt-3 progression">
         <div>

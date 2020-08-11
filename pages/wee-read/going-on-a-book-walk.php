@@ -50,6 +50,9 @@
         </div>
     </div>
     <p>Scan some of the pages of the book. Talk about the illustrations together. Don’t read the words on the pages, just use the pictures inside to make further predictions. Think aloud together about what the pictures might be saying about the story or topic. Wonder together about the characters, the content and what is likely to happen. Try to get the children to do most of the talking.</p>
+    <video controls width="100%" poster="../../images/video-posters/book_walk.png">
+        <source src="../../videos/book_walk.mp4" type="video/mp4">
+    </video>
 
     <div class="d-flex justify-between align-center mt-3 progression">
         <div>

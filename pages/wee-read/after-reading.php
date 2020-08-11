@@ -81,7 +81,13 @@
         <li>Teach them a Tongue Twister. See if they can say it quickly. Slow it down and ask them to listen for the sound they hear most often in the words. Substitute their names into the tongue twister that begins with the same letter of their name.</li>
     </ol>
 
-    <blockquote>“The eventual strength of our vocabulary is determined not by the ten thousand common words but by how many rare words we understand… Whereas an adult uses only nine rare words per thousand when talking with a three- year-old, there are three times as many in a children’s book and more than seven times as many in a newspaper.” <span>– Jim Trelease</span></blockquote>
+    <blockquote>&ldquo;The eventual strength of our vocabulary is determined not by the ten thousand common words but by how many rare words we understand… Whereas an adult uses only nine rare words per thousand when talking with a three- year-old, there are three times as many in a children’s book and more than seven times as many in a newspaper.&rdquo; <span>– Jim Trelease</span></blockquote>
+    <video controls width="48%" style="float:left;margin-right:2%;" poster="../../images/video-posters/follow_up_activity.png">
+        <source src="../../videos/follow_up_activity.mp4" type="video/mp4">
+    </video>
+    <video controls width="48%" poster="../../images/video-posters/game.png">
+        <source src="../../videos/game.mp4" type="video/mp4">
+    </video>
 
     <div class="d-flex justify-between align-center mt-3 progression">
         <div>
