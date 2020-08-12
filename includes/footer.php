@@ -20,7 +20,7 @@
                 <ul>
                     <li><a href="<?php print $home ?>/pages/wee-read">wee read</a></li>
                     <li><a href="<?php print $home ?>/pages/pee-wee-read">pee wee read</a></li>
-                    <li><a href="<?php print $home ?>/pages/for-schools.php">for schools</a></li>
+                    <li><a href="<?php print $home ?>/pages/for-schools">for schools</a></li>
                     <li><a href="<?php print $home ?>/pages/contact.php">contact</a></li>
                     <?php if(isset($_SESSION['email'])) { ?>
                         <li><a href="<?php print $home ?>/pages/profile.php">profile</a></li>
