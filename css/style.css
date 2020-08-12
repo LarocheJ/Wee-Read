@@ -1562,9 +1562,6 @@ p, ul, a {
   margin: 30px auto;
   width: 1100px;
   height: 900px;
-  background: url(../files/certificates/wee-read-certificate.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1579,6 +1576,35 @@ p, ul, a {
 .certificate h1 {
   margin-top: 40px;
   color: #4b4b4b;
+  font-weight: 400;
+}
+
+.wee-read {
+  background: url(../files/certificates/wee-read-certificate.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.pee-wee-read {
+  background: url(../files/certificates/pee-wee-read-certificate.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.wee-read-volunteer {
+  background: url(../files/certificates/wee-read-volunteer-certificate.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.pee-wee-read-volunteer {
+  background: url(../files/certificates/pee-wee-read-volunteer-certificate.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.certificate_iframe {
+  display: none;
 }
 
 .cyan {

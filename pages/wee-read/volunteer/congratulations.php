@@ -22,7 +22,7 @@
         <li>Volunteer in a School - choose a school from the list or recommend a school that needs and would welcome your support. </li>
         <li>Sign up for our post-training email tips and updates. We’ll never spam or share your information!</li>
         <li>Access Resources </li>
-        <li>Print your Certificate of Completion </li>
+        <li><a href="certificate.php">View your Certificate of Completion</a></li>
     </ul>
 
     <div class="d-flex align-center justify-between">

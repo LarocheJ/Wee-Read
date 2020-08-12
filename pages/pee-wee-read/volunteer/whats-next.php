@@ -24,10 +24,11 @@
         <li><a href="https://www.surveymonkey.com/r/BXFGMJC" target="_blank">Complete the Survey</a></li>
         <li>Sign up for our post-training emails! We’ll never spam!</li>
         <li>Find a centre near you to volunteer at or recommend one in your area to become a pee wee read location</li>   
+        <li><a href="certificate.php">View your Certificate of Completion</a></li>
     </ul>
 
     <div class="d-flex align-center justify-between mt-3">
-        <a href="#" class="primary-btn mt-1" id="goBack">< Back</a>
+        <a href="" class="primary-btn mt-1" id="goBack">< Back</a>
         <a href="../volunteer" class="primary-btn mt-1">Back to volunteer home page</a>
         <a href="../../profile.php" class="primary-btn mt-1">Back to profile</a>
     </div>

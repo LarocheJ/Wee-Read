@@ -1,8 +1,8 @@
 <?php 
-    require('../../includes/connection.php');
-    require('../../includes/functions.php');
+    require('../../../includes/connection.php');
+    require('../../../includes/functions.php');
     checkIfLoggedIn();
-    include('../../includes/head.php');
+    include('../../../includes/head.php');
 
     $sql = "SELECT * FROM users WHERE email=?";
     $stmt = mysqli_stmt_init($connection);
@@ -20,15 +20,15 @@
 
 <iframe class="certificate_iframe" src="create_certificate.php" frameborder="0"></iframe>
 
-<div class="certificate wee-read">
+<div class="certificate wee-read-volunteer">
     <h1><?php print $row['full_name']?></h1>
 </div>
 
 <div class="d-flex justify-between">
-    <a class="primary-btn" href="complete.php">< Back</a>
-    <a class="primary-btn" href="../../files/certificates/generated_certificates/<?php print str_replace(' ', '_', strtolower($row['full_name'])).'_wee_read_certificate' ?>.jpg" download>Download your certificate</a>
+    <a class="primary-btn" href="congratulations.php">< Back</a>
+    <a class="primary-btn" href="../../../files/certificates/generated_certificates/<?php print str_replace(' ', '_', strtolower($row['full_name'])).'_wee_read_volunteer_certificate' ?>.jpg" download>Download your certificate</a>
 </div>
 
 </div>
 
-<?php include('../../includes/footer.php'); ?>
+<?php include('../../../includes/footer.php'); ?>

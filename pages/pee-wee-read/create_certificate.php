@@ -17,10 +17,10 @@ $row = mysqli_fetch_array($result);
 
 header('Content-type: image/jpeg');
 $font = realpath('../../PTSans-Regular.ttf');
-$image = imagecreatefromjpeg("../../files/certificates/wee-read-certificate.jpg");
+$image = imagecreatefromjpeg("../../files/certificates/pee-wee-read-certificate.jpg");
 $color = imagecolorallocate($image, 51, 51, 102);
 $name = $row['full_name'];
-$file_name = str_replace(' ', '_', strtolower($row['full_name'])).'_wee_read_certificate';
+$file_name = str_replace(' ', '_', strtolower($row['full_name'])).'_pee_wee_read_certificate';
 imagettftext($image, 100, 0, 1300, 1480, $color, $font, $name);
 imagejpeg($image, "../../files/certificates/generated_certificates/$file_name.jpg");
 imagejpeg($image);

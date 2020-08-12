@@ -20,13 +20,13 @@
 
 <iframe class="certificate_iframe" src="create_certificate.php" frameborder="0"></iframe>
 
-<div class="certificate wee-read">
+<div class="certificate pee-wee-read">
     <h1><?php print $row['full_name']?></h1>
 </div>
 
 <div class="d-flex justify-between">
     <a class="primary-btn" href="complete.php">< Back</a>
-    <a class="primary-btn" href="../../files/certificates/generated_certificates/<?php print str_replace(' ', '_', strtolower($row['full_name'])).'_wee_read_certificate' ?>.jpg" download>Download your certificate</a>
+    <a class="primary-btn" href="../../files/certificates/generated_certificates/<?php print str_replace(' ', '_', strtolower($row['full_name'])).'_pee_wee_read_certificate' ?>.jpg" download>Download your certificate</a>
 </div>
 
 </div>
