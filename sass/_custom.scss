@@ -306,3 +306,31 @@
 .certificate_iframe {
     display: none;
 }
+
+// DASHBOARD
+.dashboard {
+    h2 {
+        font-size: 30px;
+        font-weight: $regular;
+    }
+
+    h3 {
+        font-size: 70px;
+        color: $cyan;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin: 40px 0;
+            padding: 20px 40px;
+        }
+    }
+}

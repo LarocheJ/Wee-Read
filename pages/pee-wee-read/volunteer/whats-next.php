@@ -5,6 +5,27 @@
     checkIfLoggedIn();
     include('../../../includes/head.php'); 
 
+    $sql = "SELECT * FROM users WHERE email=?";
+    $stmt = mysqli_stmt_init($connection);
+    $user = mysqli_real_escape_string($connection, $_SESSION['email']);
+
+    mysqli_stmt_prepare($stmt, $sql);
+    mysqli_stmt_bind_param($stmt, "s", $user);
+    mysqli_stmt_execute($stmt);
+    $result = mysqli_stmt_get_result($stmt);
+    
+    $row = mysqli_fetch_array($result);
+
+    if($row['completed_pee_wee_read_volunteer'] == 'no') {
+        $completed_pee_wee_read_volunteer = 'yes';
+        $sql = "UPDATE users SET completed_pee_wee_read_volunteer=? WHERE email=?";
+        $stmt = mysqli_stmt_init($connection);        
+
+        mysqli_stmt_prepare($stmt, $sql);
+        mysqli_stmt_bind_param($stmt, "ss", $completed_pee_wee_read_volunteer, $_SESSION['email']);
+        mysqli_stmt_execute($stmt);
+    }
+
 ?>
 
 <div class="spacer-50"></div>
