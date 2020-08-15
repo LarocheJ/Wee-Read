@@ -33,8 +33,8 @@
 <h1 class="center cyan medium-heading">Congratulations!</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
     <div class="mb-3">
-        <p>You have completed the <em>wee read</em> training. Please use what you have learned and the resources provided to guide you in the powerful <em>wee read</em> process.</p>
-        <p>Thank you for committing to come to the school every week and help children to become confident and joyful readers!</p>
+        <p>You have completed the pee wee read training. Please use what you have learned and the resources provided to guide you in the powerful pee wee read process.</p>
+        <p>Thank you for committing to come to an early learning or child care centre every week to help children become confident and joyful readers!</p>
     </div>
 
     <h1 class="center cyan">What’s next?</h1>

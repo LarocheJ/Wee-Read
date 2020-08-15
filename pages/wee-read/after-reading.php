@@ -41,7 +41,7 @@
     <h1 class="cyan center">After Reading</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
     <img class="rounded mb-3" src="<?php print $home ?>/images/stock/Picture1.jpg" alt="Female senior citizen reading to child.">
-    <p>Try using one or two of these extra activity ideas each time, for no longer than 10 minutes:</p>
+    <p>Tools to support these activities can be found in the Resources section at the end of the training. After reading, try ONE of these fun follow ups. Remember to keep it joyful and short (no more than 10 minutes) and try a new activity each time you read:</p>
     <ol>
         <li>Have an informal conversation about the book. Listen intently to the children’s ideas. Example prompts:</li>
         <ul>
@@ -56,16 +56,16 @@
         <ul>
             <li>Ask “What happened first? Next? Then what happened?”</li>
             <li>Help the child make connections between the read-aloud and their own life. </li>
-            <li>Ask open-ended questions -- ones that require a child to form an answer -- more than closed-ended questions -- those that require only a yes or no answer.</li>
+            <li>Ask open questions -- ones that require a child to form an answer -- more than closed questions -- those that require only a yes or no answer.</li>
             <li>Ask the child what the first letters of their names are. Turn to a page in the book and have them look for that letter. See how many they can find.</li>
         </ul>
-        <li>Use open-ended rather than closed-ended questions.</li>
-        <p class=bold>Close-ended question example:</p>
+        <li>Use open rather than closed-ended questions.</li>
+        <p class=bold>Close question example:</p>
         <p>Q. Do you like going to the park?</p>
         <p>A. Yes.</p>
         <p>Q. Do you wish you had a pet?</p>
         <p>A. Yes.</p>
-        <p class=bold>Open-ended question example:</p>
+        <p class=bold>Open question example:</p>
         <p>Q. What is your favourite thing about going to the park?</p>
         <p>A. I love the slide.</p>
         <p>Q. Why do you like the slide?</p>
@@ -81,19 +81,20 @@
         <li>Teach them a Tongue Twister. See if they can say it quickly. Slow it down and ask them to listen for the sound they hear most often in the words. Substitute their names into the tongue twister that begins with the same letter of their name.</li>
     </ol>
 
-    <blockquote>&ldquo;The eventual strength of our vocabulary is determined not by the ten thousand common words but by how many rare words we understand… Whereas an adult uses only nine rare words per thousand when talking with a three- year-old, there are three times as many in a children’s book and more than seven times as many in a newspaper.&rdquo; <span>– Jim Trelease</span></blockquote>
     <div class="d-flex justify-between">
-        <div>
+        <!--<div>
             <video controls width="100%" class="mt-1" poster="<?php print $home ?>/images/video-posters/follow_up_activity.png">
                 <source src="<?php print $home ?>/videos/follow_up_activity.mp4" type="video/mp4">
             </video>
-        </div>
+        </div>-->
         <div>
             <video controls width="100%" class="mt-1" poster="<?php print $home ?>/images/video-posters/game.png">
                 <source src="<?php print $home ?>/videos/game.mp4" type="video/mp4">
             </video>
         </div>
     </div>
+
+    <blockquote>&ldquo;The eventual strength of our vocabulary is determined not by the ten thousand common words but by how many rare words we understand&hellip; Whereas an adult uses only nine rare words per thousand when talking with a three- year-old, there are three times as many in a children’s book and more than seven times as many in a newspaper.&rdquo; <span>– Jim Trelease</span></blockquote>
 
     <div class="d-flex justify-between align-center mt-3 progression">
         <div>

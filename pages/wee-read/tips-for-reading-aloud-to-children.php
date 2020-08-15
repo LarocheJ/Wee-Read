@@ -65,7 +65,7 @@
                 <li>Read the story joyfully and with expression</li>
                 <li>Point out awesome words and amazing pictures</li>
                 <li>Explain the meaning of important words</li>
-                <li>Cross over into the world of story... mingle and breathe the same air as the characters</li>
+                <li>Dive into the story&hellip; mingle and breathe the same air as the characters</li>
             </ul>
         </div>
     </div>
@@ -83,6 +83,9 @@
             <img class="rounded cropped" src="<?php print $home ?>/images/stock/wrodjar.jpg" alt="Smiling woman doing activity with child.">
         </div>
     </div>
+
+    <h1 class="cyan center">Reading Builds Brains and Bonds</h1>
+    <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
     <video controls width="100%" poster="<?php print $home ?>/images/video-posters/bonding.png">
         <source src="<?php print $home ?>/videos/bonding.mp4" type="video/mp4">
     </video>

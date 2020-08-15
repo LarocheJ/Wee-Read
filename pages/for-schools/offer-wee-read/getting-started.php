@@ -14,7 +14,7 @@
             <ul>
                 <li>Family volunteers</li>
                 <li>Business partners</li>
-                <li>Faith-based groups</li>
+                <li>Faith-based <em>wee read</em></li>
                 <li>Service clubs (e.g., Rotary)</li>
                 <li>Local bank branch</li>
                 <li>School Council</li>
@@ -35,24 +35,24 @@
         <div>
             <h3>Step 3: Gather Supplies</h3>
             <p>For every program you run you will need to download and print:</p>
-            <ul class="list-style-none">
-                <li>	Printed copies of the wee read module</li>
-                <li>	wee read tracking sheets</li>
-                <li>	Printable Activities; The Name Game, Rhyme Time, High Frequency Words, Tongue Twisters, and “50 Books to Read Before You Are 8” (master copies in the Resources Section)</li>
-                <li>	Scissors (for cutting up the High Frequency Words)</li>
-                <li>	Name tags and permanent markers (optional)</li>
-                <li>	Books (see below)</li>
-                <li>	A large plastic bin to hold the books</li>
+            <ul>
+                <li>Printed copies of the wee read module</li>
+                <li>wee read tracking sheets</li>
+                <li>Printable Activities; The Name Game, Rhyme Time, High Frequency Words, Tongue Twisters, and “50 Books to Read Before You Are 8” (master copies in the Resources Section)</li>
+                <li>Scissors (for cutting up the High Frequency Words)</li>
+                <li>Name tags and permanent markers (optional)</li>
+                <li>Books (see below)</li>
+                <li>A large plastic bin to hold the books</li>
             </ul>
         </div>
         <div>
             <h3>Step 4: Create your Book Bin</h3>
             <p>It’s best to take the guess work out of book selection so that you ensure volunteers are choosing books that are fun and appropriate for kindergarten and grade one children. For this reason, we encourage you to pre-select the books and place them in a large plastic tub. Each week, before the volunteers go to the classroom to get the children they will read with, they will select three to four books from the tub. You should have 30 to 40 books available in your tub. Here are some guidelines for the types of books to choose for the Book Bin:</p>
-            <ul class="list-style-none">
-                <li>	Include high quality fiction and non-fiction picture books</li>
-                <li>	Include new and familiar stories and classroom favourites </li>
-                <li>	Ensure books are age-appropriate for children five and six years old</li>
-                <li>	Ensure books can be read from beginning-to-end in 15 minutes or less</li>
+            <ul>
+                <li>Include high quality fiction and non-fiction picture books</li>
+                <li>Include new and familiar stories and classroom favourites </li>
+                <li>Ensure books are age-appropriate for children five and six years old</li>
+                <li>Ensure books can be read from beginning-to-end in 15 minutes or less</li>
             </ul>
             <p>Important: If your volunteers read for more than eight weeks you will need to rotate the books from time to time to make sure that there is enough selection. We suggest you replenish the Book Bin every month.</p>
         </div>
@@ -63,7 +63,7 @@
             <p>Work with kindergarten and grade one teachers to develop a list of children who would benefit from the wee read program. The number of children you select will depend on the number of volunteers you have and the number of sessions they are able to provide each week. For example, if you have 10 volunteers who are willing to come to the school for an hour each week, they will be able to complete two sessions in that time. Based on two children per volunteer per session, this means that you can select 40 children. (Ideally, you should have two children per volunteer.)</p>
             <p>Here are some criteria that you might like to consider when selecting participants:</p>
             <ul>
-                <li><strong>•	A child who is not already receiving additional supports for exceptional needs</strong></li>
+                <li><strong>A child who is not already receiving additional supports for exceptional needs</strong></li>
                 <li>A child who would enjoy special time with a caring volunteer and needs encouragement to interact with books and peers</li>
                 <li>A child who would benefit from opportunities to think and talk about stories, and make connections with home and community experiences</li>
                 <li>A child who needs encouragement to express ideas, thoughts, and feelings to others</li>

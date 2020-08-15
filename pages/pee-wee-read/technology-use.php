@@ -47,7 +47,8 @@
             <img class="img-medium" src="<?php print $home?>/images/tukay/tukay_world_final_nosky.png" alt="">
         </div>
         <div>
-            <p>Families know: “There is no App to replace your lap!”  Now that you’ve learned what you need to know about reading to me to help me build my brain, there’s just one more thing for me to share. It is important to remember that while books and screens might be full of information, a screen doesn’t mean much to me without having you there to explain it. The world is full of tricky locks that I might lose interest in without you. You are the key that helps me unlock the world around me!</p>
+            <p>You&#39;ve learned what you need to know about reading to a child to help them build their brain. There&#39;s just one more thing for me to share. It is important to remember that while books and screens might be full of information, a screen doesn’t mean much to a child without having you there to explain it. The world is full of tricky locks that children might lose interest in without you. You are the key that helps them unlock the world around them!</p>
+            <blockquote>&ldquo;Enjoy screens. Not too much. Mostly with others.&rdquo; <span>– Anya Kamenetz</span></blockquote>
         </div>
     </div>
 

@@ -5,8 +5,9 @@
         <div class="d-flex vertical align-center">
             <a class="footer-logo" href="<?php print $home ?>"><img src="<?php print $home ?>/images/logos/wee-read-logo.svg" alt="Wee Read logo"></a>
             <div class="center mt-2 d-flex align-center vertical">
-                <p class="bold copyright">Copyright &copy; Wee Read <?php print date('Y'); ?></p>
-                <p class="orange mt-0 trademark">wee read and pee wee read are trademarks of Calgary Reads</p>
+                <!--<p class="bold copyright">Copyright &copy; <?php print date('Y'); ?> wee read</p>-->
+                <p class="bold copyright">wee read&trade; 2020</p>
+                <p class="orange mt-0 trademark">wee read and pee wee read are initiatives of Calgary Reads.</p>
             </div>
         </div>
         <div>
@@ -14,7 +15,7 @@
                 <ul>
                     <li><a href="<?php print $home ?>/pages/wee-read">wee read</a></li>
                     <li><a href="<?php print $home ?>/pages/pee-wee-read">pee wee read</a></li>
-                    <li><a href="<?php print $home ?>/pages/for-schools">for schools</a></li>
+                    <li><a href="<?php print $home ?>/pages/for-schools">for schools/centres</a></li>
                     <li><a href="<?php print $home ?>/pages/contact.php">contact</a></li>
                     <?php if(isset($_SESSION['email'])) { ?>
                         <li><a href="<?php print $home ?>/pages/profile.php">profile</a></li>

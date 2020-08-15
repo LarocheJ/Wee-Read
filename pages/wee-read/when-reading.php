@@ -52,9 +52,11 @@
             <img class="rounded cropped" src="<?php print $home ?>/images/stock/ReadTogether-03-0413.jpg" alt="Man excitedly reading to two children.">
         </div>
     </div>
-    <p class="mt-3">When you read a rhyming story, especially one they have heard before, stop and let them fill in the final rhyming word that ends a line. Encourage them to chime in! Poems and nursery rhymes are great for this, too. Rhymes help children feel successful in predicting what work comes next. It’s also an easy way for them to joke with you; being playful with language is an important part of learning how it works.</p>
-    <p>Remember to promote learning without taking away from the children’s enjoyment of the book and your time together.</p>
-    <blockquote>“When adults read to children, they are also passing torches—literacy torches—from one generation to the next.” <span>- Jim Trelease</span></blockquote>
+    <p class="mt-3">When you read a rhyming story, especially one they have heard before, stop and let them fill in the final rhyming word that ends a line. Encourage them to chime in! Poems and nursery rhymes are great for this too. Rhymes help children feel successful in predicting what word comes next. It&#39;s also an easy way for them to joke with you; being playful with language is an important part of learning how it works. Remember to promote learning without taking away from the children&#39;s enjoyment of the book and your time together.</p>
+    <blockquote>&ldquo;When adults read to children, they are also passing torches—literacy torches—from one generation to the next.&rdquo; <span>- Jim Trelease</span></blockquote>
+
+    <h1 class="cyan center">Enjoy The Book Together</h1>
+    <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
     <video controls width="100%" poster="<?php print $home ?>/images/video-posters/enthusiasm.png">
         <source src="<?php print $home ?>/videos/enthusiasm.mp4" type="video/mp4">
     </video>

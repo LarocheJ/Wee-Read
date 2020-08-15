@@ -11,11 +11,11 @@
         <div class="d-grid col-2 resources">
             <div class="small-card">
                 <img src="<?php print $home ?>/images/icons/survey.svg" alt="Survey icon">
-                <a href="https://www.surveymonkey.com/r/weereadadmin" target="_blank" class="button">Complete and off-site survey</a>
+                <a href="https://www.surveymonkey.com/r/weereadadmin" target="_blank" class="button">Complete the Survey and Register Your School</a>
             </div>
             <div class="small-card">
                 <img src="<?php print $home ?>/images/icons/resources.svg" alt="Resources icon">
-                <a href="resources.php" class="button">Access additional resources</a>
+                <a href="resources.php" class="button">Access Additional Resources</a>
             </div>
         </div>
     </div>

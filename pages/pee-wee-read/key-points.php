@@ -58,7 +58,7 @@
         <ul>
             <li>Take time to talk about the book</li>
             <li>Read the book again sometime</li>
-            <li>Try an early literacy activity</li>
+            <li>Try an early literacy activity; you'll find some in "Additional Resources"</li>
             <li>Remember to READ, SING, TALK, PLAY, and LOVE EVERY DAY!</li>
         </ul>
     </div>

@@ -35,12 +35,12 @@
     <video class="mb-1" controls width="100%" poster="<?php print $home ?>/images/video-posters/wee_read_training_poster.jpg">
         <source src="<?php print $home ?>/videos/volunteer_training.mp4" type="video/mp4">
     </video>
-    <p>Thank you for volunteering for this special opportunity to help a child to become a confident and joyful reader. We are grateful that you would choose to make this commitment which will have long lasting positive impacts.</p>
+    <p>Thank you for volunteering for this special opportunity to help a child to become a confident and joyful reader. We are grateful that you have chosen to make this commitment, which will have long lasting and positive impacts.</p>
     <h2 class="cyan mt-3">You Will</h2>
     <ul class="mb-3">
-        <li>Meet with the same 2 kindergarten or grade one children every week, for 8 weeks.</li>
-        <li>Develop bonds with the children and make them feel special.</li>
-        <li>Become an important part of their school lives.</li>
+        <li>Meet with the same 2 kindergarten or grade one children every week, for 8 weeks</li>
+        <li>Develop bonds with the children and make them feel special</li>
+        <li>Become an important part of their school lives</li>
     </ul>
 
     <div class="d-flex justify-between align-middle volunteer-progression">

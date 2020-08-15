@@ -46,10 +46,13 @@
             <img class="rounded" src="<?php print $home ?>/images/stock/IMG_6871.jpg" alt="two children reading with an older man.">
         </div>
         <div>
-            <p>A Book Walk should be no longer than a minute or two. Look at the cover together. Read the title aloud. Encourage children to predict what the book might be about. Predicting should not take too much time. Prediction is not the same thing as guessing. When you ask for a prediction you are teaching children to use their brains and think! Ask children to share what they might already know about the story/topic. Model! Use language such as "I wonder if this book is about boats, because I see a boat here."</p>
+            <p>A Book Walk should be no longer than a minute or two. Look at the cover together. Read the title aloud. Encourage children to predict what the book might be about. Predicting should not take too much time. Prediction is not the same thing as guessing. When you ask for a prediction you are teaching children to use their brains and think! Ask children to share what they might already know about the story/topic. Model by using language such as &ldquo;I wonder if this book is about boats, because I see a boat here.&rdquo;</p>
         </div>
     </div>
-    <p class="my-3">Scan some of the pages of the book. Talk about the illustrations together. Don’t read the words on the pages, just use the pictures inside to make further predictions. Think aloud together about what the pictures might be saying about the story or topic. Wonder together about the characters, the content and what is likely to happen. Try to get the children to do most of the talking.</p>
+    <p class="my-3">Scan some of the pages of the book. Talk about the illustrations together. Don&#39;t read the words on the pages, just use the pictures inside to make further predictions. Think aloud together about what the pictures might be saying about the story or topic. Wonder together about the characters, the content and what is likely to happen. Try to get the children to do most of the talking.</p>
+
+    <h1 class="cyan center mt-3">Talking About the Book</h1>
+    <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
     <video controls width="100%" poster="<?php print $home ?>/images/video-posters/book_walk.png">
         <source src="<?php print $home ?>/videos/book_walk.mp4" type="video/mp4">
     </video>

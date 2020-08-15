@@ -42,12 +42,12 @@
     <h1 class="cyan center">Wee Read Format</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
     <div class="timeline mt-3">
-        <p>Select books. Try to vary the type of book you read each time, so the children hear both fiction and non-fiction text. A list of recommended books to start with, as well as how to get books, is provided in Resources</p>
+        <p>Select books. Try to vary the type of book you read each time, so the children hear both fiction and non-fiction text. A list of recommended books to start with, as well as how to get books, is provided in Resources.</p>
         <p>Sit together and be sure that everyone can see the pictures and words in the book. Make sure everyone is comfortable. A list of ways to make dedicated reading spaces in homes is available in Resources.</p>
-        <p>Do a "Book Walk" before starting to read.</p>
-        <p>Read to children letting the words work their magic. Use lots of expression and enthusiasm! Pause every so often to pose a question that enhances their understanding, explain what a word means or draw out children’s personal experiences that might connect to the book you are reading. Engaged, interactive reading is “a merger of motivation and thoughtfulness”.</p>
+        <p>Do a book walk –  this will be explained in more detail on the next page of training.</p>
+        <p>Read to children letting the words work their magic. Use lots of expression and enthusiasm! Pause every so often to pose a question that enhances their understanding, explain what a word means or draw out children’s personal experiences that might connect to the book you are reading. Engaged, interactive reading is &ldquo;a merger of motivation and thoughtfulness&rdquo;.</p>
         <p>Take time after you finish reading to talk about the book. Look in their faces and listen closely to what children are sharing with you.</p>
-        <p>Don’t TEST children on their comprehension, just ask them to tell you about the book. Have a ‘back and forth, give and take’ conversation and follow their lead.</p>
+        <p>Don&#39;t TEST children on their comprehension, just ask them to tell you about the book. Have a &lsquo;back and forth, give and take&rsquo; conversation and follow their lead.</p>
         <p>Try focusing on important concepts and words from the text. For example: The Little Engine That Could is a great book with big ideas about motivation and helping others. For example, 'rumbled', 'bellowed', and 'dingy' are excellent rare words from the story that children may have never heard before.</p>
         <p>Choose an extra activity to do after reading. We have 8 suggested extra activities which will be described later.</p>
         <p>After reading aloud is a good time to keep talking together to focus on what’s special about reading. Learn about their interests so you can request books from the school that will engage them even more!</p>
@@ -60,6 +60,8 @@
             <li>AFTER READING</li>
         </ul>
 
+    <h1 class="cyan center mt-3">Selecting Books</h1>
+    <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
     <video controls width="100%">
         <source src="<?php print $home ?>/videos/selecting_books.mp4" type="video/mp4" poster="<?php print $home ?>/images/video-posters/selecting_books.png">
     </video>

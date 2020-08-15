@@ -14,7 +14,7 @@
     <p class="bold">Children will be curious about you even if they don’t ask you questions upon first meeting.
     Share with them:</p>
     <ul>
-        <li>Your name. Use your first name or Mr/Ms It’s your choice</li>
+        <li>Your name! Help them learn to pronounce it!</li>
         <li>That you are excited to come each week to read and talk with them</li>
         <li>That you love reading yourself and hope they will too</li>
         <li>Something they might be interested to know about you (i.e.: "I have a cat named Mr. Freckles")</li>
