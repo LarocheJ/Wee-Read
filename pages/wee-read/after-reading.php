@@ -41,45 +41,53 @@
     <h1 class="cyan center">After Reading</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
     <img class="rounded mb-3" src="<?php print $home ?>/images/stock/Picture1.jpg" alt="Female senior citizen reading to child.">
-    <p>Tools to support these activities can be found in the Resources section at the end of the training. After reading, try ONE of these fun follow ups. Remember to keep it joyful and short (no more than 10 minutes) and try a new activity each time you read:</p>
-    <ol>
-        <li>Have an informal conversation about the book. Listen intently to the children’s ideas. Example prompts:</li>
+    <p>Tools to support these activities can be found in the Resources section at the end of the training. After reading, try ONE of these fun follow ups. Remember to keep it joyful and short &#40;no more than 10 minutes&#41; and try a new activity each time you read:</p>
+    <ul>
+        <p class=bold>Have an informal conversation about the book. Listen intently to the children’s ideas. Example prompts&#58;</p>
         <ul>
             <li>Was there anything you liked about this book?</li>
             <li>Was there anything that was confusing? Surprising?</li>
             <li>Have you read other books like it? How is this the same? Different?</li>
             <li>Has anything that happened in this book ever happened to you?</li>
-            <li>When you were reading, could you “see” the story happening in your imagination?</li>
+            <li>When you were reading, could you &ldquo;see&rdquo; the story happening in your imagination?</li>
         </ul>
         <p><em>* Remember to wait after asking a question or making a comment. Count inside your head for 5-10 seconds. This quiet space helps children feel invited to respond and gives them time to think.</em></p>
         <li>Work on sequencing and retelling the story.</li>
         <ul>
-            <li>Ask “What happened first? Next? Then what happened?”</li>
+            <li>Ask &ldquo;What happened first? Next? Then what happened?&rdquo;</li>
             <li>Help the child make connections between the read-aloud and their own life. </li>
             <li>Ask open questions -- ones that require a child to form an answer -- more than closed questions -- those that require only a yes or no answer.</li>
             <li>Ask the child what the first letters of their names are. Turn to a page in the book and have them look for that letter. See how many they can find.</li>
         </ul>
-        <li>Use open rather than closed-ended questions.</li>
+        <p class=bold>Use open rather than closed-ended questions.</p>
         <p class=bold>Close question example:</p>
-        <p>Q. Do you like going to the park?</p>
-        <p>A. Yes.</p>
-        <p>Q. Do you wish you had a pet?</p>
-        <p>A. Yes.</p>
+        <div class=ml-3>
+            <p>Q. Do you like going to the park?</p>
+            <p>A. Yes.</p>
+            <p>Q. Do you wish you had a pet?</p>
+            <p>A. Yes.</p>
+        </div>
         <p class=bold>Open question example:</p>
         <p>Q. What is your favourite thing about going to the park?</p>
-        <p>A. I love the slide.</p>
-        <p>Q. Why do you like the slide?</p>
-        <p>A. It’s so fast!</p>
+        <div class=ml-3>
+            <p>A. I love the slide.</p>
+            <p>Q. Why do you like the slide?</p>
+        </div>
+        <div class=ml-3>
+            <p>A. It&rsquo;s so fast!</p>
+        </div>
         <p>Q. If you could have any kind of animal as a pet, what would it be?</p>
+        <div class=ml-3>
         <p>A. A lion.</p>
-        <p>Q. A lion! Wow! How come?</p>
-        <p>A. I like them and they roar.</p>
-        <li>Use the 12 high frequency word cards. The words to focus on are:  the, and, go, in, at, to, you, is, me, look, can, like. Give children a card after reading the book and ask them to find the word on some of the pages. Be sure the words are in the book!</li>
-        <li>Develop vocabulary. Talk about new, big, cool words by using child-friendly definitions and explain the main meaning of the new word by using words children are likely to know already. Invite them to say the new word out loud several times. Use multiple words which mean the same thing, which helps to  increase the child’s vocabulary.</li>
-        <li>Have fun playing with rhyme. Try choosing a word from the book: What might rhyme with ‘pool’? School, stool, drool, cool, fool. Then make a silly sentence with the rhyming words. “The cool fool stood on a stool at school and fell into the pool.”</li>
+            <p>Q. A lion! Wow! How come?</p>
+            <p>A. I like them and they roar.</p>
+        </div>
+        <li>Use the 12 high frequency word cards. The words to focus on are&#58;  the, and, go, in, at, to, you, is, me, look, can, like. Give children a card after reading the book and ask them to find the word on some of the pages. Be sure the words are in the book!</li>
+        <li>Develop vocabulary. Talk about new, big, cool words by using child-friendly definitions and explain the main meaning of the new word by using words children are likely to know already. Invite them to say the new word out loud several times. Use multiple words which mean the same thing, which helps to  increase the child&rsquo;s vocabulary.</li>
+        <li>Have fun playing with rhyme. Try choosing a word from the book&#58; What might rhyme with &lsquo;pool&rsquo;? School, stool, drool, cool, fool. Then make a silly sentence with the rhyming words. &ldquo;The cool fool stood on a stool at school and fell into the pool.&rdquo;</li>
         <li>Use the cards to play The Name Game. Children love this game and it helps builds oral language.</li>
         <li>Teach them a Tongue Twister. See if they can say it quickly. Slow it down and ask them to listen for the sound they hear most often in the words. Substitute their names into the tongue twister that begins with the same letter of their name.</li>
-    </ol>
+    </ul>
 
     <div class="d-flex justify-between">
         <!--<div>
@@ -94,7 +102,7 @@
         </div>
     </div>
 
-    <blockquote>&ldquo;The eventual strength of our vocabulary is determined not by the ten thousand common words but by how many rare words we understand&hellip; Whereas an adult uses only nine rare words per thousand when talking with a three- year-old, there are three times as many in a children’s book and more than seven times as many in a newspaper.&rdquo; <span>– Jim Trelease</span></blockquote>
+    <blockquote>&ldquo;The eventual strength of our vocabulary is determined not by the ten thousand common words but by how many rare words we understand&hellip; Whereas an adult uses only nine rare words per thousand when talking with a three- year-old, there are three times as many in a children&rsquo;s book and more than seven times as many in a newspaper.&rdquo; <span>– Jim Trelease</span></blockquote>
 
     <div class="d-flex justify-between align-center mt-3 progression">
         <div>

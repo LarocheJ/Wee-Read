@@ -184,6 +184,7 @@
 
     .cropped {
         max-width: 100%;
+        margin-bottom: 10px;
     }
 
     .tukay {
@@ -211,6 +212,10 @@
     
     h1 {
         font-size: 44px;
+    }
+
+    .reverse {
+        flex-direction: column-reverse;
     }
 }
     

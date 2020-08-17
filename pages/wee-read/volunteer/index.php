@@ -5,7 +5,7 @@
     checkIfLoggedIn();
     include('../../../includes/head.php'); 
 
-    $sql = "SELECT wee_read_volunteer FROM users WHERE email=?";
+    $sql = "SELECT * FROM users WHERE email=?";
     $stmt = mysqli_stmt_init($connection);
     $user = mysqli_real_escape_string($connection, $_SESSION['email']);
 
@@ -30,7 +30,7 @@
 
 <div class="spacer-50"></div>
 <div class="container">
-    <h1 class="center cyan">Welcome!</h1>
+    <h1 class="center cyan">Welcome, <?php print $row['full_name'] ?>!</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
     <video class="mb-1" controls width="100%" poster="<?php print $home ?>/images/video-posters/wee_read_training_poster.jpg">
         <source src="<?php print $home ?>/videos/volunteer_training.mp4" type="video/mp4">

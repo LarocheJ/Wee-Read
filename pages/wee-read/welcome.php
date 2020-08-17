@@ -36,11 +36,11 @@
 <div class="container">
     <h1 class="cyan center">Welcome!</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
-    <div class="d-flex justify-between align-top">
+    <div class="d-flex justify-between align-center">
         <div>
             <img class="rounded cropped" src="<?php print $home ?>/images/stock/reading-place.jpg" alt="Woman reading a book to a young girl">
         </div>
-        <div>
+        <div class="ml-1">
             <p>Thank you for making the choice to learn more about helping a child to become a confident and joyful reader. Your commitment to this will have long-lasting, positive impacts.</p>
             <p>As a child is learning to read, they need to fall in love with the idea of reading. They have to think that books and stories and pictures are magical, and they have to feel the joy of someone reading aloud to them.</p>
             <p>This is what you’ll learn more about, and exactly how to make it happen. </p>
@@ -49,7 +49,7 @@
     <div>
         <h1 class="cyan center mt-3">Why wee read is important</h1>
         <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
-        <video class="mt-3" controls width="100%" poster="<?php print $home ?>/images/video-posters/intro.png">
+        <video class="my-1" controls width="100%" poster="<?php print $home ?>/images/video-posters/intro.png">
             <source src="<?php print $home ?>/videos/intro.mp4" type="video/mp4">
         </video>
         <p>Do you remember learning to read? Most of us cannot really recall this process. Reading a complex activity. Perhaps, without you even knowing, two of the most important things that helped you to become a reader were: </p>
@@ -64,8 +64,8 @@
     </div>
     <h1 class="cyan center mt-5">You will:</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
-    <div class="d-flex justify-between align-top mb-3">
-        <div>
+    <div class="d-flex justify-between align-center mb-3">
+        <div class="mr-1">
             <ul>
                 <li>Learn strategies for making reading really fun</li>
                 <li>Learn more about the importance of “serve & return” conversational relationships</li>

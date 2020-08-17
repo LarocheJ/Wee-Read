@@ -5,7 +5,7 @@
     checkIfLoggedIn();
     include('../../../includes/head.php'); 
 
-    $sql = "SELECT pee_wee_read_volunteer FROM users WHERE email=?";
+    $sql = "SELECT * FROM users WHERE email=?";
     $stmt = mysqli_stmt_init($connection);
     $user = mysqli_real_escape_string($connection, $_SESSION['email']);
 
@@ -30,7 +30,7 @@
 
 <div class="spacer-50"></div>
 <div class="container">
-    <h1 class="center cyan">Welcome!</h1>
+    <h1 class="center cyan">Welcome, <?php print $row['full_name'] ?>!</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
     <p>Thank you for volunteering for this special opportunity to help young children become confident and joyful readers. We are grateful that you have chosen to make this commitment, which will have long lasting and positive impacts.</p>
     <h2 class="cyan mt-3">You Will</h2>

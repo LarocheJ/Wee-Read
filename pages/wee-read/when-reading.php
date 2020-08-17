@@ -41,12 +41,12 @@
 <div class="container">
     <h1 class="cyan center">When Reading</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
-    <div class="d-flex justify-between align-top">
-        <div>
+    <div class="d-flex justify-between align-center">
+        <div class="mr-1">
             <p>Read in a lively, engaging way, using voices, gestures, and expressions!</p>
             <p>Don’t interrupt the reading too often when reading fiction or the flow of the story can be lost. Pausing to look at the pictures/charts/maps in non-fiction books helps children recognize these special features.</p>
             <p>Take time to explain important words.</p>
-            <p>Get children interested in print by tracking (sometimes running your finger under the words as you are reading the text) or pointing to special letters or words on a page.</p>
+            <p>Get children interested in print by tracking &#40;sometimes running your finger under the words as you are reading the text&#41; or pointing to special letters or words on a page.</p>
         </div>
         <div>
             <img class="rounded cropped" src="<?php print $home ?>/images/stock/ReadTogether-03-0413.jpg" alt="Man excitedly reading to two children.">

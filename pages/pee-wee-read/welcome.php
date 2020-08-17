@@ -41,10 +41,10 @@
             <img class="tukay-img" src="<?php print $home ?>/images/tukay/kyle_tukay_physical_final.png" alt="Tukay">
         </div>
         <div>
-            <p class="bubble bubble-arrow">Hi! My name is Tukay, and together we’re going to learn what you need to know to help a child in your life become a joyful reader! Don’t worry, it won’t be hard at all. </p>
+            <p class="bubble bubble-arrow">Hi! My name is Tukay, and together we’re going to learn what you need to know to help a child in your life become a joyful reader! Don&rsquo;t worry, it won’t be hard at all. </p>
         </div>
     </div>
-    <p>You won&#39;t be teaching a child <strong>HOW</strong> to read. Your job is to show children what there is to <strong><em>love about books</em></strong> and help them <strong><em>want</em><strong> to learn to read, so that when they do get to school, they are ready! Before children learn how to read, they fall in love with the idea of reading; with books, stories, and most importantly, the people who share them!</p>
+    <p>You won&#39;t be teaching a child <strong>HOW</strong> to read. Your job is to show children what there is to <strong><em>love about books</em></strong> and help them <strong><em>want</em></strong> to learn to read, so that when they do get to school, they are ready! Before children learn how to read, they fall in love with the idea of reading&#59; with books, stories, and most importantly, the people who share them!</p>
     <p>That&#39;s what you&#39;re going to learn how to do. There are some simple things you can do with children EVERY DAY to help them <strong>fall in love with reading!</strong></p>
 
     <div class="d-flex justify-between align-center my-3 progression">
@@ -61,6 +61,5 @@
     </div>
 
 </div>
-<div class="spacer-100"></div>
 
 <?php include('../../includes/footer.php'); ?>

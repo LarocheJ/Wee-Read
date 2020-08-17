@@ -43,11 +43,11 @@
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
     
     <p>Do you remember learning to read? Most grown-ups don&#39;t, and that&#39;s okay! What probably happened is that an important adult in your life shared books and stories with you, and it sparked a fire that made you want to learn more!</p>
-    <p>Every child deserves to feel that spark, so here are a few things to remember:</p>
+    <p>Every child deserves to feel that spark, so here are a few things to remember&#58;</p>
     <ul>
         <li><strong>Be Playful!</strong> The more fun you have, the more fun the children will have.</li>
         <li><strong>Show the Love!</strong> Communicate your excitement and joy for reading. Your enthusiasm is what children will remember.</li>
-        <li><strong>Don&#39;t force it!</strong> Children need to develop a positive relationship with books and reading, and don’t want to feel forced to read.</li>
+        <li><strong>Don&#39;t force it!</strong> Children need to develop a positive relationship with books and reading, and don&#39;t want to feel forced to read.</li>
     </ul>
 
     <div class="d-flex justify-between align-center my-3 progression">

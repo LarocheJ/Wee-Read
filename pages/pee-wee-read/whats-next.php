@@ -47,7 +47,7 @@
             <img src="<?php print $home ?>/images/tukay/Tukay_Spot_Finals2.png" alt="">
         </div>
         <div>
-            <p>Okay! You know a little about early literacy, and why it’s important. The work of brain-building and early literacy might seem complicated, but there are only FIVE things you need to do every day to make sure it happens! All you have to do is <span class="bold uppercase cyan">read</span>, <span class="bold uppercase cyan">sing</span>, <span class="bold uppercase cyan">talk</span>, <span class="bold uppercase cyan">play</span> and <span class="bold uppercase cyan">love</span> EVERY day.</p>
+            <p>Okay! You know a little about early literacy, and why it&#39;s important. The work of brain-building and early literacy might seem complicated, but there are only FIVE things you need to do every day to make sure it happens! All you have to do is <span class="bold uppercase cyan">read</span>, <span class="bold uppercase cyan">sing</span>, <span class="bold uppercase cyan">talk</span>, <span class="bold uppercase cyan">play</span> and <span class="bold uppercase cyan">love</span> EVERY day.</p>
         </div>
     </div>
 

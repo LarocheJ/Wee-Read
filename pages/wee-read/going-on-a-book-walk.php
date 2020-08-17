@@ -39,13 +39,13 @@
 
 <div class="spacer-50"></div>
 <div class="container">
-    <h1 class="cyan center">Going on a "Book Walk"</h1>
+    <h1 class="cyan center">Going on a &ldquo;Book Walk&rdquo;</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
-    <div class="d-flex justify-between align-top">
+    <div class="d-flex justify-between align-center">
         <div>
             <img class="rounded" src="<?php print $home ?>/images/stock/IMG_6871.jpg" alt="two children reading with an older man.">
         </div>
-        <div>
+        <div class="ml-1">
             <p>A Book Walk should be no longer than a minute or two. Look at the cover together. Read the title aloud. Encourage children to predict what the book might be about. Predicting should not take too much time. Prediction is not the same thing as guessing. When you ask for a prediction you are teaching children to use their brains and think! Ask children to share what they might already know about the story/topic. Model by using language such as &ldquo;I wonder if this book is about boats, because I see a boat here.&rdquo;</p>
         </div>
     </div>

@@ -41,7 +41,7 @@
 <div class="container">
     <h1 class="cyan center">Tips for reading aloud to children</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
-    <div class="d-flex justify-between align-middle my-3">
+    <div class="d-flex justify-between align-center my-3">
         <div>
             <p class="bold">Before reading:</p>
             <ul>
@@ -51,13 +51,13 @@
             </ul>
         </div>
         <div>
-            <img class="rounded cropped" src="<?php print $home ?>/images/stock/CMReadingRally-16-1013.jpg" alt="Woman reading a Dr. Seuss book to a child.">
+            <img class="rounded cropped smaller" src="<?php print $home ?>/images/stock/CMReadingRally-16-1013.jpg" alt="Woman reading a Dr. Seuss book to a child.">
         </div>
     </div>
     
-    <div class="d-flex justify-between align-middle my-3">
+    <div class="d-flex justify-between align-center my-3 reverse">
         <div>
-            <img class="rounded cropped" src="<?php print $home ?>/images/stock/calgary_reads (11 of 30).jpg" alt="Man reading to smiling child">
+            <img class="rounded cropped smaller" src="<?php print $home ?>/images/stock/calgary_reads (11 of 30).jpg" alt="Man reading to smiling child">
         </div>
         <div>
         <p class="bold">During reading:</p>
@@ -80,7 +80,7 @@
             </ul>
         </div>
         <div>
-            <img class="rounded cropped" src="<?php print $home ?>/images/stock/wrodjar.jpg" alt="Smiling woman doing activity with child.">
+            <img class="rounded cropped smaller" src="<?php print $home ?>/images/stock/wrodjar.jpg" alt="Smiling woman doing activity with child.">
         </div>
     </div>
 

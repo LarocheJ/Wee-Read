@@ -18,7 +18,7 @@
 <img class="tree-graphic" src="images/graphics/WeeRead-TreeGraphic.png" alt="Wee read tree graphic">
 <section class="homepage">
     <div class="wee-read-container">
-        <div class="wee-read">
+        <div class="wee-read-circle">
             <div class="image"></div>
             <div class="content">
                 <h2>What is wee read?</h2>
@@ -29,7 +29,7 @@
     </div>
 
     <div class="pee-wee-read-container">
-        <div class="pee-wee-read">
+        <div class="pee-wee-read-circle">
             <div class="content">
                 <h2>What is pee wee read?</h2>
                 <p><em>pee wee read</em> is for adults reading with children ages 3-5, who we call &lsquo;pre-readers&rsquo;. When you complete the <em>pee wee read</em> module you will be confident in your ability to accompany very young children on their early literacy journeys. If you have a very young child in your life, you can use the learning from the module to read with them. This initial training will take about 90 minutes to complete.</p>
