@@ -59,29 +59,39 @@
             <li>Ask open questions -- ones that require a child to form an answer -- more than closed questions -- those that require only a yes or no answer.</li>
             <li>Ask the child what the first letters of their names are. Turn to a page in the book and have them look for that letter. See how many they can find.</li>
         </ul>
+
         <p class=bold>Use open rather than closed-ended questions.</p>
-        <p class=bold>Close question example:</p>
-        <div class=ml-3>
-            <p>Q. Do you like going to the park?</p>
-            <p>A. Yes.</p>
-            <p>Q. Do you wish you had a pet?</p>
-            <p>A. Yes.</p>
+        <div style="float:left;width:100%;">
+            <div style="float:left; width:50%;">
+            <p class=bold>Close question example:</p>
+            <div class=ml-3>
+                <p>Q. Do you like going to the park?</p>
+                <p>A. Yes.</p>
+                <p>Q. Do you wish you had a pet?</p>
+                <p>A. Yes.</p>
+            </div>
+            </div>
+
+            <div style="float:right; width:50%;">
+            <p class=bold>Open question example:</p>
+            <p>Q. What is your favourite thing about going to the park?</p>
+            <div class=ml-3>
+                <p>A. I love the slide.</p>
+                <p>Q. Why do you like the slide?</p>
+            </div>
+            <div class=ml-3>
+                <p>A. It&rsquo;s so fast!</p>
+            </div>
+            <p>Q. If you could have any kind of animal as a pet, what would it be?</p>
+            <div class=ml-3>
+            <p>A. A lion.</p>
+                <p>Q. A lion! Wow! How come?</p>
+                <p>A. I like them and they roar.</p>
+            </div>
+            </div>
         </div>
-        <p class=bold>Open question example:</p>
-        <p>Q. What is your favourite thing about going to the park?</p>
-        <div class=ml-3>
-            <p>A. I love the slide.</p>
-            <p>Q. Why do you like the slide?</p>
-        </div>
-        <div class=ml-3>
-            <p>A. It&rsquo;s so fast!</p>
-        </div>
-        <p>Q. If you could have any kind of animal as a pet, what would it be?</p>
-        <div class=ml-3>
-        <p>A. A lion.</p>
-            <p>Q. A lion! Wow! How come?</p>
-            <p>A. I like them and they roar.</p>
-        </div>
+
+        <ul>
         <li>Use the 12 high frequency word cards. The words to focus on are&#58;  the, and, go, in, at, to, you, is, me, look, can, like. Give children a card after reading the book and ask them to find the word on some of the pages. Be sure the words are in the book!</li>
         <li>Develop vocabulary. Talk about new, big, cool words by using child-friendly definitions and explain the main meaning of the new word by using words children are likely to know already. Invite them to say the new word out loud several times. Use multiple words which mean the same thing, which helps to  increase the child&rsquo;s vocabulary.</li>
         <li>Have fun playing with rhyme. Try choosing a word from the book&#58; What might rhyme with &lsquo;pool&rsquo;? School, stool, drool, cool, fool. Then make a silly sentence with the rhyming words. &ldquo;The cool fool stood on a stool at school and fell into the pool.&rdquo;</li>

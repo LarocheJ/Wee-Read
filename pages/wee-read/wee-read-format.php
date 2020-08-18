@@ -53,12 +53,7 @@
         <p>After reading aloud is a good time to keep talking together to focus on what&#39;s special about reading. Learn about their interests so you can request books from the school that will engage them even more!</p>
     </div>
 
-        <ul class="d-flex justify-center my-3 list-style-none">
-            <li>TALK, TALK, TALK TOGETHER </li>
-            <li>BEFORE READING</li>
-            <li>DURING READING</li>
-            <li>AFTER READING</li>
-        </ul>
+    <p style="text-align:center;">TALK, TALK, TALK TOGETHER <span class="cyan">•</span> BEFORE READING <span class="cyan">•</span> DURING READING <span class="cyan">•</span> AFTER READING</p>
 
     <h1 class="cyan center mt-3">Selecting Books</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">

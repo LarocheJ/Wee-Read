@@ -7,7 +7,7 @@
             <div class="center mt-2 d-flex align-center vertical">
                 <!--<p class="bold copyright">Copyright &copy; <?php print date('Y'); ?> wee read</p>-->
                 <p class="bold copyright">wee read&trade; 2020</p>
-                <p class="orange mt-0 trademark">wee read and pee wee read are initiatives of Calgary Reads.</p>
+                <p class="orange mt-0 trademark">wee read and pee wee read are initiatives of <a href="https://calgaryreads.com/" target="_blank" style="color:#F79020;">Calgary Reads</a>.</p>
             </div>
         </div>
         <div>
