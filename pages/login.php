@@ -72,7 +72,8 @@
             <?php }?>
         </div>
         <button type="submit" class="primary-btn mb-1">Log In</button>
-        <small>Don't have an account? <a href="register.php">Sign up here</a></small>
+        <p class="center">Don't have an account?</p>
+        <a class="outline-btn" href="register.php">Sign up</a>
     </form>
 </div>
 <?php 

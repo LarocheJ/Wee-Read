@@ -37,3 +37,21 @@
         color: #fff !important;
     }
 }
+
+.outline-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid $magenta;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px 20px;
+    width: 100%;
+    text-transform: uppercase;
+    transition: .2s ease all;
+
+    &:hover {
+        color: #fff;
+        background: $magenta;
+    }
+}

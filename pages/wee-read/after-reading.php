@@ -60,57 +60,44 @@
             <li>Ask the child what the first letters of their names are. Turn to a page in the book and have them look for that letter. See how many they can find.</li>
         </ul>
 
-        <p class=bold>Use open rather than closed-ended questions.</p>
-        <div style="float:left;width:100%;">
-            <div style="float:left; width:50%;">
-            <p class=bold>Close question example:</p>
-            <div class=ml-3>
-                <p>Q. Do you like going to the park?</p>
-                <p>A. Yes.</p>
-                <p>Q. Do you wish you had a pet?</p>
-                <p>A. Yes.</p>
-            </div>
+        <p class="bold">Use open rather than closed-ended questions.</p>
+        <div class="d-grid col-2 questions">
+            <div class="w-100">
+                <p class=bold>Close question example:</p>
+                <div>
+                    <p>Q. Do you like going to the park?</p>
+                    <p class="ml-3">A. Yes.</p>
+                    <p>Q. Do you wish you had a pet?</p>
+                    <p class="ml-3">A. Yes.</p>
+                </div>
             </div>
 
-            <div style="float:right; width:50%;">
-            <p class=bold>Open question example:</p>
-            <p>Q. What is your favourite thing about going to the park?</p>
-            <div class=ml-3>
-                <p>A. I love the slide.</p>
-                <p>Q. Why do you like the slide?</p>
-            </div>
-            <div class=ml-3>
-                <p>A. It&rsquo;s so fast!</p>
-            </div>
-            <p>Q. If you could have any kind of animal as a pet, what would it be?</p>
-            <div class=ml-3>
-            <p>A. A lion.</p>
-                <p>Q. A lion! Wow! How come?</p>
-                <p>A. I like them and they roar.</p>
-            </div>
+            <div class="w-100">
+                <p class="bold">Open question example:</p>
+                <div>
+                    <p>Q. What is your favourite thing about going to the park?</p>
+                    <p class="ml-3">A. I love the slide.</p>
+                    <p>Q. Why do you like the slide?</p>
+                    <p class="ml-3">A. It&rsquo;s so fast!</p>
+                    <p>Q. If you could have any kind of animal as a pet, what would it be?</p>
+                    <p class="ml-3">A. A lion.</p>
+                    <p>Q. A lion! Wow! How come?</p>
+                    <p class="ml-3">A. I like them and they roar.</p>
+                </div>
             </div>
         </div>
 
-        <ul>
-        <li>Use the 12 high frequency word cards. The words to focus on are&#58;  the, and, go, in, at, to, you, is, me, look, can, like. Give children a card after reading the book and ask them to find the word on some of the pages. Be sure the words are in the book!</li>
-        <li>Develop vocabulary. Talk about new, big, cool words by using child-friendly definitions and explain the main meaning of the new word by using words children are likely to know already. Invite them to say the new word out loud several times. Use multiple words which mean the same thing, which helps to  increase the child&rsquo;s vocabulary.</li>
-        <li>Have fun playing with rhyme. Try choosing a word from the book&#58; What might rhyme with &lsquo;pool&rsquo;? School, stool, drool, cool, fool. Then make a silly sentence with the rhyming words. &ldquo;The cool fool stood on a stool at school and fell into the pool.&rdquo;</li>
-        <li>Use the cards to play The Name Game. Children love this game and it helps builds oral language.</li>
-        <li>Teach them a Tongue Twister. See if they can say it quickly. Slow it down and ask them to listen for the sound they hear most often in the words. Substitute their names into the tongue twister that begins with the same letter of their name.</li>
-    </ul>
+        <ul class="mt-3">
+            <li>Use the 12 high frequency word cards. The words to focus on are&#58;  the, and, go, in, at, to, you, is, me, look, can, like. Give children a card after reading the book and ask them to find the word on some of the pages. Be sure the words are in the book!</li>
+            <li>Develop vocabulary. Talk about new, big, cool words by using child-friendly definitions and explain the main meaning of the new word by using words children are likely to know already. Invite them to say the new word out loud several times. Use multiple words which mean the same thing, which helps to  increase the child&rsquo;s vocabulary.</li>
+            <li>Have fun playing with rhyme. Try choosing a word from the book&#58; What might rhyme with &lsquo;pool&rsquo;? School, stool, drool, cool, fool. Then make a silly sentence with the rhyming words. &ldquo;The cool fool stood on a stool at school and fell into the pool.&rdquo;</li>
+            <li>Use the cards to play The Name Game. Children love this game and it helps builds oral language.</li>
+            <li>Teach them a Tongue Twister. See if they can say it quickly. Slow it down and ask them to listen for the sound they hear most often in the words. Substitute their names into the tongue twister that begins with the same letter of their name.</li>
+        </ul>
 
-    <div class="d-flex justify-between">
-        <!--<div>
-            <video controls width="100%" class="mt-1" poster="<?php print $home ?>/images/video-posters/follow_up_activity.png">
-                <source src="<?php print $home ?>/videos/follow_up_activity.mp4" type="video/mp4">
-            </video>
-        </div>-->
-        <div>
-            <video controls width="100%" class="mt-1" poster="<?php print $home ?>/images/video-posters/game.png">
-                <source src="<?php print $home ?>/videos/game.mp4" type="video/mp4">
-            </video>
-        </div>
-    </div>
+    <video controls width="100%" class="mt-1" poster="<?php print $home ?>/images/video-posters/game.png">
+        <source src="<?php print $home ?>/videos/game.mp4" type="video/mp4">
+    </video>
 
     <blockquote>&ldquo;The eventual strength of our vocabulary is determined not by the ten thousand common words but by how many rare words we understand&hellip; Whereas an adult uses only nine rare words per thousand when talking with a three- year-old, there are three times as many in a children&rsquo;s book and more than seven times as many in a newspaper.&rdquo; <span>– Jim Trelease</span></blockquote>
 
@@ -127,7 +114,6 @@
         </div>
     </div> 
 
-    
 </div>
 
 <?php include('../../includes/footer.php'); ?>

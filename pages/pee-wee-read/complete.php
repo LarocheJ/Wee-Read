@@ -52,7 +52,7 @@
 <div class="cyan-bg mb-5 whats-next">
     <div class="center white">
         <div class="container-small">
-            <h2 class="medium-heading">So, what's next?</h2>
+            <h2 class="medium-heading">What's next?</h2>
             <p class="large-body-txt my-2">Now that you've completed the pee wee read module, you have the opportunity to train as a pee wee read Volunteer, to read with children ages 3-5 in an early learning or care centre near you!</p>
             <a href="volunteer" class="primary-btn">Continue to pee wee read Volunteer Training ></a>
         </div>

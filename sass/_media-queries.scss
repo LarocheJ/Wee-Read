@@ -157,6 +157,10 @@
 
 // 768px Breakpoint (Small devices)
 @media(max-width: 768px) {
+    .col-2 {
+        grid-template-columns: 1fr;
+    }        
+
     .d-flex {
         flex-direction: column;
 
@@ -216,6 +220,10 @@
 
     .reverse {
         flex-direction: column-reverse;
+
+        div {
+            width: 100%;
+        }
     }
 }
     

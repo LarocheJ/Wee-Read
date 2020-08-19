@@ -97,11 +97,12 @@
             <?php }?>
         </div>
         <button type="submit" class="primary-btn mb-1">Sign Up</button>
-        <small>Already have an account? <a href="<?php if(isset($_GET['from-wee-read'])) {
+        <p class="center">Already have an account?</p> 
+        <a class="outline-btn" href="<?php if(isset($_GET['from-wee-read'])) {
                 print 'login.php?from-wee-read';
             } elseif(isset($_GET['from-pee-wee-read'])) {
                 print 'login.php?from-pee-wee-read';
-            } else { print 'login.php'; }?>"> Log In</a></small>
+            } else { print 'login.php'; }?>"> Log In</a>
     </form>
 </div>
 <?php 
