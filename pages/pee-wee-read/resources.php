@@ -19,7 +19,7 @@
         <li><a href="<?php print $home ?>/files/pee-wee-read/Nursery Rhymes that help practice letter sounds.pdf">Nursery Rhymes that help practice letter sounds</a></li>
         <li><a href="<?php print $home ?>/files/pee-wee-read/Reading Milestones Chart 2020.pdf">Reading Milestones Chart 2020</a></li>
         <li><a href="<?php print $home ?>/files/pee-wee-read/READING TRACKER.pdf">READING TRACKER</a></li>
-        <li><a href="<?php print $home ?>/files/pee-wee-read/the pee wee read Name Game.pdf">the pee wee read Name Game</a></li>
+        <li><a href="<?php print $home ?>/files/pee-wee-read/the pee wee read Name Game.pdf">the <em>pee wee read</em> Name Game</a></li>
     </ul>
     <div class="d-flex justify-center">
         <a href="complete.php" class="primary-btn float-left my-3" >< Back</a>

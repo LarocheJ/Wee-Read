@@ -14,8 +14,8 @@
    <ul>
         <li>First, ensure you sign in as a visitor in the school office. This is an important safety regulation at schools.</li>
         <li>Be sure you have a plan for choosing the books to read that day.  In the <em>wee read</em> box you will find great read aloud books in all kinds of genres – animal stories, fairy tales, information books, poetry, alphabet books, and so much more!</li>
-        <li>Then, pick up your <em>wee read</em> friends from their classroom. Don’t forget to introduce yourself and tell them your name. Keep doing this as young children may forget your name at first. As you walk to your assigned reading area have a chat with them about school, their interests, books, etc.</li>
-        <li>Look together at the selection and choose one or two books. If you don’t get to the second book begin with it next time. Remember children need to hear stories multiple times so re-reading is good!</li>
+        <li>Then, pick up your <em>wee read</em> friends from their classroom. Don&#39;t forget to introduce yourself and tell them your name. Keep doing this as young children may forget your name at first. As you walk to your assigned reading area have a chat with them about school, their interests, books, etc.</li>
+        <li>Look together at the selection and choose one or two books. If you don&#39;t get to the second book begin with it next time. Remember children need to hear stories multiple times so re-reading is good!</li>
    </ul>
 
     <h2 class="cyan">The First <em>wee read</em> Time Together</h2>
@@ -26,7 +26,7 @@
         <li>Your name and how to pronounce it</li>
         <li>That you are excited to come each week to read and talk with them</li>
         <li>That you love reading yourself and hope they will too</li>
-        <li>Something they might be interested to know about you (i.e.: "I have a cat named Mr. Freckles")</li>
+        <li>Something they might be interested to know about you (i.e.: &ldquo;I have a cat named Mr. Freckles&rdquo;)</li>
     </ul>
     <p class="bold">Encourage them to tell you:</p>
     <ul class="mb-3">

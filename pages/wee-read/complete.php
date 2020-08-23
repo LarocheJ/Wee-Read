@@ -54,8 +54,8 @@
         <div class="container-small">
             <h2 class="medium-heading">What&rsquo;s next?</h2>
             <p class="large-body-txt my-2">Now that you&rsquo;ve completed the wee
-read module, you have the opportunity to train as a wee read volunteer and read with students ages 5-7 in a school near you!</p>
-            <a href="volunteer" class="primary-btn">Continue to wee read Volunteer Training ></a>
+read module, you have the opportunity to train as a <em>wee read</em> volunteer and read with students ages 5-7 in a school near you!</p>
+            <a href="volunteer" class="primary-btn">Continue to <em>wee read</em> Volunteer Training ></a>
         </div>
     </div>
 </div>

@@ -18,9 +18,9 @@
         <li><a href="<?php print $home ?>/files/wee-read/Play Rhyme Time.pdf">Play Rhyme Time</a></li>
         <li><a href="<?php print $home ?>/files/wee-read/Reading Milestones Chart 2020.pdf">Reading Milestones Chart</a></li>
         <li><a href="<?php print $home ?>/files/wee-read/READING TRACKER.pdf">Reading Tracker</a></li>
-        <li><a href="<?php print $home ?>/files/wee-read/the wee read name game.pdf">The wee read Name Game</a></li>
+        <li><a href="<?php print $home ?>/files/wee-read/the wee read name game.pdf">The <em>wee read</em> Name Game</a></li>
         <li><a href="<?php print $home ?>/files/wee-read/Tongue Twisters for every letter of the alphabet.pdf">Tongue Twisters</a></li>
-        <li><a href="<?php print $home ?>#">Handbook for wee read Volunteers</a></li>
+        <li><a href="<?php print $home ?>#">Handbook for <em>wee read</em> Volunteers</a></li>
     </ul>
     <div class="d-flex justify-center">
         <a href="complete.php" class="primary-btn float-left my-3" >< Back</a>

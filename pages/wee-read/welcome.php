@@ -47,7 +47,7 @@
         </div>
     </div>
     <div>
-        <h1 class="cyan center mt-3">Why wee read is important</h1>
+        <h1 class="cyan center mt-3">Why <em>wee read</em> is important</h1>
         <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
         <video class="my-1" controls width="100%" poster="<?php print $home ?>/images/video-posters/intro.png">
             <source src="<?php print $home ?>/videos/intro.mp4" type="video/mp4">

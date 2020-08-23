@@ -39,13 +39,13 @@
 
 <div class="spacer-50"></div>
 <div class="container">
-    <h1 class="cyan center">Wee Read Format</h1>
+    <h1 class="cyan center"><em>wee read</em> Format</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
     <div class="timeline mt-3">
         <p>Select books. Try to vary the type of book you read each time, so the children hear both fiction and non-fiction text. A list of recommended books to start with, as well as how to get books, is provided in Resources.</p>
         <p>Sit together and be sure that everyone can see the pictures and words in the book. Make sure everyone is comfortable. A list of ways to make dedicated reading spaces in homes is available in Resources.</p>
         <p>Do a book walk –  this will be explained in more detail on the next page of training.</p>
-        <p>Read to children letting the words work their magic. Use lots of expression and enthusiasm! Pause every so often to pose a question that enhances their understanding, explain what a word means or draw out children’s personal experiences that might connect to the book you are reading. Engaged, interactive reading is &ldquo;a merger of motivation and thoughtfulness&rdquo;.</p>
+        <p>Read to children letting the words work their magic. Use lots of expression and enthusiasm! Pause every so often to pose a question that enhances their understanding, explain what a word means or draw out children&#39;s personal experiences that might connect to the book you are reading. Engaged, interactive reading is &ldquo;a merger of motivation and thoughtfulness&rdquo;.</p>
         <p>Take time after you finish reading to talk about the book. Look in their faces and listen closely to what children are sharing with you.</p>
         <p>Don&#39;t TEST children on their comprehension, just ask them to tell you about the book. Have a &lsquo;back and forth, give and take&rsquo; conversation and follow their lead.</p>
         <p>Try focusing on important concepts and words from the text. For example: The Little Engine That Could is a great book with big ideas about motivation and helping others. For example, &lsquo;rumbled&rsquo;, &lsquo;bellowed&rsquo;, and &lsquo;dingy&rsquo; are excellent rare words from the story that children may have never heard before.</p>

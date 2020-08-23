@@ -99,7 +99,7 @@
         <div class="w-100">
             <h3>Step 9: Do it again!</h3>
             <p>Once you see how much children benefit from this program – and how enjoyable it is for volunteers – you will want to start planning your next eight-week session.</p>
-            <p>You have completed the <em>pee wee read</em> administrator training. Please use what you have learned to guide your school in the powerful pee wee read process. Thank you for committing to help children to become confident and joyful readers!</p>
+            <p>You have completed the <em>pee wee read</em> administrator training. Please use what you have learned to guide your school in the powerful <em>pee wee read</em> process. Thank you for committing to help children to become confident and joyful readers!</p>
         </div>
     </div>
     <a href="overview.php" class="primary-btn float-left my-3" >< Back</a>

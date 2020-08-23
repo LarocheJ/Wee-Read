@@ -1,3 +1,4 @@
+
 <?php 
 
     require('../../../includes/connection.php');
@@ -41,7 +42,7 @@
     <ul class="mb-3">
         <li>Please complete our survey. Your feedback helps us to improve and continue programs which help children to read with confidence and joy.</li>
         <li>Volunteer in a School - choose a school from the list or recommend a school that needs and would welcome your support. </li>
-        <li>Sign up for our post-training email tips and updates. We’ll never spam or share your information!</li>
+        <li>Sign up for our post-training email tips and updates. We&#39;ll never spam or share your information!</li>
         <li>Access Resources </li>
         <li><a href="certificate.php">View your Certificate of Completion</a></li>
     </ul>

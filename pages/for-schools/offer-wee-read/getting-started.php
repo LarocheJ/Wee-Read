@@ -36,8 +36,8 @@
             <h3>Step 3: Gather Supplies</h3>
             <p>For every program you run you will need to download and print:</p>
             <ul>
-                <li>Printed copies of the wee read module</li>
-                <li>wee read tracking sheets</li>
+                <li>Printed copies of the <em>wee read</em> module</li>
+                <li><em>wee read</em> tracking sheets</li>
                 <li>Printable Activities; The Name Game, Rhyme Time, High Frequency Words, Tongue Twisters, and “50 Books to Read Before You Are 8” (master copies in the Resources Section)</li>
                 <li>Scissors (for cutting up the High Frequency Words)</li>
                 <li>Name tags and permanent markers (optional)</li>
@@ -60,7 +60,7 @@
     <div class="d-flex justify-between align-middle steps">
         <div class="w-100">
             <h3>Step 5: Select Students</h3>
-            <p>Work with kindergarten and grade one teachers to develop a list of children who would benefit from the wee read program. The number of children you select will depend on the number of volunteers you have and the number of sessions they are able to provide each week. For example, if you have 10 volunteers who are willing to come to the school for an hour each week, they will be able to complete two sessions in that time. Based on two children per volunteer per session, this means that you can select 40 children. (Ideally, you should have two children per volunteer.)</p>
+            <p>Work with kindergarten and grade one teachers to develop a list of children who would benefit from the <em>wee read</em> program. The number of children you select will depend on the number of volunteers you have and the number of sessions they are able to provide each week. For example, if you have 10 volunteers who are willing to come to the school for an hour each week, they will be able to complete two sessions in that time. Based on two children per volunteer per session, this means that you can select 40 children. (Ideally, you should have two children per volunteer.)</p>
             <p>Here are some criteria that you might like to consider when selecting participants:</p>
             <ul>
                 <li><strong>A child who is not already receiving additional supports for exceptional needs</strong></li>
@@ -75,7 +75,7 @@
         <div class="w-100">
             <h3>Step 6: Develop a Schedule</h3>
             <p>Work with your volunteers to select a weekly day and time for the session. Make sure you let the Classroom and Office Administration know the dates for the program.</p>
-            <p>Remember all Police Checks that are required by most school jurisdictions must be approved and wee read training completed before the volunteers start reading with children.</p>
+            <p>Remember all Police Checks that are required by most school jurisdictions must be approved and <em>wee read</em> training completed before the volunteers start reading with children.</p>
             <ul>
                 <li>Volunteer Training</li>
                 <ul>
@@ -100,7 +100,7 @@
         <div class="w-100">
             <h3>Step 9: Do it again!</h3>
             <p>Once you see how much children benefit from this program – and how enjoyable it is for volunteers – you will want to start planning your next eight-week session.</p>
-            <p>You have completed the wee read administrator training. Please use what you have learned to guide your school in the powerful wee read process. Thank you for committing to help children to become confident and joyful readers!</p>
+            <p>You have completed the <em>wee read</em> administrator training. Please use what you have learned to guide your school in the powerful <em>wee read</em> process. Thank you for committing to help children to become confident and joyful readers!</p>
         </div>
     </div>
     <a href="overview.php" class="primary-btn float-left my-3" >< Back</a>

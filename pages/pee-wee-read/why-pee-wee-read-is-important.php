@@ -39,7 +39,7 @@
 
 <div class="spacer-50"></div>
 <div class="container">
-    <h1 class="cyan center">Why pee wee read is important</h1>
+    <h1 class="cyan center">Why <em>pee wee read</em> is important</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
     
     <p>Do you remember learning to read? Most grown-ups don&#39;t, and that&#39;s okay! What probably happened is that an important adult in your life shared books and stories with you, and it sparked a fire that made you want to learn more!</p>

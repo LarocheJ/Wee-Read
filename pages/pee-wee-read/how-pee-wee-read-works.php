@@ -39,7 +39,7 @@
 
 <div class="spacer-50"></div>
 <div class="container">
-    <h1 class="cyan center">How pee wee read Works</h1>
+    <h1 class="cyan center">How <em>pee wee read</em> Works</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
     <img class="tukay-img" src="<?php print $home ?>/images/tukay/tukay_social_noshadow.png" alt="Tukay">
     <p>Now you know why <em>pee wee read</em> is important. Let&#39;s explore more about how to do it. Here are 10 tools and tips to help me READ, SING, TALK, PLAY, AND LOVE every day!</p>

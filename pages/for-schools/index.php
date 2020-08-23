@@ -24,7 +24,7 @@
     </div>
 </div>
 <div class="container">
-    <p class="center" style="margin-top:2rem;margin-bottom:0;">This is what the training flow for wee read and pee wee read looks like:</p>
+    <p class="center" style="margin-top:2rem;margin-bottom:0;">This is what the training flow for <em>wee read</em> and <em>pee wee read</em> looks like:</p>
     <img class="tree-graphic" src="../../images/graphics/WeeRead-TreeGraphic.png" alt="Wee read tree graphic" style="margin-top:0;">
     <div class="d-flex justify-between cyan">
         <div class="align-left">

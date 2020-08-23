@@ -29,7 +29,7 @@
     <p>You might ask if they have a favourite book/author/TV program/video game, what they might want to be or do when they grow up, or any other kid-friendly questions.</p>
 
     <h2 class="cyan">Get Reading</h2>
-    <p class="mb-3">Use the tips and strategies you learned from your pee wee read training to read and interact with the children you’re volunteering with.</p>
+    <p class="mb-3">Use the tips and strategies you learned from your <em>pee wee read</em> training to read and interact with the children you’re volunteering with.</p>
 
     <div class="d-flex justify-between align-middle volunteer-progression">
         <a href="#" class="primary-btn mt-1" id="goBack">< Back</a>

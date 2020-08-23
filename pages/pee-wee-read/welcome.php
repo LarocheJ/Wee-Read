@@ -34,7 +34,7 @@
 
 <div class="spacer-50"></div>
 <div class="container">
-    <h1 class="cyan center">pee wee read</h1>
+    <h1 class="cyan center"><em>pee wee read</em></h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
     <div class="d-flex justify-around align-center tukay">
         <div>

@@ -21,9 +21,9 @@
         <li>Sign out at the office</li>
     </ul>
 
-    <h2 class="cyan mt-3">The Format of a wee read Session</h2>
+    <h2 class="cyan mt-3">The Format of a <em>wee read</em> Session</h2>
     <ul class="mb-3">
-        <li>Select books from the wee read box of recommended reads (provided by the school). You will be reading with two children that have been identified by their teacher as good candidates for reading with you. Try to vary the type of book you read so the children hear both fiction and non-fiction text.</li>
+        <li>Select books from the <em>wee read</em> box of recommended reads (provided by the school). You will be reading with two children that have been identified by their teacher as good candidates for reading with you. Try to vary the type of book you read so the children hear both fiction and non-fiction text.</li>
         <li>Before you start reading to the children, do a &lsquo;Book Walk&rsquo; -- flip through the book, looking at the pictures and asking the children what they think the story might be about.</li>
         <li>Read to your young friends, letting the words work their magic. Use lots of expression and enthusiasm! Pause only a couple of times to ask the children questions or comment on the story in a way that will engage them. Ask questions that enhances their understanding, explain what a word means, or draw out your young friends' personal experiences that connect to the book you are reading. Engaged, interactive reading is &lsquo;a merger of motivation and thoughtfulness&rsquo;.</li>
         <li>Take time after you finish reading to talk about the book. Look in their faces and listen closely.</li>
