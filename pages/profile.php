@@ -65,7 +65,8 @@
             </a>
             
             <?php if($row['wee_read_volunteer'] == 'yes') { ?>
-                <a class="center cyan underline" href="wee-read/volunteer">Volunteer training</a>
+                <!--<a class="center cyan underline" href="wee-read/volunteer">Volunteer training</a>-->
+                <a class="primary-btn mb-1" href="wee-read/volunteer">Volunteer Training &gt;</a>
             <?php } ?>
 
         </div>
@@ -111,7 +112,8 @@
             </a>
 
             <?php if($row['pee_wee_read_volunteer'] == 'yes') { ?>
-                <a class="center orange underline" href="pee-wee-read/volunteer">Volunteer training</a>
+                <!--<a class="center orange underline" href="pee-wee-read/volunteer">Volunteer training</a>-->
+                <a class="primary-btn mb-1" href="pee-wee-read/volunteer">Volunteer Training &gt;</a>
             <?php } ?>
 
         </div>
