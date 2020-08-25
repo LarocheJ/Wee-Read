@@ -26,7 +26,7 @@
 
 <div class="d-flex justify-between">
     <a class="primary-btn" href="congratulations.php">< Back</a>
-    <a class="primary-btn" href="../../../files/certificates/generated_certificates/<?php print str_replace(' ', '_', strtolower($row['full_name'])).'_wee_read_volunteer_certificate' ?>.jpg" download>Download your certificate</a>
+    <a class="primary-btn" href="../../../files/certificates/generated_certificates/<?php print str_replace(' ', '_', strtolower($row['full_name'])).'_wee_read_volunteer_certificate' ?>.png" download>Download your certificate</a>
 </div>
 
 </div>

@@ -65,7 +65,6 @@
             </a>
             
             <?php if($row['wee_read_volunteer'] == 'yes') { ?>
-                <!--<a class="center cyan underline" href="wee-read/volunteer">Volunteer training</a>-->
                 <a class="primary-btn mb-1" href="wee-read/volunteer">Volunteer Training &gt;</a>
             <?php } ?>
 

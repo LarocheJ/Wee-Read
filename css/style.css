@@ -1168,6 +1168,10 @@ p, ul, a {
   margin: 0 auto;
 }
 
+em {
+  margin: 0 5px;
+}
+
 .primary-btn {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;

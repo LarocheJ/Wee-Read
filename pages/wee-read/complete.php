@@ -55,13 +55,13 @@
             <h2 class="medium-heading">What&rsquo;s next?</h2>
             <p class="large-body-txt my-2">Now that you&rsquo;ve completed the wee
 read module, you have the opportunity to train as a <em>wee read</em> volunteer and read with students ages 5-7 in a school near you!</p>
-            <a href="volunteer" class="primary-btn">Continue to <em>wee read</em> Volunteer Training ></a>
+            <a href="volunteer" class="primary-btn">Continue to <em>wee read</em> Volunteer Training &#62;</a>
         </div>
     </div>
 </div>
 
 <div class="d-flex justify-center mt-5">
-    <a href="tips-for-reading-aloud-to-children.php" class="primary-btn float-left mt-5" >< Back</a>
+    <a href="tips-for-reading-aloud-to-children.php" class="primary-btn float-left mt-5" >&#60; Back</a>
 </div>
 
 <?php include('../../includes/footer.php'); ?>
