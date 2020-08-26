@@ -39,13 +39,23 @@
     </div>
     <h1 class="center cyan">What&#39;s next?</h1>
     <img class="rainbow-border" src="<?php print $home ?>/images/borders/multi-coloured-border.svg" alt="">
-    <ul class="mb-3">
-        <li>Please complete our survey. Your feedback helps us to improve and continue programs which help children to read with confidence and joy.</li>
-        <li>Volunteer in a School - choose a school from the list or recommend a school that needs and would welcome your support. </li>
-        <li>Sign up for our post-training email tips and updates. We&#39;ll never spam or share your information!</li>
-        <li>Access Resources </li>
-        <li><a href="certificate.php">View your Certificate of Completion</a></li>
-    </ul>
+
+    <div class="d-grid col-3 resources">
+        <div class="small-card">
+            <img src="<?php print $home ?>/images/icons/certificate.svg" alt="Certificate icon">
+            <a href="certificate.php" class="button">Certificate of Completion</a>
+        </div>
+        <div class="small-card">
+            <img src="<?php print $home ?>/images/icons/resources.svg" alt="Resources icon">
+            <a href="#" class="button">Additional Resources</a>
+        </div>
+        <div class="small-card">
+            <img src="<?php print $home ?>/images/icons/map.svg" alt="Map icon">
+            <a href="https://calgaryreads.com/programs/wee-read/" class="button" target="_blank">Find a school near you</a>
+        </div>
+    </div>
+
+    <hr class="my-5">
 
     <div class="d-flex align-center justify-between">
         <a href="#" class="primary-btn" id="goBack">< Back</a>

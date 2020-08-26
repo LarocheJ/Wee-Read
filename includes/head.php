@@ -4,7 +4,7 @@
     if($_SERVER['HTTP_HOST'] == "localhost") {
         $home = "//" . $_SERVER['HTTP_HOST']. "/sites/wee-read";
     } else {
-        $home = "//" . $_SERVER['HTTP_HOST'].'';
+        $home = "//" . $_SERVER['HTTP_HOST'];
     }
 ?> 
 
