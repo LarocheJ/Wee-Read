@@ -20,6 +20,9 @@
         <li><a href="<?php print $home ?>/files/pee-wee-read/Reading Milestones Chart 2020.pdf">Reading Milestones Chart 2020</a></li>
         <li><a href="<?php print $home ?>/files/pee-wee-read/READING TRACKER.pdf">READING TRACKER</a></li>
         <li><a href="<?php print $home ?>/files/pee-wee-read/the pee wee read Name Game.pdf">the <em>pee wee read</em> Name Game</a></li>
+
+        <li><a href="<?php print $home ?>/files/pee-wee-read/wee read handbook.pdf"><em>pee wee read</em> Handbook</a></li>
+        <li><a href="<?php print $home ?>/files/pee-wee-read/wee read volunteer handbook.pdf"><em>pee wee read</em> Volunteer Handbook</a></li>
     </ul>
     <div class="d-flex justify-center">
         <a href="complete.php" class="primary-btn float-left my-3" >< Back</a>

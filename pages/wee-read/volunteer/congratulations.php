@@ -47,7 +47,7 @@
         </div>
         <div class="small-card">
             <img src="<?php print $home ?>/images/icons/resources.svg" alt="Resources icon">
-            <a href="#" class="button">Additional Resources</a>
+            <a href="http://weeread.ca/pages/wee-read/resources.php" class="button">Additional Resources</a>
         </div>
         <div class="small-card">
             <img src="<?php print $home ?>/images/icons/map.svg" alt="Map icon">

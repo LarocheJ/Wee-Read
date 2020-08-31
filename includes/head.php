@@ -26,6 +26,13 @@
     <link rel="stylesheet" href="<?php print $home ?>/css/style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <title>Wee Read</title>
+
+    <!--favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="http://weeread.ca/images/favicons//apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="http://weeread.ca/images/favicons//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="http://weeread.ca/images/favicons//favicon-16x16.png">
+    <link rel="manifest" href="http://weeread.ca/images/favicons//site.webmanifest">
+    <link rel="mask-icon" href="http://weeread.ca/images/favicons//safari-pinned-tab.svg" color="#5bbad5">
 </head>
 <body>
 <div class="navbar">

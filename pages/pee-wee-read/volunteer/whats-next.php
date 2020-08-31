@@ -47,11 +47,11 @@
         </div>
         <div class="small-card">
             <img src="<?php print $home ?>/images/icons/resources.svg" alt="Resources icon">
-            <a href="#" class="button">Additional Resources</a>
+            <a href="http://weeread.ca/pages/pee-wee-read/resources.php" class="button">Additional Resources</a>
         </div>
         <div class="small-card">
             <img src="<?php print $home ?>/images/icons/map.svg" alt="Map icon">
-            <a href="https://calgaryreads.com/programs/wee-read/" class="button" target="_blank">Find a school near you</a>
+            <a href="https://calgaryreads.com/programs/wee-read/" class="button" target="_blank">Find a centre near you</a>
         </div>
     </div>
 
